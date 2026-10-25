@@ -2,6 +2,9 @@
 
 先史時代から2026年までを、15章・13の図版・128件の年表でたどる、図解化された教材サイトです。
 
+**公開URL:** [https://elrdn.github.io/design-REA/](https://elrdn.github.io/design-REA/)  
+**リポジトリ:** [https://github.com/ELRdn/design-REA](https://github.com/ELRdn/design-REA)
+
 ## 開く
 
 `index.html` をブラウザで開いてください。ローカルファイルのまま動きます（書体の取得にGoogle Fontsへの接続を使います）。
