@@ -1,7 +1,7 @@
 import asyncio
 from pathlib import Path
 from playwright.async_api import async_playwright
-BASE = Path(r"design-history-research/site").resolve()
+BASE = Path(__file__).resolve().parent
 AXE = "https://cdnjs.cloudflare.com/ajax/libs/axe-core/4.10.2/axe.min.js"
 async def main():
     async with async_playwright() as p:

@@ -1804,6 +1804,18 @@ header[id] {
   color: var(--ink-3);
 }
 
+.colophon a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  color: var(--ink-2);
+  text-decoration: none;
+}
+
+.colophon a:hover {
+  color: var(--ultra);
+}
+
 /* ---------- 19. Plates ---------- */
 .plate {
   width: 100%;

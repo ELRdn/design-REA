@@ -154,6 +154,7 @@ def footer(next_href: str, next_label: str, next_title: str) -> str:
     <div class="colophon mono">
       <span>デザイン全史 / WEB EDITION · 2026.10.25</span>
       <span>OPENCODE RESEARCH · BUILT WITHOUT FRAMEWORKS</span>
+      <span><a href="https://github.com/ELRdn/design-REA" rel="noopener">GITHUB / SOURCE ↗</a></span>
     </div>
   </div>
 </footer>"""

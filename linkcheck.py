@@ -2,7 +2,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 import re, urllib.parse
 
-BASE = Path("design-history-research/site")
+BASE = Path(__file__).resolve().parent
 pages = ["index.html","read.html","timeline.html","atlas.html","method.html","design-notes.html"]
 
 class P(HTMLParser):
