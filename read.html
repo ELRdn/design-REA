@@ -1,0 +1,4875 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>デザイン全史 — 本文 / THE CATALOGUE</title>
+<meta name="description" content="『デザイン全史』の全文。15章、122,000字。読みやすさのための組版と、章ごとの図版リンク付き。">
+<meta name="theme-color" content="#e7e8e0">
+<meta property="og:title" content="デザイン全史 — 本文 / THE CATALOGUE">
+<meta property="og:description" content="『デザイン全史』の全文。15章、122,000字。読みやすさのための組版と、章ごとの図版リンク付き。">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Serif+JP:wght@400;500;600;700&family=Shippori+Mincho+B1:wght@400;600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem("dh-theme");
+    if (t === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+      var m = document.querySelector('meta[name="theme-color"]');
+      if (m) m.setAttribute("content", "#0d0f0e");
+    }
+  } catch (e) {}
+})();
+</script>
+</head>
+<body data-page="read">
+<a class="skip" href="#main">本文へスキップ</a>
+<aside class="rail" aria-label="サイト">
+  <a class="rail__brand" href="index.html" aria-label="デザイン全史 ホーム">
+    <span class="rail__mark">D<span>/</span>H</span>
+    <span class="rail__name">デザイン全史</span>
+  </a>
+  <nav class="rail__nav" id="site-nav" aria-label="主要">
+    <a class="rail__link" href="index.html#orientation"><span class="rail__num">01</span><span class="rail__label">入口</span></a><a class="rail__link" href="index.html#definition"><span class="rail__num">02</span><span class="rail__label">定義</span></a><a class="rail__link" href="index.html#rooms"><span class="rail__num">03</span><span class="rail__label">15章</span></a><a class="rail__link" href="timeline.html"><span class="rail__num">04</span><span class="rail__label">年表</span></a><a class="rail__link" href="atlas.html"><span class="rail__num">05</span><span class="rail__label">図版</span></a><a class="rail__link" href="method.html"><span class="rail__num">06</span><span class="rail__label">検証</span></a><a class="rail__link" href="design-notes.html"><span class="rail__num">07</span><span class="rail__label">設計</span></a>
+    <a class="rail__link rail__link--read" href="read.html" aria-current="page">
+      <span class="rail__num">08</span><span class="rail__label">本文</span>
+    </a>
+  </nav>
+  <div class="rail__bottom">
+    <button class="rail__toggle theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="照明を暗くする">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4 6.5 6.5 0 0 0 20 14.5Z"/></svg>
+    </button>
+    <a class="rail__read" href="read.html" aria-current="page">本文</a>
+  </div>
+  <div class="rail__mobile">
+    <button class="rail__toggle theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="照明を暗くする">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4 6.5 6.5 0 0 0 20 14.5Z"/></svg>
+    </button>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-controls="site-nav" aria-expanded="false">
+      <span class="nav-toggle__label">メニュー</span>
+      <span class="nav-toggle__bars" aria-hidden="true"><span></span><span></span></span>
+    </button>
+  </div>
+</aside>
+<div class="nav-scrim" data-nav-scrim aria-hidden="true"></div>
+<noscript>
+  <nav class="nojs-nav" aria-label="メニュー（JavaScriptなし）">
+    <a href="index.html">入口</a>
+    <a href="index.html#definition">定義</a>
+    <a href="index.html#rooms">15章</a>
+    <a href="timeline.html">年表</a>
+    <a href="atlas.html">図版</a>
+    <a href="method.html">検証</a>
+    <a href="design-notes.html">設計</a>
+    <a href="read.html">本文</a>
+  </nav>
+</noscript>
+<div class="read-progress" data-progress aria-hidden="true"></div>
+
+<main id="main" class="page">
+  <div class="shell">
+    <header class="read-head">
+      <p class="eyebrow"><span class="eyebrow__no">FULL TEXT</span> THE CATALOGUE</p>
+      <h1 class="read-title">デザイン全史</h1>
+      <p class="read-sub">人類が「かたち」にこめた知恵の５万年</p>
+      <p class="read-epigraph">デザインは、ものが美しいかどうかの問題ではない。  <br>人間が、自分の意図を、他の誰かのために、かたちにする方法の問題である。  <br>だからデザインの歴史を読むと、ものがわかり、人間のことがもっとわかる。</p>
+      <div class="read-meta mono">
+        <span>121,931 CHARACTERS</span>
+        <span>15 CHAPTERS</span>
+        <span>ABOUT 244 MIN</span>
+        <span>3 ROUTES</span>
+      </div>
+      <div class="read-tools" aria-label="読書設定">
+        <span class="read-tool read-tool--label">文字サイズ</span>
+        <button class="read-tool" type="button" data-font-size="small" aria-pressed="false" aria-label="文字を小さくする">A−</button>
+        <button class="read-tool" type="button" data-font-size="normal" aria-pressed="true" aria-label="文字サイズを標準に戻す">A</button>
+        <button class="read-tool" type="button" data-font-size="large" aria-pressed="false" aria-label="文字を大きくする">A＋</button>
+        <span class="read-tool read-tool--label" data-font-status aria-live="polite">標準</span>
+        <a class="read-tool" href="デザイン全史.pdf" download>PDF</a>
+      </div>
+      <noscript><style>.read-tools button, .read-tool--label { display: none; }</style></noscript>
+    </header>
+
+    <div class="read-layout">
+      <aside class="read-toc" aria-label="目次">
+        <div class="read-toc__title mono"><span>CONTENTS</span><span>15 CHAPTERS</span></div>
+        <p class="read-toc__part">第I部 デザインとは何か</p>
+<a class="read-toc__link" href="#prologue" data-toc-link><span>序</span>序章 当たり前の集積</a>
+<a class="read-toc__link" href="#ch-01" data-toc-link><span>01</span>言葉の迷宮</a>
+<a class="read-toc__link" href="#ch-02" data-toc-link><span>02</span>５万年前のデザイン</a>
+<a class="read-toc__link" href="#ch-03" data-toc-link><span>03</span>西洋の外のデザイン</a>
+<p class="read-toc__part">第II部 近代の誕生</p>
+<a class="read-toc__link" href="#ch-04" data-toc-link><span>04</span>中世・ルネサンス・印刷</a>
+<a class="read-toc__link" href="#ch-05" data-toc-link><span>05</span>産業革命とデザイン</a>
+<a class="read-toc__link" href="#ch-06" data-toc-link><span>06</span>モダニズムの爆発</a>
+<p class="read-toc__part">第III部 デザインの世紀</p>
+<a class="read-toc__link" href="#ch-07" data-toc-link><span>07</span>戦後のデザイン</a>
+<a class="read-toc__link" href="#ch-08" data-toc-link><span>08</span>デジタルの転回</a>
+<a class="read-toc__link" href="#ch-09" data-toc-link><span>09</span>デザインの現在</a>
+<p class="read-toc__part">第IV部 日本と、読み方</p>
+<a class="read-toc__link" href="#ch-10" data-toc-link><span>10</span>日本のデザイン全史</a>
+<a class="read-toc__link" href="#ch-11" data-toc-link><span>11</span>対象を読む方法</a>
+<a class="read-toc__link" href="#ch-12" data-toc-link><span>12</span>デザイン全史 年表</a>
+<p class="read-toc__part">第V部 検証と未来</p>
+<a class="read-toc__link" href="#ch-13" data-toc-link><span>13</span>20の神話を壊す</a>
+<a class="read-toc__link" href="#ch-14" data-toc-link><span>14</span>読書案内</a>
+<a class="read-toc__link" href="#ch-15" data-toc-link><span>15</span>デザインの未来</a>
+<a class="read-toc__link" href="#app-a" data-toc-link><span>A</span>ファクトチェック記録</a>
+<a class="read-toc__link" href="#app-b" data-toc-link><span>B</span>参考文献</a>
+<a class="read-toc__link" href="#app-c" data-toc-link><span>C</span>謝辞</a>
+      </aside>
+
+      <article class="read-main" data-read>
+        <details class="read-toc-mobile">
+          <summary>章一覧 / 15章</summary>
+          <nav aria-label="モバイル目次"><p class="read-toc__part">第I部 デザインとは何か</p>
+<a class="read-toc__link" href="#prologue">序章 当たり前の集積</a>
+<a class="read-toc__link" href="#ch-01">言葉の迷宮</a>
+<a class="read-toc__link" href="#ch-02">５万年前のデザイン</a>
+<a class="read-toc__link" href="#ch-03">西洋の外のデザイン</a>
+<p class="read-toc__part">第II部 近代の誕生</p>
+<a class="read-toc__link" href="#ch-04">中世・ルネサンス・印刷</a>
+<a class="read-toc__link" href="#ch-05">産業革命とデザイン</a>
+<a class="read-toc__link" href="#ch-06">モダニズムの爆発</a>
+<p class="read-toc__part">第III部 デザインの世紀</p>
+<a class="read-toc__link" href="#ch-07">戦後のデザイン</a>
+<a class="read-toc__link" href="#ch-08">デジタルの転回</a>
+<a class="read-toc__link" href="#ch-09">デザインの現在</a>
+<p class="read-toc__part">第IV部 日本と、読み方</p>
+<a class="read-toc__link" href="#ch-10">日本のデザイン全史</a>
+<a class="read-toc__link" href="#ch-11">対象を読む方法</a>
+<a class="read-toc__link" href="#ch-12">デザイン全史 年表</a>
+<p class="read-toc__part">第V部 検証と未来</p>
+<a class="read-toc__link" href="#ch-13">20の神話を壊す</a>
+<a class="read-toc__link" href="#ch-14">読書案内</a>
+<a class="read-toc__link" href="#ch-15">デザインの未来</a>
+<a class="read-toc__link" href="#app-a">ファクトチェック記録</a>
+<a class="read-toc__link" href="#app-b">参考文献</a>
+<a class="read-toc__link" href="#app-c">謝辞</a></nav>
+        </details>
+        <h3 class="section-title-read" id="sec-001">読者への約束</h3>
+<p>この本には、難しい話がたくさん出てきます。しかし、難しい話を難しいまま書くのは、著者の怠慢です。そこで、次の７つを約束します。</p>
+<ol>
+<li><strong>専門用語は、初出で必ず説明します。</strong> 「知らない言葉が出てきたから、ここで読むのをやめた」ということが起きないようにします。</li>
+<li><strong>数字には、時点と出典を添えます。</strong> 年号はできるだけ「〜年ごろ」と幅を持たせ、異説がある場合は併記します。</li>
+<li><strong>断定できないことは、断定しません。</strong> 「通説では」「有力な説では」「〇〇の主張では」と、事実と解釈を分けて書きます。</li>
+<li><strong>難しい話は、一度「サルでもわかる例え」に落とします。</strong> そのあとに「一歩深く」という専門家向けの箱を置きます。例えで全体像をつかんでから、必要な人だけ深く潜ってください。</li>
+<li><strong>西洋中心の物語を、できるだけ相対化します。</strong> イスラーム、中国、インド、アフリカ、先住アメリカ、オセアニア、日本を、飾りではなく本文の骨格に組み込みます。</li>
+<li><strong>「通説」と「証拠」を分けます。</strong> 巻末に、どの主張をどう確認したかの「ファクトチェック記録」を公開します。</li>
+<li><strong>読み方は３通り用意します。</strong> 15分で全体をつかむ「超速コース」、1時間で流れをつかむ「快速コース」、全部読む「通読コース」です。</li>
+</ol>
+<p>「サルでも赤ちゃんでもおじいちゃんでも」というのは、<strong>比喩</strong>です。実際のサルに読ませるわけではありません。赤ちゃんには、まだちょっと早いかもしれません。おじいちゃんには、昔の話として楽しんでもらえるはずです。</p>
+<hr>
+<h3 class="section-title-read" id="sec-002">３つの読み方</h3>
+<h5 id="sub-001">15分コース（超速）</h5>
+<ol>
+<li>この前書き</li>
+<li>巻末の「デザイン全史 年表」</li>
+<li>終章「デザインの未来」</li>
+</ol>
+<p>これだけで、「デザインとは何か、どこから来て、どこにいるのか」の骨格がわかります。</p>
+<h5 id="sub-002">60分コース（快速）</h5>
+<p>各章の冒頭にある<strong>「赤ちゃんでもわかる一言」</strong>と、各章の最後にある<strong>「歴史の教訓」</strong>だけを拾って読んでください。物語の背骨が通ります。</p>
+<h5 id="sub-003">通読コース（本気）</h5>
+<p>最初から最後まで。専門家向けの「一歩深く」も含めて読むと、技術・社会・政治・美学の因果関係がつながります。巻末の「ファクトチェック記録」も、ぜひ読んでください。この本が「どの事実を、どう確認したか」を公開しています。</p>
+<hr>
+<h3 class="section-title-read" id="sec-003">この本でわかること</h3>
+<ul>
+<li>デザインは、いつ、どこで、誰によって「職業」になったのか</li>
+<li>なぜ人類は、土器・文字・印刷・工場・画面・AI と、次々に「新しいかたち」を発明してきたのか</li>
+<li>モリス、バウハウス、ラムズ、イームズ、アップルは、何を変え、何を変えなかったのか</li>
+<li>イスラームの幾何学、中国の陶磁器、アフリカの布、先住アメリカの結縄は、なぜ「デザイン」なのか</li>
+<li>日本の民藝・用の美・間・侘寂は、どこまで本当で、どこからが神話なのか</li>
+<li>「デザイン思考」「ユーザー中心」「インクルーシブ」「サステナブル」は、どこから来て、どこへ行くのか</li>
+<li>2026年のAI・規制・気候変動の時代に、デザイナーは何をすべきなのか</li>
+</ul>
+<hr>
+<h3 class="section-title-read" id="sec-004">本書の立場（５つのテーゼ）</h3>
+<p><strong>第一に、デザインとは「意図を、制約のなかで、他の誰かのために、かたちにすること」である。</strong> 絵画は鑑賞者のために、工学は物理法則のためにありますが、デザインは「使う人」と「使われる場」のためにあります。だからデザインには、必ず「誰のためか」という倫理がついてきます。</p>
+<p><strong>第二に、デザイン史は「様式の行列」ではなく、「５つの関係の再交渉」である。</strong> その５つとは、①作り手と使い手、②形と機能、③個人とシステム、④人間と環境、⑤意味と仕組み、です。この５つが、時代ごとに組み替えられてきました。</p>
+<p><strong>第三に、歴史は振り子ではなく、螺旋である。</strong> 装飾と禁欲、手仕事と工業、個人と大量生産、地方と世界。同じ場所に戻ってくるように見えて、戻ってくるたびに技術と責任の水準が上がっています。だから「昔は良かった」も「今が最高」も、どちらも半分しか正しくありません。</p>
+<p><strong>第四に、「デザイナー」という職業は最近の発明だが、デザインは古い。</strong> 名もなき職人、女性、植民地にされた人々、使う側の人々が、歴史の大部分を作ってきました。有名デザイナーの列伝は、歴史の一部ではあっても、全体ではありません。</p>
+<p><strong>第五に、デザインは「どう生きるか」の提案である。</strong> 椅子は座り方の提案であり、スマートフォンは注意の配り方の提案であり、都市は共同体の提案です。デザインは中立ではありません。何を可能にし、何を不可能にするかという形で、政治をしています。</p>
+<hr>
+<h3 class="section-title-read" id="summary">１ページ要約 ― これだけ読めば全体がわかる</h3>
+<ol>
+<li><strong>デザインとは、意図を、制約のなかで、他の誰かのために、かたちにすること。</strong> 美しさは、その一部です。</li>
+<li><strong>歴史の軸は、５つの関係。</strong> 作り手と使い手、形と機能、個人とシステム、人間と環境、意味と仕組み。</li>
+<li><strong>大きな転換点は６つ。</strong> 農耕と都市、文字と印刷、産業革命、モダニズム、デジタル、AIと気候。</li>
+<li><strong>どの時代も、技術が新しい形を生み、その形が新しい問題を生み、その問題が次の形を生んだ。</strong> 振り子ではなく、螺旋。</li>
+<li><strong>「デザイナー」は最近の職業だが、デザインは古い。</strong> 名もなき職人、女性、植民地の人々、使う人々が、歴史の大部分を作った。</li>
+<li><strong>西洋の外にも、別の合理性がある。</strong> イスラームの幾何学、中国の陶磁器、インドの布、アフリカの織物、先住アメリカの結縄、オセアニアの航海術。</li>
+<li><strong>日本は、職人・工学・品質管理・美意識を統合した。</strong> ただし「禅と侘寂」は、その一部にすぎない。</li>
+<li><strong>デザインは中立ではない。</strong> 何を可能にし、何を不可能にするかという形で、政治をしている。</li>
+<li><strong>現在の圧力は４つ。</strong> 気候、包摂、AI、正義。どれも、デザインの外側の技術ではなく、内側の問いです。</li>
+<li><strong>未来は、技術ではなく、価値観で決まる。</strong> 誰のためか、誰が決めるか、誰が責任を負うか。</li>
+</ol>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+デザインの歴史は、「人類が、自分の願いを、ものや仕組みに変えてきた物語」です。そして、その物語は、まだ終わっていません。</p>
+</blockquote>
+<hr>
+<h3 class="section-title-read" id="sec-006">範囲と方法</h3>
+<p>本書が扱う「デザイン」は、次の広がりを持ちます。</p>
+<ul>
+<li><strong>プロダクト</strong>：家具、家電、道具、乗り物、玩具</li>
+<li><strong>グラフィック</strong>：文字、印刷、ポスター、パッケージ、情報</li>
+<li><strong>空間</strong>：建築、インテリア、庭園、都市、景観</li>
+<li><strong>ファッション</strong>：衣服、テキスタイル、装身具</li>
+<li><strong>デジタル</strong>：インターフェース、サービス、ゲーム、サウンド</li>
+<li><strong>組織</strong>：ブランド、制度、プロセス、政策</li>
+</ul>
+<p>方法は、次の三段階です。</p>
+<ol>
+<li><strong>広く読む</strong>：約200の百科事典項目を索引として、時代・地域・人物・運動の全体像をつかむ。</li>
+<li><strong>深く確かめる</strong>：主要な年号・引用・定義は、博物館、大学、一次文献、規格、企業史に当たる。</li>
+<li><strong>批判的に書く</strong>：通説と証拠を分け、異説を併記し、西洋中心の物語を相対化する。</li>
+</ol>
+<p>本書は、すべての地域・時代を同じ密度で扱えているわけではありません。それは正直に認めます。しかし「読めば全体の地図が手に入り、専門家は自分の専門の外側と内側の両方を見直せる」ことを目指しました。</p>
+<p>本書は完璧ではありません。日本、中国、イスラーム、アフリカ、先住アメリカ、オセアニアの記述は、英語圏の資料に依存している部分があり、現地語の一次資料を十分に読めていません。年号には幅があり、引用は要約を含みます。誤りや異説があれば、ぜひ教えてください。次の版で直します。<strong>「世界最高」は、本書が到達した状態ではなく、本書が目指す方向です。</strong></p>
+<hr>
+<h2 class="part-title" id="part-1">第I部 デザインとは何か</h2>
+<hr>
+<h2 class="chapter-title" id="prologue" data-no="PROLOGUE">序章 なぜデザインの歴史を学ぶと、世界の見え方が変わるのか</h2><p class="ch-meta mono"><span>2,226 CHARACTERS</span><span>約 4 分</span></p>
+<h3 class="section-title-read" id="sec-007">ある朝の風景</h3>
+<p>2026年10月、あなたは目覚まし時計で目を覚ます。スマートフォンを手に取り、通知を確認する。顔を洗い、歯を磨き、服を選び、コーヒーを淹れる。電車に乗り、改札にスマホをかざし、オフィスの椅子に座り、画面を開く。</p>
+<p>この朝のあいだに、あなたは何百もの「デザインされたもの」に触れています。目覚まし時計の文字盤、歯ブラシの握りやすさ、シャツの縫い目、コーヒーカップの取っ手、改札機の高さ、椅子の背もたれ、画面のアイコンの並び。どれも、誰かが「こう使ってほしい」と考えて、かたちにしたものです。</p>
+<p>デザインの歴史を学ぶというのは、この当たり前の朝を、<strong>「誰かの決断の集積」</strong>として見直すことです。カップの取っ手が右側にあるのはなぜか。改札機が腰の高さにあるのはなぜか。通知が赤い丸で表示されるのはなぜか。そこには、使いやすさの工夫もあれば、習慣の押しつけもあり、商売の都合もあり、政治の選択もあります。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+デザインの歴史とは、「身のまわりの当たり前が、どうやって当たり前になったか」を調べる冒険です。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-008">デザイン史の３つの問い</h3>
+<p>この本では、すべての時代・地域・対象に対して、次の３つを繰り返し問います。</p>
+<ol>
+<li>
+<p><strong>誰が、誰のために作ったのか。</strong><br>
+   作り手は職人か、工場か、企業か、国家か、共同体か。使い手は王か、市民か、消費者か、患者か、子どもか、高齢者か。そこには、常に権力関係があります。</p>
+</li>
+<li>
+<p><strong>何を可能にし、何を不可能にしたのか。</strong><br>
+   椅子は「座る」を可能にしますが、「立つ」を邪魔することもあります。スマートフォンは「つながる」を可能にしますが、「一人でいる」を難しくします。デザインは、可能性と同時に、制約を配ります。</p>
+</li>
+<li>
+<p><strong>そのかたちは、どんな世界観を提案しているのか。</strong><br>
+   曲線は有機的で親しみやすい。直線は秩序的で近代的。余白は静けさ。金は富。青は信頼。これらの意味は自然法則ではなく、歴史的に作られた約束事です。デザインは、記号の編集でもあります。</p>
+</li>
+</ol>
+<h3 class="section-title-read" id="sec-009">歴史は「選択肢の博物館」である</h3>
+<p>歴史を学ぶ効用は、知識を増やすことだけではありません。<strong>「今のやり方は、唯一の正解ではない」</strong>と知ることです。</p>
+<p>たとえば、椅子ひとつとっても、古代エジプトの折りたたみ椅子、中国の明式家具、アフリカの腰掛け、北欧の曲木椅子、バウハウスの鋼管椅子、オフィスの人体工学椅子、ゲーミングチェアは、それぞれ「人間の体をどう支えるか」「社会のなかでどう見えるか」についての異なる答えです。今のオフィスチェアが「正しい」のではなく、<strong>ある特定の労働環境と身体観に最適化された一つの解</strong>にすぎません。</p>
+<p>歴史を学ぶと、目の前の対象が「完成品」ではなく「途中経過」に見えてきます。すると、自分で別の解を考える余地が生まれます。これが、デザイン史のいちばん実用的な効用です。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+デザイン史は、大きく三つの方法論に分かれてきました。①「英雄と名作」の美術史型（モリス、グロピウス、ラムズなどの系譜）、②「生産と消費」の社会史型（労働、資本、市場、帝国を重視）、③「物質文化」の文化研究型（モノの意味、使い方、記号、日常生活を重視）。1970年代以降のデザイン史は、①から②③へ重心を移し、さらに1990年代以降はグローバル化・ポストコロニアル・フェミニスト・環境史の影響を受けています。本書は、この三つを意図的に混ぜています。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-010">５つの関係と、螺旋のリズム</h3>
+<p>本書の背骨は、次の５つの関係です。</p>
+<ol>
+<li><strong>作り手と使い手</strong>：職人と顧客、企業と消費者、国家と市民、開発者とユーザー。</li>
+<li><strong>形と機能</strong>：美しさと使いやすさ、装飾と構造、意味と性能。</li>
+<li><strong>個人とシステム</strong>：一品制作と大量生産、職人の技と標準化、作者とブランド。</li>
+<li><strong>人間と環境</strong>：素材、エネルギー、廃棄、修理、再生。</li>
+<li><strong>意味と仕組み</strong>：記号、物語、ブランド、インターフェース、アルゴリズム。</li>
+</ol>
+<p>そして、歴史は次のようなリズムで動いてきました。</p>
+<ul>
+<li><strong>装飾の時代</strong> → <strong>禁欲の時代</strong> → <strong>装飾の復権</strong> → <strong>新しい禁欲</strong> …</li>
+<li><strong>手仕事の時代</strong> → <strong>機械の時代</strong> → <strong>手仕事の再評価</strong> → <strong>デジタル工作の時代</strong> …</li>
+<li><strong>共同体の時代</strong> → <strong>大量生産の時代</strong> → <strong>個別化の時代</strong> → <strong>パーソナライズの時代</strong> …</li>
+</ul>
+<p>これは単純な振り子ではありません。戻ってくるたびに、技術の水準と責任の範囲が変わります。たとえば「装飾の復権」といっても、19世紀のアーツ・アンド・クラフツ運動と、1980年代のメンフィスと、2020年代のAI生成装飾は、同じ「装飾」でもまったく別のものです。だから本書では、これを<strong>「螺旋（らせん）」</strong>と呼びます。</p>
+<h3 class="section-title-read" id="sec-011">この本の読み方</h3>
+<p>難しい話が出てきたら、まず「赤ちゃんでもわかる一言」を読んでください。それで全体の意味がつかめたら、本文に戻ります。もっと深く知りたくなったら「一歩深く」を読みます。各章の最後には「歴史の教訓」があります。それだけ拾っても、物語の背骨は通ります。</p>
+<p>では、最初の問いから始めましょう。そもそも「デザイン」とは、何なのでしょうか。</p>
+<hr>
+<h2 class="chapter-title" id="ch-01" data-no="01">第1章 「デザイン」という言葉の迷宮</h2><p class="ch-meta mono"><span>3,931 CHARACTERS</span><span>約 8 分</span></p>
+<h3 class="section-title-read" id="sec-012">言葉の旅</h3>
+<p>「デザイン」という言葉は、ラテン語の <strong>designare</strong>（デーシグナーレ）にさかのぼります。意味は「印をつける」「示す」「計画する」。そこからイタリア語の <strong>disegno</strong>（ディゼーニョ）が生まれ、「描くこと」と「心に思い描くこと」の両方を意味するようになりました。フランス語の <strong>dessein</strong> は「意図」「計画」です。</p>
+<p>英語の <strong>design</strong> は、16世紀には「計画する」「企てる」という意味で使われ、18世紀には「図面に表す」、19世紀には「工業製品の意匠」という現在の意味に近づきます。日本語の「デザイン」は、明治以降に欧米語から入った外来語です。それ以前の日本には「意匠」「図案」「工夫」「細工」といった言葉がありましたが、これらは「デザイン」と完全には重なりません。</p>
+<p>ここに、最初の罠があります。<strong>「デザイン」という言葉は、ヨーロッパの近代の産物であり、すべての文化に同じ意味で存在するわけではない</strong>のです。イスラームの幾何学模様、中国の陶磁器、アフリカの布、先住アメリカの結縄を「デザイン」と呼ぶとき、私たちは近代ヨーロッパの分類を、少し無理やり当てはめています。本書はそのことを忘れずに進みます。</p>
+<h3 class="section-title-read" id="sec-013">定義のカタログ</h3>
+<p>「デザインとは何か」に、唯一の正解はありません。代表的な定義を、要約して並べてみましょう（逐語訳ではありません）。</p>
+<ul>
+<li><strong>ICSID（現WDO）2015年</strong>：「工業デザインとは、革新的な製品・システム・サービス・体験を通じて、イノベーションを駆動し、ビジネスの成功を築き、生活の質の向上に貢献する、戦略的な問題解決プロセスである。」</li>
+<li><strong>V&amp;A（ヴィクトリア・アンド・アルバート博物館）</strong>：「デザインとは、特定の目的のために作られた、あらゆるもののことである。」</li>
+<li><strong>ディーター・ラムズ</strong>：「良いデザインは、できるだけ少ないデザインである（Less, but better）。」</li>
+<li><strong>ヴィクター・パパネック</strong>：「デザインは、人間が自分の道具と環境（ひいては社会と自分自身）を形づくる、最も強力な道具である。」</li>
+<li><strong>ジョン・ヘスケット</strong>：「デザインとは、人間の必要性と意味を、人工物の形に変換することである。」</li>
+<li><strong>ハーバート・サイモン</strong>：「デザインとは、現状をより好ましい状態に変えるための行動の計画である。」</li>
+<li><strong>リチャード・ブキャナン</strong>：「デザインとは、問題を発見し、枠組みを与え、解決策を提案するための、独自の思考様式である。」</li>
+</ul>
+<p>これらの定義に共通するのは、<strong>「意図」「制約」「他者」「かたち」</strong>の４つです。デザインは、ただの自己表現ではありません。誰かの意図があり、材料・技術・予算・法律・文化という制約があり、使う他者がいて、その結果としてかたちが生まれます。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+デザインとは、「こうしたい」という気持ちを、「こう使える」という形に変えることです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-014">デザインと芸術は、どこが違うのか</h3>
+<p>デザインと芸術は、しばしば対比されます。芸術は「問いを立てる」、デザインは「問題を解く」と言われます。しかし、これは単純すぎます。</p>
+<ul>
+<li>芸術も、素材・技術・制度・市場という制約のなかで作られます。</li>
+<li>デザインも、意味や物語を生み出し、問いを立てます。</li>
+<li>境界は時代によって動きます。デュシャンの便器は芸術ですが、同じ便器はデザインでもあります。バウハウスの椅子は日用品であり、美術館の収蔵品でもあります。</li>
+</ul>
+<p>違いをあえて言うなら、<strong>デザインは「使用」を前提にしている</strong>ということです。使われること、機能すること、誰かの生活に入り込むことを前提に、かたちが決まります。もちろん、使われないことを目的にした「批判的デザイン」もありますが、それも「使用」という制度を問い直すためのデザインです。</p>
+<h3 class="section-title-read" id="sec-015">デザインと工芸は、どこが違うのか</h3>
+<p>工芸は、作り手が材料と向き合いながら、作りながら形を決めます。近代の分業モデルでは、デザインは作り始める前に形を決め、図面や仕様として他者に伝えます。この<strong>「構想と実行の分離」</strong>が、デザインを職業にした決定的な特徴です。</p>
+<p>ただし、この分離は近代の産物です。中世の職人は、注文を受けて、材料を見て、作りながら形を決めていました。産業革命以降、工場の所有者・設計者・労働者が分かれ、設計図を描く人と、それを作る人が分かれました。ここに「デザイナー」という職業が生まれます。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+構想と実行の分離は、単なる分業ではなく、知識と権力の再配分です。設計図を描く人が「設計者」になり、作る人が「労働者」になると、設計の知識は現場から経営へ移ります。このことは、テイラリズム（科学的管理法）や、現代の「デザインシステム」にも通じます。誰が決定権を持ち、誰が手を動かすのか。デザイン史は、労働史でもあるのです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-016">デザインと工学は、どこが違うのか</h3>
+<p>工学は、物理法則と安全性を中心に、構造・材料・エネルギーを扱います。デザインは、使いやすさ・意味・美しさ・文化を中心に、人と物の関係を扱います。もちろん重なります。自動車の設計には、両方が必要です。</p>
+<p>重要なのは、<strong>デザインは「性能」だけでなく「意味」を扱う</strong>ということです。同じ性能の車でも、角ばった車と丸い車では、買う人の感じ方が違います。同じボタンでも、赤いボタンと青いボタンでは、押す人の心理が違います。デザインは、性能を意味に翻訳する仕事です。</p>
+<h3 class="section-title-read" id="sec-017">「ユーザー」は発明された</h3>
+<p>「ユーザー中心設計」という言葉を聞くと、当たり前に聞こえます。しかし「ユーザー」という概念は、歴史的に作られたものです。</p>
+<p>19世紀の工場では、労働者は「手」でした。20世紀の広告では、人は「消費者」でした。20世紀後半のソフトウェアでは、人は「ユーザー」になりました。21世紀のプラットフォームでは、人は「データ」にもなりました。呼び方が変わると、設計の目的も変わります。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+科学技術社会論（STS）では、技術の設計が「ユーザー」の行動をあらかじめ想定し、方向づけることを <strong>「スクリプト（script）」</strong> と呼びます。たとえば、改札機は「切符を入れる」「ICカードをかざす」という行為を想定し、それ以外の使い方を困難にします。マデリン・アクリッチはこれを「技術の台本」と呼び、スティーブ・ウールガーは「ユーザーの構成（configuring the user）」と呼びました。デザインは、ユーザーを「発見」するだけでなく、「作って」いるのです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-018">デザインの４つの層</h3>
+<p>現代のデザインは、４つの層で考えると整理しやすくなります。</p>
+<ol>
+<li><strong>モノ（object）</strong>：椅子、スマホ、ポスター、建物。</li>
+<li><strong>システム（system）</strong>：交通網、サプライチェーン、デザインシステム、制度。</li>
+<li><strong>サービス（service）</strong>：病院の受付、銀行のアプリ、行政の手続き。</li>
+<li><strong>体験（experience）</strong>：使う前・使う間・使った後の感情と記憶。</li>
+</ol>
+<p>さらに、これらを包む<strong>環境（environment）</strong>と<strong>組織（organization）</strong>があります。良いデザイナーは、モノだけを見ません。モノが置かれる場、使う人の時間、支える組織、廃棄された後のことまで見ます。</p>
+<h3 class="section-title-read" id="sec-019">「良いデザイン」は主張である</h3>
+<p>「良いデザイン」という言葉は、万能ではありません。誰にとって良いのか、何の基準で良いのかによって、答えは変わります。</p>
+<ul>
+<li><strong>機能</strong>：目的を果たせるか。</li>
+<li><strong>使いやすさ</strong>：迷わず使えるか。身体的・認知的な負担は大きくないか。</li>
+<li><strong>美しさ</strong>：感覚的に心地よいか。意味のある形か。</li>
+<li><strong>持続性</strong>：長く使えるか。修理できるか。環境負荷は小さいか。</li>
+<li><strong>包摂性</strong>：多様な身体・能力・文化の人に使えるか。</li>
+<li><strong>正義</strong>：誰かを排除したり、搾取したりしていないか。</li>
+</ul>
+<p>これらは、しばしば衝突します。安くて使いやすい製品が、環境を破壊することがあります。美しい建物が、地域の人を排除することがあります。だからデザインの評価には、<strong>トレードオフを明示する</strong>ことが必要です。「すべての人に良いデザイン」は、魔法の言葉ではありません。誰にとっての良さなのかを、具体的に問う言葉です。</p>
+<h3 class="section-title-read" id="sec-020">デザイン史は、なぜ美術史と違うのか</h3>
+<p>美術史は、しばしば「名作」と「作者」を中心に組み立てられます。デザイン史は、それだけでは足りません。なぜなら、デザインの大部分は、名もなき職人、工場労働者、女性、植民地の人々、使う人々によって作られてきたからです。</p>
+<p>デザイン史は、次のような問いを重視します。</p>
+<ul>
+<li>誰が作ったか（作者だけでなく、労働者・職人・共同体も）。</li>
+<li>誰のために作ったか（王・市民・消費者・患者・子ども・高齢者）。</li>
+<li>どう作ったか（素材・技術・分業・エネルギー）。</li>
+<li>どう使われたか（使用・誤用・修理・再利用）。</li>
+<li>どう意味づけられたか（広告・展示・批評・博物館）。</li>
+<li>誰が排除されたか（女性・障がい者・低所得者・植民地の人々）。</li>
+</ul>
+<p>この問いのリストは、この本全体で使い回します。対象を読むときにも使えます（第11章）。</p>
+<h3 class="section-title-read" id="sec-021">歴史の教訓</h3>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+デザインは「美しいものを作ること」ではない。<br>
+「誰が、誰のために、何を可能にし、何を不可能にするか」を、かたちで決めることである。<br>
+だからデザインを学ぶことは、権力と責任を学ぶことでもある。</p>
+</blockquote>
+<hr>
+<h2 class="chapter-title" id="ch-02" data-no="02">第2章 ５万年前のデザイン ― 道具・土器・文字・都市</h2><p class="ch-meta mono"><span>4,737 CHARACTERS</span><span>約 9 分</span></p><aside class="ch-plate"><span class="mono">PLATES IN THIS CHAPTER</span><a href="atlas.html#plate-01">PL.01 握斧</a> <a href="atlas.html#plate-02">PL.02 土器</a></aside>
+<h3 class="section-title-read" id="sec-022">デザインは人間より古い</h3>
+<p>デザインの歴史は、人類の歴史より長い。人類が現れる前から、私たちの祖先は道具を作っていました。</p>
+<ul>
+<li>約260万年前、東アフリカで<strong>オルドワン石器</strong>が作られます。石を打ち欠いて、鋭い刃を作る、最も初期の道具です。</li>
+<li>約176万年前、<strong>アシューリアン石器</strong>（握斧）が登場します。左右対称の涙形をした石器で、手に握りやすい形をしています。</li>
+<li>約30万年前、<strong>ホモ・サピエンス</strong>が登場します。</li>
+<li>約7万年前、南アフリカのブロンボス洞窟で、赤土に幾何学模様を刻んだ石片が作られます。装飾の始まりとされることがあります。</li>
+<li>約4万5000年前、インドネシア・スラウェシ島に洞窟壁画が描かれます。</li>
+<li>約2万年前、中国・仙人洞で、世界最古級の土器が作られます。</li>
+<li>約1万年前、農耕が始まります。</li>
+<li>約5000年前、メソポタミアで文字が生まれます。</li>
+</ul>
+<p>ここで大切なのは、<strong>デザインは「美しいものを作る」ために始まったのではない</strong>ということです。まず「生き延びる」ために始まりました。切る、掘る、運ぶ、包む、貯める、着る、住む。これらの行為を支えるために、形が工夫されました。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+デザインの始まりは、おしゃれではなく、サバイバルでした。石を握りやすく削ることが、最初のデザインです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-023">握斧は「最初のデザイン」か</h3>
+<p>アシューリアン握斧は、しばしば「最初のデザイン」として語られます。左右対称で、手に馴染み、切る・掘る・叩くのに使えます。しかし、研究者のあいだでは議論があります。</p>
+<ul>
+<li><strong>機能説</strong>：握斧は、狩猟・解体・木工に使う実用的な道具である。</li>
+<li><strong>性選択説</strong>：握斧の美しい対称性は、健康さや認知能力のアピールであり、配偶者選択のための「見せかけ」である。</li>
+<li><strong>社会学習説</strong>：握斧の形は、集団の伝統を示す「スタイル」であり、仲間意識の指標である。</li>
+</ul>
+<p>どれが正しいかは、まだ決着していません。重要なのは、<strong>「機能」と「意味」は、最初から分かれていなかった</strong>ということです。道具は、使うためだけのものではなく、見せるため、誇るため、仲間を示すためのものでもありました。デザインの歴史は、この二つが絡み合う歴史です。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+握斧の対称性をめぐる議論は、進化人類学における「デザインの起源」問題の縮図です。機能主義（適応）と、シグナリング（信号）と、ニッチ構築（環境改変）のどれを重視するかで、説明が変わります。近年は、握斧の形が地域ごとに異なる「文化変異」を示すという研究もあり、単純な機能説では説明しきれません。デザインは、生物学的進化と文化的進化の交差点にあります。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-024">容器の発明 ― 世界を「持ち運ぶ」</h3>
+<p>デザイン史における最大の発明の一つは、<strong>容器</strong>です。容器がなければ、食べ物を貯められず、水を運べず、種を保存できず、香料や油を持ち歩けません。</p>
+<p>初期の容器は、ひょうたん、木の皮、編みかご、動物の皮袋でした。やがて、粘土を焼いて作る<strong>土器</strong>が登場します。土器は、人類が初めて作った合成素材の一つです。石や木は自然に存在しますが、粘土を成形し、火で焼いて硬くする土器は、人間が化学変化を利用して作った最初の材料の一つです。</p>
+<p>土器の設計には、すでに高度な知識が必要です。</p>
+<ul>
+<li><strong>粘土の性質</strong>：粘り気、収縮、不純物。</li>
+<li><strong>成形</strong>：手びねり、紐づくり、ろくろ。</li>
+<li><strong>焼成</strong>：温度、時間、酸素の量。</li>
+<li><strong>形</strong>：口の広さ、底の安定性、取っ手の位置、注ぎ口の角度。</li>
+<li><strong>装飾</strong>：縄目、彩色、彫刻、釉薬。</li>
+</ul>
+<p>縄文土器（日本、約1万4000年前）は、縄を押しつけた模様で知られます。装飾的にも見えますが、縄目は粘土の結合を強め、熱伝導を調整する機能もあったと考えられています。<strong>装飾と機能は、ここでも分けられません。</strong></p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+土器は「入れ物」ですが、ただの入れ物ではありません。食べ物を守り、水を運び、火を通し、家族の記憶を刻む、最初の「家庭のデザイン」です。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-025">織物 ― 最初の「柔らかいインターフェース」</h3>
+<p>衣服は、人間が自分の体を包むための、最初の「インターフェース」です。織物は、植物繊維・羊毛・絹・綿を撚り、織り、編み、染める技術です。</p>
+<ul>
+<li>約3万6000年前、ジョージアの洞窟で、染色された麻繊維が見つかっています。</li>
+<li>約7000年前、トルコのチャタル・ヒュユクで、織物の断片が見つかっています。</li>
+<li>約5000年前、中国で絹の養蚕が始まります。</li>
+<li>約5000年前、インダス文明で綿が栽培されます。</li>
+</ul>
+<p>織物は、単なる保温の道具ではありません。<strong>社会的身分、性別、職業、宗教、地域</strong>を示す記号でもあります。古代エジプトのリネン、中国の絹、ペルーのアルパカ、アフリカのケンテ、日本の着物。どれも、素材と技法と模様に、その社会の価値観が刻まれています。</p>
+<p>織物はまた、<strong>最初の「ソフトウェア」</strong>でもあります。糸の配置、色の順序、模様の繰り返しは、プログラムのように設計されます。ジャカード織機（1804年）がパンチカードで模様を制御し、その技術が初期のコンピュータに影響を与えたことは、この連続性の象徴です。</p>
+<h3 class="section-title-read" id="sec-026">文字 ― 記憶を外部化するインターフェース</h3>
+<p>文字は、デザイン史のもう一つの転換点です。口承だけでは、記憶は時間とともに失われます。文字は、記憶を外部の媒体に保存し、遠くの人に伝え、世代を超えて残すことを可能にしました。</p>
+<p>文字の起源は、メソポタミアの<strong>トークン</strong>（約8000年前）にさかのぼります。羊や穀物の数を表す小さな粘土の印です。やがて、印を粘土の袋（ブッラ）に入れ、袋の表面に印を押すようになります。これが<strong>プロト・クネイフォルム</strong>（約3300年前）になり、<strong>楔形文字</strong>（約3200年前）になります。</p>
+<ul>
+<li><strong>エジプト象形文字</strong>：約3200年前。</li>
+<li><strong>中国の甲骨文字</strong>：約3200年前（商代）。</li>
+<li><strong>マヤ文字</strong>：紀元前3世紀〜紀元後3世紀ごろ。</li>
+<li><strong>フェニキア文字</strong>：約3000年前。アルファベットの原型。</li>
+<li><strong>紙</strong>：中国で紀元105年ごろ、蔡倫が製紙法を改良。</li>
+<li><strong>木版印刷</strong>：中国で7〜8世紀ごろ。</li>
+<li><strong>活字印刷</strong>：中国で1040年ごろ、畢昇（ひつしょう）が陶製活字を発明。朝鮮では13世紀に金属活字。ヨーロッパでは1440年ごろ、グーテンベルクが活版印刷を実用化。</li>
+</ul>
+<p>文字は、単なる記録技術ではありません。<strong>文字の形そのものがデザイン</strong>です。楔形文字のくさび形、エジプトの象形、中国の漢字、アラビアの書道、ヨーロッパのアルファベット。それぞれの筆記具、素材、方向、リズムが、文字の形を決めました。書体は、文化の顔です。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+文字の歴史は、「技術決定論」と「文化相対主義」のあいだで揺れてきました。文字があるから国家が生まれるのか、国家があるから文字が必要になるのか。メソポタミアでは、会計と行政の必要が文字を生みました。中国では、占いと祭祀が甲骨文字を生みました。マヤでは、暦と王権が文字を生みました。文字の起源は一つではなく、複数の動機が重なっています。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-027">都市 ― 最初の「デザインシステム」</h3>
+<p>都市は、デザイン史における最大の人工物です。道路、水路、広場、市場、神殿、城壁、住宅。これらが組み合わさって、一つのシステムを作ります。</p>
+<ul>
+<li><strong>ウルク</strong>（メソポタミア、紀元前4000〜3100年ごろ）：世界最古級の都市。神殿、市場、工房、運河。</li>
+<li><strong>モヘンジョ・ダロ</strong>（インダス文明、紀元前2500年ごろ）：格子状の街路、下水道、公共浴場。古代としては驚くほど計画的な都市。</li>
+<li><strong>ギザの大ピラミッド</strong>（エジプト、紀元前2560年ごろ）：巨大な石造建築。測量、運搬、労働組織の設計。</li>
+<li><strong>ローマ</strong>：道路、水道橋、公共浴場、コロッセオ。紀元前312年のアッピア街道、紀元前312年の水道。</li>
+<li><strong>長安</strong>（中国、唐時代）：方格状の都市計画。東西の市場、坊制。</li>
+<li><strong>テオティワカン</strong>（メキシコ、紀元前100年〜紀元後550年ごろ）：太陽のピラミッド、死者の大通り。計画都市。</li>
+</ul>
+<p>都市は、<strong>標準化</strong>の産物でもあります。レンガの大きさ、道路の幅、通貨の単位、度量衡、税の単位。これらが揃うことで、遠くの人と取引でき、大規模な建設ができます。秦の始皇帝（紀元前221年）は、度量衡・文字・通貨・車輪の幅を統一しました。これは、国家による最初の「デザインシステム」の一つです。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+都市は、たくさんの人が一緒に暮らすための「巨大なルールブック」です。道路の幅も、家の並びも、水の流れも、誰かが決めています。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-028">標準化 ― 見えないデザイン</h3>
+<p>私たちは、標準化されたものに囲まれています。ネジの規格、紙のサイズ、電源プラグの形、文字コード、道路の左側通行。これらは、目立たないけれど、社会を支える<strong>見えないデザイン</strong>です。</p>
+<p>標準化の歴史は古いです。</p>
+<ul>
+<li>古代ローマの<strong>ローマンフット</strong>（約29.6cm）。</li>
+<li>中国古代の<strong>尺</strong>や<strong>斤</strong>。</li>
+<li>中世ヨーロッパのギルドによる品質規格。</li>
+<li>1799年のフランスの<strong>メートル法</strong>。</li>
+<li>1875年の<strong>メートル条約</strong>。</li>
+<li>1947年の<strong>ISO</strong>（国際標準化機構）。</li>
+<li>1980年代以降の<strong>HTML</strong>、<strong>USB</strong>、<strong>Wi-Fi</strong>、<strong>QRコード</strong>。</li>
+</ul>
+<p>標準化は、互換性と効率をもたらしますが、多様性を削り、地域の知恵を排除することもあります。どの規格を選ぶかは、技術の問題であると同時に、政治の問題です。</p>
+<h3 class="section-title-read" id="sec-029">最初のブランドとサイン</h3>
+<p>ブランドは、現代だけのものではありません。古代の陶工は、自分の作品に印を刻みました。ローマのレンガには、製造者のスタンプが押されました。中世のギルドは、品質を保証するためにマークを使いました。中国の陶磁器には、皇帝の年号が記されました。</p>
+<p>これらは、<strong>「誰が作ったか」「どこで作ったか」「どの品質か」</strong>を示す、初期のブランドです。ブランドは、信頼を可視化するデザインです。同時に、模倣を防ぎ、市場を支配するための装置でもありました。</p>
+<h3 class="section-title-read" id="sec-030">深い歴史の教訓</h3>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+デザインの最初の目的は、生き延びることだった。<br>
+次の目的は、意味を作ることだった。<br>
+そして、社会を調整することだった。<br>
+この三つは、今も変わっていない。<br>
+どんなに技術が進んでも、デザインは「生存」「意味」「調整」の三つを扱う。</p>
+</blockquote>
+<h5 id="sub-004">第2章のまとめ表</h5>
+<div class="table-wrap" role="region" aria-label="表" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">時代</th>
+<th scope="col">発明・転換点</th>
+<th scope="col">デザイン上の意味</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>約260万年前</td>
+<td>オルドワン石器</td>
+<td>素材を加工して機能を生む</td>
+</tr>
+<tr>
+<td>約176万年前</td>
+<td>アシューリアン握斧</td>
+<td>形の対称性と社会性</td>
+</tr>
+<tr>
+<td>約2万年前</td>
+<td>土器</td>
+<td>最初の人工素材、容器の革命</td>
+</tr>
+<tr>
+<td>約1万年前</td>
+<td>農耕</td>
+<td>定住、貯蔵、土地のデザイン</td>
+</tr>
+<tr>
+<td>約5000年前</td>
+<td>文字</td>
+<td>記憶の外部化、行政の基盤</td>
+</tr>
+<tr>
+<td>約5000年前</td>
+<td>都市</td>
+<td>システムとしてのデザイン</td>
+</tr>
+<tr>
+<td>約3000年前</td>
+<td>アルファベット</td>
+<td>文字の民主化、抽象化</td>
+</tr>
+<tr>
+<td>約1000年前</td>
+<td>活字</td>
+<td>印刷の原型、知識の複製</td>
+</tr>
+<tr>
+<td>約500年前</td>
+<td>活版印刷</td>
+<td>近代の公共圏、デザインの産業化</td>
+</tr>
+</tbody>
+</table></div><p class="table-hint">横にスクロールできます →</p>
+<hr>
+<h2 class="chapter-title" id="ch-03" data-no="03">第3章 西洋の外のデザイン ― イスラーム・中国・インド・アフリカ・アメリカ・オセアニア</h2><p class="ch-meta mono"><span>9,508 CHARACTERS</span><span>約 19 分</span></p><aside class="ch-plate"><span class="mono">PLATES IN THIS CHAPTER</span><a href="atlas.html#plate-03">PL.03 楔形文字</a> <a href="atlas.html#plate-04">PL.04 イスラーム</a> <a href="atlas.html#plate-05">PL.05 明式家具</a></aside>
+<h3 class="section-title-read" id="sec-031">「歴史なきデザイン」という偏見</h3>
+<p>19世紀のヨーロッパは、世界を「歴史のある文明」と「歴史のない野蛮」に分けました。博物館は、アフリカやオセアニアの品を「民族誌資料」として展示し、ヨーロッパの品を「美術」として展示しました。この分類は、デザイン史にも深く染み込んでいます。</p>
+<p>しかし、イスラームの幾何学模様、中国の陶磁器、インドの布、アフリカの織物、先住アメリカの結縄、オセアニアの航海術は、いずれも高度な設計思想と技術を持っています。それらを「工芸」や「民俗」と呼んでデザイン史の外に置くことは、歴史の書き方の失敗です。</p>
+<p>この章では、西洋の外のデザインを、飾りとしてではなく、<strong>別の合理性</strong>として見ていきます。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+世界には、ヨーロッパとは違う「かたちの知恵」がたくさんあります。それは未熟なデザインではなく、別の目的に合わせた、別の完成形です。</p>
+</blockquote>
+<hr>
+<h3 class="section-title-read" id="sec-032">3-1 イスラーム ― 無限を描く幾何学</h3>
+<h5 id="sub-005">何を作ったのか</h5>
+<p>イスラーム世界は、7世紀から急速に広がり、ダマスカス、バグダッド（762年建設）、コルドバ、カイロ、イスファハン、イスタンブールなどの都市を生みました。そこでは、モスク、宮殿、庭園、市場、浴場、書物、織物、陶器、金属器が作られました。</p>
+<h5 id="sub-006">幾何学というデザイン言語</h5>
+<p>イスラームのデザインで最も有名なのは、<strong>幾何学模様</strong>です。円と四角を重ね、線を交差させ、無限に続くパターンを作ります。<strong>ギリーフ・タイル</strong>、<strong>ゼッリージュ</strong>（モロッコのタイル）、<strong>ムカルナス</strong>（鍾乳石状の穹窿装飾）、<strong>アラベスク</strong>（植物唐草）などが代表的です。</p>
+<p>なぜ幾何学なのでしょうか。</p>
+<ul>
+<li><strong>宗教的な理由</strong>：多くのイスラーム法学者は、神や預言者の像を作ることを避けました。ただし、これは絶対ではなく、世俗的な場面では人物画も描かれました。ミニアチュール（細密画）はその例です。</li>
+<li><strong>数学的な理由</strong>：幾何学は、神の創造の秩序を表すと考えられました。無限のパターンは、神の無限性の象徴です。</li>
+<li><strong>社会的な理由</strong>：幾何学は、職人と学者が共有できる普遍的な言語でした。数学者と職人が協力して、複雑なタイルを設計しました。</li>
+</ul>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+2010年代の研究では、イスラームの幾何学模様が、コンパスと定規だけで描ける「ギリーフ・タイル」の集合から生成されていることが示されました。これは、職人が高度な数学的知識を実践していたことを示唆します。ただし、すべての模様が同じ方法で作られたわけではなく、地域・時代によって技法は多様です。「イスラーム模様＝数学」という単純化は避けるべきですが、数学と工芸の密接な関係は確かです。</p>
+</blockquote>
+<h5 id="sub-007">建築と都市</h5>
+<p>イスラーム建築の特徴は、<strong>内部空間</strong>と<strong>水</strong>と<strong>光</strong>です。</p>
+<ul>
+<li><strong>モスク</strong>：礼拝の方向（キブラ）を示すミフラーブ、説教壇（ミンバル）、ミナレット、ドーム。サーマッラーの大モスク（9世紀）の螺旋ミナレット、コルドバの大モスク（8〜10世紀）の列柱ホール、イスファハンのシャー・モスク（17世紀）のドーム。</li>
+<li><strong>ムカルナス</strong>：11世紀半ばごろから発展した、三次元の装飾穹窿。構造と装飾の境界を溶かします。</li>
+<li><strong>庭園</strong>：<strong>チャハール・バーグ</strong>（四分割庭園）。水の軸、通路、樹木、壁。砂漠のなかに楽園を作る設計です。</li>
+<li><strong>都市</strong>：モスク、市場（バザール）、浴場（ハンマーム）、キャラバンサライ、宮殿。日陰と風を確保する路地、屋上の風取り（バードギール）、地下水路（カナート）。</li>
+</ul>
+<p>イスラームの都市は、ヨーロッパの「広場中心」とは違い、<strong>路地と中庭のネットワーク</strong>でできています。これは、プライバシー、共同体、気候への適応の設計です。</p>
+<h5 id="sub-008">書物と書道</h5>
+<p>イスラームでは、書道が最高の芸術の一つとされました。<strong>クーフィー体</strong>（角張った古い書体）、<strong>ナスフ体</strong>（読みやすい標準書体）、<strong>スルス体</strong>（装飾的な書体）、<strong>ディーワーニー体</strong>（宮廷書体）などがあります。コーランは、書かれ、装飾され、暗誦されるメディアでした。</p>
+<p>紙は、751年のタラス川の戦いの後、中国からイスラーム世界に伝わったとされます。バグダッドの「知恵の館」（9世紀）では、ギリシア・インド・ペルシアの書物が翻訳され、製本・照明・書道の技術が発展しました。書物は、宗教と科学と詩を運ぶ、デザインの媒体でした。</p>
+<h5 id="sub-009">オスマン・サファヴィー・ムガル</h5>
+<ul>
+<li><strong>オスマン</strong>：イズニク陶器（15〜17世紀）、タイル、ドーム建築。スレイマン・モスク（1550年代、ミマール・スィナン）は、巨大なドームと光の設計で知られます。</li>
+<li><strong>サファヴィー</strong>：イスファハンの王の広場（17世紀）、絨毯、ミニアチュール。都市計画と庭園の融合。</li>
+<li><strong>ムガル</strong>：タージ・マハル（1632〜1653年）、ジャーリー（透かし彫りの石スクリーン）、チャハール・バーグ、細密画。ペルシア・インド・中央アジアの融合。</li>
+</ul>
+<h5 id="sub-010">誤解を解く</h5>
+<ul>
+<li><strong>「イスラームは像を禁止した」</strong>：一概に言えません。宗教的な偶像崇拝は避けられましたが、世俗的な人物画や動物画は多く存在します。</li>
+<li><strong>「幾何学は装飾だけ」</strong>：幾何学は、数学、宗教、政治、職人技術が交差する、総合的なデザイン言語です。</li>
+<li><strong>「イスラーム建築は均質」</strong>：地域ごとに、気候、素材、王朝、宗派の違いがあります。モロッコ、エジプト、トルコ、イラン、インドは、それぞれ別の伝統です。</li>
+</ul>
+<hr>
+<h3 class="section-title-read" id="sec-033">3-2 中国 ― 陶磁器・木・庭園の文明</h3>
+<h5 id="sub-011">何を作ったのか</h5>
+<p>中国は、陶磁器、絹、漆器、青銅器、玉器、木工、建築、庭園、印刷、紙、書道、印章など、驚くほど多様なデザイン伝統を持っています。ここでは、特に世界に影響を与えた陶磁器、明式家具、庭園、印刷を扱います。</p>
+<h5 id="sub-012">陶磁器 ― 土と火の科学</h5>
+<p>中国の陶磁器は、新石器時代の彩陶（仰韶文化、紀元前5000〜3000年ごろ）から始まり、商周時代の青銅器、漢代の釉陶、唐代の三彩、宋代の青磁・白磁、元代の青花、明代の五彩、清代の粉彩へと発展します。</p>
+<ul>
+<li><strong>宋代の五大名窯</strong>：汝（じょ）、官、哥、定、鈞（きん）。汝窯の青磁は、雨上がりの空のような色と評されます。定窯の白磁は、繊細な印花・刻花で知られます。</li>
+<li><strong>景徳鎮</strong>：元・明・清の官窯。青花は、ペルシア産のコバルト（スマルト）を使い、白地に青で絵を描きます。14世紀に急速に発展し、ヨーロッパに輸出されて「china」という言葉が陶磁器の代名詞になりました。</li>
+<li><strong>釉薬の科学</strong>：灰釉、長石釉、鉄釉、銅紅釉。還元焼成と酸化焼成の違いが、色を決めます。陶工は、温度と酸素を微妙に調整する、高度な技術を持っていました。</li>
+</ul>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+中国の陶磁器は、「土を焼くと、ガラスのように輝く」という発見から始まりました。色は、絵の具ではなく、火の加減で生まれます。</p>
+</blockquote>
+<h5 id="sub-013">明式家具 ― 木のミニマリズム</h5>
+<p>明時代（1368〜1644年）の家具は、<strong>明式家具</strong>として知られています。特徴は、以下の通りです。</p>
+<ul>
+<li><strong>素材</strong>：黄花梨（こうかり、huanghuali）、紫檀（したん、zitan）などの硬木。輸入材も使われました。</li>
+<li><strong>構造</strong>：釘を使わず、ほぞと仕口で組む。湿度や収縮に強い。</li>
+<li><strong>形態</strong>：直線と曲線のバランス。余分な装飾を削ぎ、木目を活かす。</li>
+<li><strong>人間工学</strong>：椅子の背もたれのカーブ、肘掛けの高さ、座面の広さ。</li>
+<li><strong>象徴</strong>：文人の教養、簡素、自然との調和。</li>
+</ul>
+<p>明式家具は、20世紀の北欧デザインやモダニズムにも影響を与えたと言われます。ただし「明式＝ミニマリズム」と単純化すると、中国家具の多様性（清式の華麗さ、民間の素朴さ）を見失います。</p>
+<h5 id="sub-014">庭園 ― 借景と余白</h5>
+<p>中国の庭園、特に蘇州の文人庭園は、<strong>「借景（しゃっけい）」</strong>、<strong>「対景」</strong>、<strong>「漏景」</strong>などの手法で知られます。壁の向こうの塔を借りて景色にする。窓の形で景色を切り取る。曲がりくねった廊下で、歩くたびに景色を変える。池、石、竹、梅、蘭、菊。小さな空間に、宇宙を作ります。</p>
+<p>庭園は、単なる装飾ではありません。<strong>隠遁、読書、詩作、交友</strong>のための空間であり、文人の理想を体現するデザインです。中国の庭園は、日本の庭園にも大きな影響を与えました。</p>
+<h5 id="sub-015">建築 ― 木のフレームと「間」</h5>
+<p>中国建築の基本は、<strong>木造の柱と梁</strong>、<strong>斗栱（ときょう）</strong>、<strong>屋根の反り</strong>、<strong>中庭</strong>です。建物は、<strong>「間（けん）」</strong>という単位でモジュール化され、必要に応じて増築できます。これは、現代の「モジュラー建築」の先駆けです。</p>
+<ul>
+<li><strong>紫禁城</strong>（北京、15世紀）：軸線の儀礼空間。南から北へ、門、広場、大殿。</li>
+<li><strong>天壇</strong>（16世紀）：円と四角の宇宙観。青い瓦、三層の円丘。</li>
+<li><strong>福建土楼</strong>：円形・方形の集合住宅。防御と共同体の設計。</li>
+<li><strong>風水</strong>：地形、方位、水の流れを読む環境設計の知識。迷信と科学が混ざっていますが、日照・排水・防風の実用的な知恵も含みます。</li>
+</ul>
+<h5 id="sub-016">印刷と書物</h5>
+<p>中国は、紙（105年ごろ）、木版印刷（7〜8世紀）、活字（1040年ごろ、畢昇）の発明国です。木版印刷は、文字と絵を同時に印刷でき、大衆文化（年画、小説、教科書）を支えました。活字は、漢字の数が多く、木版に比べて効率が悪かったため、中国では木版が主流でした。それでも、活字のアイデアは、朝鮮、日本、ヨーロッパへと広がりました。</p>
+<h5 id="sub-017">誤解を解く</h5>
+<ul>
+<li><strong>「中国デザインは装飾過多」</strong>：明式家具や宋代青磁のように、極端な簡素さを追求する伝統もあります。</li>
+<li><strong>「中国は近代まで科学がなかった」</strong>：製陶、製紙、印刷、建築、造船、時計、火薬、羅針盤など、高度な技術と設計がありました。</li>
+<li><strong>「中国は均質」</strong>：南北、漢族と少数民族、宮廷と民間で、デザインは大きく異なります。</li>
+</ul>
+<hr>
+<h3 class="section-title-read" id="sec-034">3-3 インド ― 都市・神殿・布の文明</h3>
+<h5 id="sub-018">ハラッパー都市計画</h5>
+<p>インダス文明（紀元前2600〜1900年ごろ）のモヘンジョ・ダロやハラッパーは、<strong>格子状の街路</strong>、<strong>下水道</strong>、<strong>公共浴場</strong>、<strong>標準化されたレンガ</strong>、<strong>統一された重量</strong>を持っていました。これは、古代世界でも突出した都市計画です。</p>
+<ul>
+<li>街路は、ほぼ東西・南北に走る。</li>
+<li>家屋は、中庭を囲み、浴室と排水設備を持つ。</li>
+<li>レンガの寸法は、ほぼ統一されている（1:2:4の比率）。</li>
+<li>穀物を測る分銅も、標準化されている。</li>
+</ul>
+<p>これは、単なる「近代的な都市」の先駆けではありません。<strong>衛生、物流、行政、宗教</strong>が一体となった、独自の都市デザインです。</p>
+<h5 id="sub-019">ヴァーストゥ・シャーストラ</h5>
+<p><strong>ヴァーストゥ・シャーストラ</strong>は、古代インドの建築・空間設計の理論書です。直訳すると「建築の科学」。敷地の選び方、方位、寸法、部屋の配置、建築儀礼などを扱います。</p>
+<ul>
+<li>方位（北、東、南、西）と神々の配置。</li>
+<li>中心（ブラフマ・スターナ）の重要性。</li>
+<li>素材、比例、装飾の規則。</li>
+<li>建築前の儀礼と浄化。</li>
+</ul>
+<p>ヴァーストゥは、宗教的な宇宙観と、実用的な環境設計（日照、風、水）が混ざった体系です。現代のインドでも、住宅設計に取り入れる人がいます。ただし、すべてのインド建築がヴァーストゥに従ったわけではなく、地域ごとの独自の伝統もあります。</p>
+<h5 id="sub-020">ストゥーパ、神殿、ジャーリー</h5>
+<ul>
+<li><strong>ストゥーパ</strong>：仏舎利を納める半球形の塔。サーンチーのストゥーパ（紀元前3世紀ごろ）は、門（トラナ）の彫刻で知られます。</li>
+<li><strong>石窟寺院</strong>：アジャンタ、エローラ。岩を掘って、寺院と僧院を作る。</li>
+<li><strong>ヒンドゥー神殿</strong>：グプタ時代（4〜6世紀）に基礎ができ、中世に発展。カーンチープラム、マドゥライ、コナーラク（13世紀）の太陽神殿。</li>
+<li><strong>ジャーリー</strong>：透かし彫りの石スクリーン。光と風を通し、女性の空間を守る。ムガル建築の代表。</li>
+<li><strong>チャハール・バーグ</strong>：ペルシア起源の四分割庭園。タージ・マハル（1632〜53年）の庭園は、その典型。</li>
+</ul>
+<h5 id="sub-021">布 ― インドの最大のデザイン輸出</h5>
+<p>インドは、綿、絹、染料、織り、刺繍の文明です。</p>
+<ul>
+<li><strong>ムスリン</strong>：ベンガル地方の極細の綿布。「織物の空気」と呼ばれるほど薄い。</li>
+<li><strong>チンツ</strong>：綿布に、手描きまたは木版で花模様を描いたもの。17〜18世紀にヨーロッパで大流行し、イギリスの綿工業に影響を与えました。</li>
+<li><strong>イカット</strong>：糸を染めてから織る技法。模様がかすれる独特の風合い。</li>
+<li><strong>バンドハニ</strong>：結び染め。</li>
+<li><strong>カンタ</strong>：ベンガルの刺繍。古布を重ね、刺し子で模様を作る。修理と再利用のデザイン。</li>
+<li><strong>コロック</strong>：床に描く幾何学模様。毎朝、女性が描く、儚い（ephemeral）デザイン。</li>
+</ul>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+インドの綿織物は、産業革命の前提を作りました。イギリスはインドから綿布を輸入し、その模様を模倣し、機械織機で大量生産しました。やがてインドの手織り産業は衰退し、ガンディーは<strong>チャルカ（手紡ぎ車）</strong>を政治的な象徴にしました。デザインは、帝国の収奪と抵抗の現場でもあったのです。</p>
+</blockquote>
+<h5 id="sub-022">誤解を解く</h5>
+<ul>
+<li><strong>「インドは精神性だけの文明」</strong>：都市計画、数学、天文学、冶金、織物、建築の高度な技術があります。</li>
+<li><strong>「ヴァーストゥは万能の設計法」</strong>：地域・宗派・時代によって多様で、すべての建築に当てはまるわけではありません。</li>
+<li><strong>「インドの布は伝統的で変わらない」</strong>：交易、植民地化、産業化の中で、絶えず変化してきました。</li>
+</ul>
+<hr>
+<h3 class="section-title-read" id="sec-035">3-4 アフリカ ― 布と建築のデザイン</h3>
+<h5 id="sub-023">アディンクラ ― ことわざを着る</h5>
+<p><strong>アディンクラ</strong>は、ガーナのアカン族の象徴的な模様です。布にスタンプで押し、意味のある記号を並べます。記号は、ことわざ、教訓、歴史、信仰を表します。</p>
+<ul>
+<li><strong>サンコファ</strong>（戻って取りに行く）：鳥が後ろを向いている姿。過去から学ぶ。</li>
+<li><strong>ギャ・ニャメ</strong>（神の至高性）：神のみが万物を超えている、という意味。</li>
+<li><strong>ドゥエニメン</strong>（雄羊の角）：力と謙虚さ。</li>
+<li><strong>ンサー</strong>（編み目の模様）：品質と熟練。</li>
+</ul>
+<p>アディンクラは、単なる模様ではありません。<strong>文字に頼らずに、ことわざを布に埋め込む、情報デザイン</strong>です。葬儀、成人式、王の儀礼などで使われます。</p>
+<h5 id="sub-024">ケンテ ― 王の織物</h5>
+<p><strong>ケンテ</strong>は、ガーナのアサンテ族とエウェ族の織物です。細い帯を織り、それを縫い合わせて大きな布にします。色と模様には意味があります。</p>
+<ul>
+<li>金：富、王権。</li>
+<li>赤：血、犠牲、政治的緊張。</li>
+<li>緑：成長、再生。</li>
+<li>青：平和、愛。</li>
+<li>黒：成熟、精神性。</li>
+</ul>
+<p>ケンテは、王の儀礼、結婚式、成人式、葬儀で使われます。1990年代以降、アメリカの大学の卒業式でケンテのストールを着ける習慣が広がり、アフリカ系アメリカ人のアイデンティティ表現になりました。同時に、大量生産の模倣品や文化の商業化という問題もあります。</p>
+<h5 id="sub-025">ボゴランフィニ ― 泥で描く</h5>
+<p><strong>ボゴランフィニ</strong>は、マリのバマナ族の泥染め布です。綿布を発酵させた泥で染め、鉄分を含む泥で模様を描きます。女性が知識と技法を継承します。幾何学模様は、社会的身分、通過儀礼、性別を示します。</p>
+<h5 id="sub-026">ンダベレの家 ― 女性が描く建築</h5>
+<p>南アフリカの<strong>ンダベレ族</strong>の家は、女性が幾何学模様で描きます。白、黒、赤、黄、緑の強いコントラスト。壁面は、単なる装飾ではなく、家族の歴史、女性の技術、共同体の誇りを表します。19世紀末から20世紀にかけて、植民地化と観光の影響で、模様はより大胆に、商業的になりました。</p>
+<h5 id="sub-027">大ジンバブエ ― モルタルなしの石造建築</h5>
+<p><strong>大ジンバブエ</strong>（11〜15世紀）は、ジンバブエの石造遺跡です。モルタルを使わず、石を積み上げて壁を作ります。高さ11メートル、長さ250メートルの大囲壁。貿易、宗教、王権の中心でした。ヨーロッパの考古学者は、これを「アフリカ人の建築ではない」と主張しましたが、現在ではアフリカの建築であることが確立しています。<strong>デザインの歴史は、人種主義と戦ってきた歴史でもあります。</strong></p>
+<h5 id="sub-028">その他の例</h5>
+<ul>
+<li><strong>ドゴン族の建築</strong>（マリ）：崖に張り付く村落。穀物庫、祭壇、集会場。宇宙観と建築の対応。</li>
+<li><strong>ラリベラの岩窟教会</strong>（エチオピア、12〜13世紀）：岩を掘り下げて作った教会群。</li>
+<li><strong>クバのラフィア織物</strong>（コンゴ）：切りパイル法による幾何学模様。</li>
+<li><strong>ガーナの幻想棺</strong>：故人の職業や趣味を象徴する棺。デザインが死とユーモアを扱う例。</li>
+<li><strong>ヨルバのビーズ細工</strong>：王権と宗教の象徴。</li>
+</ul>
+<h5 id="sub-029">誤解を解く</h5>
+<ul>
+<li><strong>「アフリカは一つの文化」</strong>：54カ国、数千の言語と民族。デザインは驚くほど多様です。</li>
+<li><strong>「アフリカのデザインはプリミティブ」</strong>：幾何学、色彩、構造、意味の高度な体系があります。</li>
+<li><strong>「アフリカの工芸は作者不明」</strong>：共同体の作者性（authorship）は、個人の作者性とは別の制度です。匿名性は、未熟さではなく、別の価値観です。</li>
+</ul>
+<hr>
+<h3 class="section-title-read" id="sec-036">3-5 先住アメリカ ― 結縄・都市・暦</h3>
+<h5 id="sub-030">マヤ ― 都市と文字と暦</h5>
+<p>マヤ文明（紀元前2000年ごろ〜16世紀）は、現在のメキシコ南部、グアテマラ、ベリーズ、ホンジュラスに栄えました。ティカル、パレンケ、コパンなどの都市には、ピラミッド、宮殿、球戯場、広場、貯水池がありました。</p>
+<ul>
+<li><strong>文字</strong>：マヤ文字は、音節と表語を組み合わせた体系。石碑、陶器、絵文書（コデックス）に記されました。</li>
+<li><strong>暦</strong>：260日のツォルキン暦と365日のハアブ暦、長期暦。天文学と建築の配置。</li>
+<li><strong>陶器</strong>：彩色土器。神話、王、儀礼、文字。</li>
+<li><strong>都市計画</strong>：方位、天文、水管理、宗教的中心。</li>
+</ul>
+<p>マヤの都市は、ヨーロッパの「格子都市」とは違います。地形、水、暦、宗教に合わせた、有機的な配置です。しかし、計画的でないわけではありません。<strong>別の計画原理</strong>です。</p>
+<h5 id="sub-031">アステカ ― 湖の上の都市</h5>
+<p>テノチティトラン（1325年建設）は、テスココ湖の島に作られた都市です。<strong>チナンパ</strong>（人工の浮き島）で農地を広げ、運河、堤防、水道橋、市場、神殿を作りました。スペイン人征服者たちは、その規模と清潔さに驚きました。</p>
+<ul>
+<li><strong>テンプロ・マヨール</strong>：大神殿。二つの祠堂、蛇の彫刻、生贄の儀礼。</li>
+<li><strong>コデックス</strong>：絵文書。歴史、暦、貢納、儀礼。</li>
+<li><strong>羽毛細工</strong>：ケツァールの羽などを使った、色と光のデザイン。</li>
+<li><strong>市場</strong>：何万人も集まる交易の場。品質管理と規格。</li>
+</ul>
+<h5 id="sub-032">インカ ― 結縄と道路と段々畑</h5>
+<p>インカ帝国（15〜16世紀）は、アンデス山脈に沿って、数万キロにおよぶ道路網（<strong>カパック・ニャン</strong>）を築きました。石を精密に組み合わせた建築（クスコ、マチュ・ピチュ）、段々畑（アンデネス）、水路、倉庫、結縄（<strong>キープ</strong>）が特徴です。</p>
+<ul>
+<li><strong>キープ</strong>：紐の結び目で、数字や情報を記録する。色、位置、結び方、撚り方に意味がある。単なる記憶補助ではなく、行政の記録システムだと考えられています。完全には解読されていません。</li>
+<li><strong>石組み</strong>：モルタルなしで、地震に強い。石の形を精密に加工し、組み合わせる。</li>
+<li><strong>段々畑</strong>：急斜面を農地に変える。土壌流出を防ぎ、水を管理する。</li>
+<li><strong>ミタ</strong>：共同体の労働義務。公共事業を支える制度。</li>
+</ul>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+インカのキープは、「紐の結び目で作ったExcel」のようなものです。文字を使わずに、数量や行政の情報を記録しました。</p>
+</blockquote>
+<h5 id="sub-033">北アメリカ</h5>
+<ul>
+<li><strong>プエブロ建築</strong>：日干しレンガ、石、木材。チャコ・キャニオン（850〜1150年）の大規模集落。太陽と暦に合わせた配置。</li>
+<li><strong>ナバホの織物</strong>：羊の毛を使った織物。幾何学模様。19世紀以降、観光市場向けに変化。</li>
+<li><strong>トーテムポール</strong>：北西海岸の先住民。家系、物語、権利を刻む。</li>
+<li><strong>ナスカの地上絵</strong>：紀元前500〜紀元後500年ごろ。動物、植物、幾何学図形。水と儀礼に関係するという説。</li>
+</ul>
+<h5 id="sub-034">誤解を解く</h5>
+<ul>
+<li><strong>「先住アメリカには都市がなかった」</strong>：マヤ、アステカ、インカ、プエブロなど、大規模な都市文明がありました。</li>
+<li><strong>「文字がなければ歴史がない」</strong>：キープ、絵文書、口承、建築、織物が、歴史を記録していました。</li>
+<li><strong>「先住文化は静的」</strong>：交易、戦争、気候変動、植民地化の中で、絶えず変化しました。</li>
+</ul>
+<hr>
+<h3 class="section-title-read" id="sec-037">3-6 オセアニア ― 航海と大地のデザイン</h3>
+<h5 id="sub-035">ポリネシアの航海術</h5>
+<p>ポリネシア人は、星、太陽、月、波、風、雲、鳥の飛び方、海の色を読み、太平洋の島々を航海しました。<strong>星のコンパス</strong>、<strong>波の航海術</strong>などの知識体系を持ち、ミクロネシア（マーシャル諸島）には<strong>スティック・チャート</strong>（棒と貝で作った海図）の伝統がありました。</p>
+<ul>
+<li>星の位置と動きを記憶し、航路を決める。</li>
+<li>波の反射と干渉を読み、島の方向を推測する。</li>
+<li>鳥の飛行パターンから、陸地の近さを知る。</li>
+<li>雲の形から、山の位置を推測する。</li>
+</ul>
+<p>これは、<strong>地図を持たずに、身体と記憶と自然の信号でナビゲートする</strong>、高度な情報デザインです。現代のウェイファインディング（道案内）の研究にも通じます。</p>
+<h5 id="sub-036">マオリとアボリジナル</h5>
+<ul>
+<li><strong>マオリ</strong>：<strong>ワカイロ</strong>（木彫）、<strong>マラエ</strong>（集会場）、<strong>コーワイワイ</strong>（kōwhaiwhai、幾何学模様）、<strong>トゥクツク</strong>（tukutuku、織物パネル）。家系、神話、土地の権利を刻む。</li>
+<li><strong>アボリジナル・オーストラリア</strong>：<strong>ドット・ペインティング</strong>（1970年代以降の現代アート運動として世界的に知られる）、樹皮画、<strong>ブーメラン</strong>、魚罠、火を使って大地を管理する<strong>ファイアスティック・ファーミング</strong>。デザインは、土地との関係を維持する技術です。</li>
+<li><strong>トレス海峡諸島</strong>：精緻な彫刻、仮面、織物。海と交易の文化。</li>
+</ul>
+<h5 id="sub-037">誤解を解く</h5>
+<ul>
+<li><strong>「オセアニアは小さな島の文化」</strong>：太平洋は、地球の表面の3分の1。航海術は、宇宙規模の知識です。</li>
+<li><strong>「先住のデザインは消えた」</strong>：植民地化で大きな打撃を受けましたが、現在も継承され、現代アートやデザインに影響を与えています。</li>
+</ul>
+<hr>
+<h3 class="section-title-read" id="sec-038">3-7 この章が変えるもの</h3>
+<p>西洋の外のデザインを見ると、次のことがわかります。</p>
+<ol>
+<li><strong>デザインの定義は、一つではない。</strong> 幾何学模様は数学であり、祈りであり、装飾です。布は、衣服であり、記憶であり、身分です。都市は、行政であり、宇宙観です。</li>
+<li><strong>「装飾」は、余分なものではない。</strong> 装飾は、意味、身分、信仰、歴史を運ぶ、高度な情報技術です。</li>
+<li><strong>「工芸」は、未熟なデザインではない。</strong> 工芸は、素材、技術、共同体の知識を統合した、別の合理性です。</li>
+<li><strong>「作者」の概念は、一つではない。</strong> 個人の天才、共同体の匿名性、職人の署名。それぞれの制度があります。</li>
+<li><strong>近代の「普遍」は、しばしば地方の特殊だった。</strong> ヨーロッパのモダニズムは、世界の多様なデザインを「遅れたもの」と見なしましたが、それは一つの地方の視点でした。</li>
+</ol>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+デザインの歴史は、ヨーロッパの歴史ではない。<br>
+世界には、別の合理性、別の美、別の作者性がある。<br>
+それらを「未熟」と呼ぶのは、無知か、傲慢か、その両方である。<br>
+本当のデザイン史は、複数の近代を、複数の完成形として並べる。</p>
+</blockquote>
+<hr>
+<h2 class="part-title" id="part-2">第II部 近代の誕生</h2>
+<hr>
+<h2 class="chapter-title" id="ch-04" data-no="04">第4章 中世・ルネサンス・印刷 ― デザインが「作品」になるまで</h2><p class="ch-meta mono"><span>4,028 CHARACTERS</span><span>約 8 分</span></p><aside class="ch-plate"><span class="mono">PLATES IN THIS CHAPTER</span><a href="atlas.html#plate-06">PL.06 活版印刷</a></aside>
+<h3 class="section-title-read" id="sec-039">中世 ― 職人の世界</h3>
+<p>中世ヨーロッパ（5〜15世紀）のデザインは、<strong>ギルド</strong>（同業者組合）が支えていました。石工、大工、織工、金工、革工、染工、陶工。それぞれが、徒弟、職人、親方の階梯を持ち、品質、価格、訓練、参入を管理しました。</p>
+<p>ギルドのデザインは、<strong>注文生産</strong>が中心です。顧客の注文を受け、職人が材料を見て、作りながら形を決めます。設計図はあっても、細部は職人の判断に委ねられます。<strong>知識は、身体と徒弟制を通じて伝えられました。</strong></p>
+<ul>
+<li><strong>大聖堂</strong>：ロマネスク（10〜12世紀）、ゴシック（12〜16世紀）。尖頭アーチ、リブ・ヴォールト、フライング・バットレス、ステンドグラス。構造と光の設計。</li>
+<li><strong>写本</strong>：修道院の写字室。羊皮紙、インク、金箔、彩飾。文字と絵のレイアウト。</li>
+<li><strong>タペストリー</strong>：貴族の権力と物語。羊毛、絹、金糸。</li>
+<li><strong>金属器</strong>：聖杯、聖遺物容器、武器、鎧。鋳造、鍛造、象嵌。</li>
+<li><strong>家具</strong>：木、鉄、皮革。移動式、折りたたみ式。城の生活。</li>
+</ul>
+<p>中世のデザインは、決して「暗黒時代」ではありません。ゴシック建築の構造計算、ステンドグラスの色彩設計、写本のタイポグラフィは、高度な知識と技術の産物です。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+中世のデザインは、職人が「作りながら考える」世界でした。設計図より、手と材料の対話が中心でした。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-040">ルネサンス ― 「デザイン」が頭のなかに入る</h3>
+<p>ルネサンス（14〜16世紀）は、デザインの歴史における大きな転換点です。<strong>「disegno（構想・図画）」</strong>が、制作から独立した価値を持ち始めます。</p>
+<ul>
+<li><strong>遠近法</strong>：ブルネレスキが約1413年に実験し、アルベルティが1435年に理論化。平面に奥行きを描く技術。</li>
+<li><strong>ウィトルウィウス</strong>：古代ローマの建築家。『建築十書』が1414年に再発見され、比例、秩序、耐久性、有用性、美の理論が復活。</li>
+<li><strong>アルベルティ</strong>：『建築論』（1452年ごろ）。建築を、数学と社会の設計として論じる。</li>
+<li><strong>レオナルド・ダ・ヴィンチ</strong>：解剖、機械、都市計画、絵画。芸術と工学の融合。</li>
+<li><strong>ヴァザーリ</strong>：『芸術家列伝』（1550年）。芸術家を「天才」として扱う、近代の作者概念の原型。</li>
+</ul>
+<p>ルネサンスのデザインは、<strong>「構想」と「制作」の分離</strong>を進めました。建築家は、図面を描き、現場を監督します。画家は、遠近法と解剖学を使って、現実を再構成します。デザインは、職人の技から、知識人の構想へと重心を移します。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+ルネサンスの「disegno」は、単なる「デッサン」ではありません。心のなかのイメージ（concetto）と、それを線で表す行為（disegno）の両方を含みます。この概念が、後に「デザイン」の近代的な意味（構想、計画、意匠）の基礎になります。一方で、職人の知識は「機械的術」として、自由七科（文法、修辞、論理、算術、幾何、天文、音楽）より低く見られるようになります。デザインの地位が上がる一方で、作る人の地位が下がる、という逆説が生まれます。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-041">印刷 ― デザインが複製される</h3>
+<p>15世紀半ば、ヨハネス・グーテンベルクが、活版印刷を実用化します。金属活字、油性インク、ブドウ絞り機を組み合わせ、1455年ごろに『42行聖書』を印刷しました。</p>
+<p>印刷は、デザイン史に革命をもたらします。</p>
+<ul>
+<li><strong>複製</strong>：同じ本を、何百部も作れる。</li>
+<li><strong>標準化</strong>：活字のサイズ、行間、余白、ページ構成が、規格になる。</li>
+<li><strong>普及</strong>：知識が、修道院や宮廷から、都市の市民へ広がる。</li>
+<li><strong>公共圏</strong>：印刷物が、宗教改革、科学革命、政治革命を支える。</li>
+<li><strong>作者性</strong>：印刷された本は、著者、印刷者、出版者、販売者の分業を生む。</li>
+</ul>
+<p><strong>アルドゥス・マヌティウス</strong>（アルド）は、1494年にヴェネツィアでアルディーネ印刷所を設立します。ギリシア語・ラテン語の古典を印刷し、1501年には<strong>イタリック体</strong>を導入しました。小型の八折版（オクターヴォ）は、持ち運べる本を作り、読書のスタイルを変えました。句読点、ページ番号、索引、目次。現代の本のデザインの基礎は、この時代に作られました。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+印刷は、「同じ本をたくさん作る」発明です。でも本当に変えたのは、知識を一部の特権から、多くの人へ広げたことです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-042">パターンブック ― 様式のコピー＆ペースト</h3>
+<p>印刷は、デザインの様式も複製しました。16世紀には、<strong>パターンブック</strong>（図案集）が流行します。建築の柱頭、家具の彫刻、装飾の唐草、文字の書体。職人は、図案集から模様を選び、注文に合わせて組み合わせました。</p>
+<ul>
+<li><strong>セルリオ</strong>『建築書』（1537年〜）：建築の図面と遠近法。</li>
+<li><strong>パラディオ</strong>『建築四書』（1570年）：ヴィラの設計。後に英米のパッラディアン建築に影響。</li>
+<li><strong>ディッテルリン</strong>『建築の装飾』（1598年）：マニエリスムの装飾。</li>
+<li><strong>クレスの刺繍本</strong>、<strong>ヴィンチョーロの文字本</strong>。</li>
+</ul>
+<p>パターンブックは、デザインの<strong>「コピー＆ペースト」</strong>を可能にしました。地方の職人も、都市の流行を模倣できます。一方で、様式の均質化、地域の伝統の喪失も進みます。印刷は、デザインの民主化と標準化を、同時に進めたのです。</p>
+<h3 class="section-title-read" id="sec-043">大航海時代 ― デザインの混血</h3>
+<p>15世紀末から、ヨーロッパは海を越えて、アジア、アフリカ、アメリカと結びつきます。デザインは、交易と征服のなかで、激しく混ざり合います。</p>
+<ul>
+<li><strong>陶磁器</strong>：中国の青花が、ヨーロッパの宮廷で珍重される。デルフト陶器（オランダ）が、中国磁器を模倣する。</li>
+<li><strong>織物</strong>：インドの更紗（サラサ）が、ヨーロッパで大流行。フランスのトワル・ド・ジュイが、インド更紗を模倣する。</li>
+<li><strong>漆器</strong>：日本の蒔絵が、ヨーロッパの家具に影響。シノワズリ（中国趣味）が、18世紀の装飾を席巻。</li>
+<li><strong>珈琲・茶・砂糖</strong>：飲み物のデザイン（カップ、ポット、テーブル）が変わる。植民地のプランテーションが、砂糖と陶磁器の大量消費を支える。</li>
+<li><strong>銀</strong>：南米の銀が、ヨーロッパとアジアの交易を動かす。銀の流通が、陶磁器、絹、茶のデザインを変える。</li>
+</ul>
+<p>デザインの混血は、創造性を生む一方で、<strong>収奪と搾取</strong>の上に成り立っていました。中国磁器の美しさは、景徳鎮の職人の労働と、アジア間の交易の上にあります。インド更紗の華やかさは、インドの織工の技術と、イギリスの商業資本の上にあります。デザインの歴史を語るとき、この影を忘れてはいけません。</p>
+<h3 class="section-title-read" id="sec-044">バロックとロココ ― 権力の演出</h3>
+<p>17〜18世紀のヨーロッパは、絶対王政の時代です。デザインは、権力を演出する装置になります。</p>
+<ul>
+<li><strong>ヴェルサイユ宮殿</strong>（1682年、ルイ14世）：鏡の回廊、幾何学庭園、噴水、軸線。太陽王の権力を、空間で表現。</li>
+<li><strong>バロック</strong>：曲線、劇的な光、過剰な装飾。ベルニーニの彫刻、ボロミーニの建築。</li>
+<li><strong>ロココ</strong>：非対称、繊細な曲線、パステルカラー、中国趣味。ポンパドゥール夫人のサロン、マイセン磁器、シュヴルーズ。</li>
+<li><strong>チッペンデール</strong>『家具指針』（1754年）：家具の図案集。ロココ様式をイギリスに広める。</li>
+</ul>
+<p>バロックとロココは、しばしば「過剰」と批判されます。しかし、それらは、光、鏡、水、磁器、織物を総動員した、<strong>マルチメディアの空間デザイン</strong>でした。権力は、美しさを通じて、身体に刻まれます。</p>
+<h3 class="section-title-read" id="sec-045">啓蒙主義 ― 分類と標準化</h3>
+<p>18世紀は、分類と標準化の時代です。</p>
+<ul>
+<li><strong>百科全書</strong>（1751〜1772年、ディドロとダランベール）：知識を分類し、図版で示す。デザインの知識も、図版で伝達される。</li>
+<li><strong>植物分類</strong>（リンネ）：自然を分類する視点が、デザインのモチーフにも影響。</li>
+<li><strong>工学学校</strong>：1747年、フランスに橋梁学校（École des Ponts et Chaussées）。1794年、エコール・ポリテクニーク。技術者教育の制度化。</li>
+<li><strong>特許制度</strong>：発明を保護し、産業を促す。デザインの「作者」と「所有」が、法的に定義される。</li>
+<li><strong>博物館</strong>：大英博物館（1753年）、ルーヴル（1793年）。文化を分類し、展示する。</li>
+</ul>
+<p>啓蒙主義は、デザインに「合理性」と「普遍性」の理念をもたらしました。しかし、その普遍は、しばしばヨーロッパの特殊性でした。分類は、序列を作り、序列は、支配を正当化しました。</p>
+<h3 class="section-title-read" id="sec-046">歴史の教訓</h3>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+中世のデザインは、職人の身体知だった。<br>
+ルネサンスは、それを「構想」と「制作」に分けた。<br>
+印刷は、構想を複製し、様式を標準化した。<br>
+大航海時代は、デザインを混血させ、同時に収奪した。<br>
+デザインが「作品」になるとき、それは誰かの労働と、誰かの支配の上に立っている。</p>
+</blockquote>
+<h5 id="sub-038">第4章のまとめ表</h5>
+<div class="table-wrap" role="region" aria-label="表" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">時代</th>
+<th scope="col">転換点</th>
+<th scope="col">デザインへの影響</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5〜15世紀</td>
+<td>ギルドと大聖堂</td>
+<td>職人の身体知、注文生産</td>
+</tr>
+<tr>
+<td>14〜16世紀</td>
+<td>ルネサンスの disegno</td>
+<td>構想と制作の分離、作者の誕生</td>
+</tr>
+<tr>
+<td>1440年代</td>
+<td>活版印刷</td>
+<td>複製、標準化、公共圏</td>
+</tr>
+<tr>
+<td>1494〜1501年</td>
+<td>アルディーネ印刷所</td>
+<td>イタリック、小型本、現代の書物</td>
+</tr>
+<tr>
+<td>16世紀</td>
+<td>パターンブック</td>
+<td>様式のコピー＆ペースト</td>
+</tr>
+<tr>
+<td>16〜18世紀</td>
+<td>大航海時代</td>
+<td>デザインの混血と収奪</td>
+</tr>
+<tr>
+<td>17〜18世紀</td>
+<td>バロック・ロココ</td>
+<td>権力の演出、総合空間</td>
+</tr>
+<tr>
+<td>18世紀</td>
+<td>啓蒙主義</td>
+<td>分類、標準化、博物館、特許</td>
+</tr>
+</tbody>
+</table></div><p class="table-hint">横にスクロールできます →</p>
+<hr>
+<h2 class="chapter-title" id="ch-05" data-no="05">第5章 産業革命とデザインの誕生 ― 1851年、機械が美しさを問うた日</h2><p class="ch-meta mono"><span>7,223 CHARACTERS</span><span>約 14 分</span></p>
+<h3 class="section-title-read" id="sec-047">なぜイギリスだったのか</h3>
+<p>18世紀後半、イギリスで産業革命が始まります。石炭、鉄、蒸気機関、植民地、資本、特許、運河、そして安い労働力。これらの条件が揃った国で、物の作り方が根本から変わります。</p>
+<ul>
+<li><strong>石炭</strong>：燃料。森林不足を補い、鉄と蒸気を可能にする。</li>
+<li><strong>鉄</strong>：構造材、機械、線路。鋳鉄、錬鉄、鋼。</li>
+<li><strong>蒸気機関</strong>：工場、鉱山、鉄道、船。エネルギーを場所から解放する。</li>
+<li><strong>植民地</strong>：原料（綿、染料、砂糖、茶）と市場。</li>
+<li><strong>特許</strong>：発明の所有と投資を保証する。</li>
+<li><strong>分業</strong>：アダム・スミスが『国富論』（1776年）で、ピン工場の分業を例に、生産性の向上を論じる。</li>
+</ul>
+<p>産業革命は、デザインの歴史において、<strong>「作る人」と「設計する人」を分離</strong>しました。工場の所有者は、設計図を描く人を雇い、労働者は図面に従って部品を組み立てます。ここに、近代的な「デザイナー」の原型が生まれます。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+産業革命は、「一人の職人が最初から最後まで作る」世界から、「多くの人が分かれて作る」世界へ変えました。だから「設計図を描く人」が必要になったのです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-048">ウェッジウッド ― デザインをビジネスにした最初の男</h3>
+<p><strong>ジョサイア・ウェッジウッド</strong>（1730〜1795）は、1759年5月1日に、イギリスのスタッフォードシャーで陶器会社を創業します。彼は、単なる陶工ではありませんでした。<strong>デザインを、市場、生産、ブランド、流通のシステムに組み込んだ、最初の実業家</strong>です。</p>
+<ul>
+<li><strong>クイーンズ・ウェア</strong>：1765年、シャーロット王妃に認められ、宮廷御用達になる。名前がブランドになる。</li>
+<li><strong>エトルリア</strong>（1769年）：新工場。蒸気機関を使い、分業を導入。</li>
+<li><strong>カタログとショールーム</strong>：ロンドンにショールームを開き、カタログで注文を受ける。地方の顧客も、都市の流行を買える。</li>
+<li><strong>品質管理</strong>：粘土、釉薬、焼成、絵付けを分業化し、品質を標準化。</li>
+<li><strong>マーケティング</strong>：王室、貴族、知識人を巻き込み、流行を作る。</li>
+<li><strong>社会運動</strong>：1787年、反奴隷制のメダル「Am I not a man and a brother?」を制作。デザインが政治メッセージを運ぶ。</li>
+</ul>
+<p>ウェッジウッドは、<strong>「デザインは、生産と市場のシステムのなかで機能する」</strong>ことを示しました。美しい器を作るだけでは、ビジネスにならない。誰に、どのように届け、どう使ってもらうかまで設計する。これが、近代デザインの始まりです。</p>
+<h3 class="section-title-read" id="sec-049">ボルトンとワット ― エネルギーを売る</h3>
+<p><strong>マシュー・ボルトン</strong>と<strong>ジェームズ・ワット</strong>は、1775年に共同事業を立ち上げ、蒸気機関の製造・販売を始めます。バーミンガムのソーホー工場は、当時最大級の工業施設でした。</p>
+<p>ボルトンは、1776年に訪問したジェームズ・ボズウェルに、こう言ったと伝えられます。</p>
+<blockquote class="callout">
+<p>「私はここで、全世界が欲しがるものを売っている。――力（パワー）だ。」</p>
+</blockquote>
+<p>蒸気機関は、単なる機械ではありません。<strong>時間と場所から、エネルギーを解放する装置</strong>です。工場は、川の近くから、石炭の近くへ。都市は、鉄道の周りに広がる。デザインの制約条件が、根本から変わります。</p>
+<h3 class="section-title-read" id="sec-050">1851年 ― 世界が初めて「デザイン」を見た日</h3>
+<p>1851年5月1日、ロンドンのハイド・パークで、<strong>万国産業博覧会</strong>（Great Exhibition）が開幕します。会場は、<strong>クリスタル・パレス</strong>。鉄とガラスで作られた、巨大な温室のような建築です。</p>
+<ul>
+<li>設計：ジョセフ・パクストン。もともとは温室の設計者。</li>
+<li>規模：長さ約563メートル、幅約124メートル、高さ約33メートル。</li>
+<li>材料：鉄、ガラス。プレハブ式で、短期間で建設。</li>
+<li>展示：約10万点。機械、原料、陶磁器、織物、家具、武器、芸術品。</li>
+<li>来場者：約600万人。当時のロンドンの人口を超える。</li>
+</ul>
+<p>クリスタル・パレスは、<strong>「工業生産の美」</strong>を初めて世界に見せました。しかし、同時に<strong>「工業製品の醜さ」</strong>も露呈しました。機械で作られた過剰な装飾、様式の寄せ集め、品質のばらつき。批評家たちは、これを「デザインの危機」と呼びます。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+クリスタル・パレスは、鉄とガラスの建築として画期的ですが、突然の天才的発明ではありません。18世紀の温室、市場、駅舎、橋などの鉄骨ガラス構造の蓄積の上にあります。また、プレハブ式の建設は、帝国のサプライチェーン（鉄、ガラス、木材、労働力）に依存していました。博覧会は、産業の勝利であると同時に、帝国の展示でもあったのです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-051">デザイン改革 ― 「悪趣味」を直す</h3>
+<p>博覧会の後、イギリスでは「デザイン改革」が起こります。</p>
+<ul>
+<li><strong>ヘンリー・コール</strong>：官僚、デザイナー、教育者。『デザイン・アンド・マニュファクチャーズ・ジャーナル』を創刊。南ケンジントン博物館（後のV&amp;A）の設立に関わる。</li>
+<li><strong>オーウェン・ジョーンズ</strong>：建築家、デザイナー。『装飾の文法』（1856年）を出版。世界の装飾を分類し、37の原則を提示。</li>
+<li><strong>サマリー・アート・マニュファクチャーズ</strong>（1847年）：コールが、芸術家と製造業者を結びつけるために設立。</li>
+<li><strong>サウス・ケンジントン・ミュージアム</strong>（1852年/1857年）：デザイン教育のための博物館。後のV&amp;A。</li>
+</ul>
+<p>デザイン改革の目標は、<strong>「機械製品の品質を、芸術の水準まで上げる」</strong>ことでした。しかし、そこには、職人の手仕事を理想化するロマン主義と、工業化を進めたい実業家の思惑が混ざっていました。</p>
+<h3 class="section-title-read" id="sec-052">ラスキンとモリス ― 機械に抗う美</h3>
+<p><strong>ジョン・ラスキン</strong>（1819〜1900）は、イギリスの美術評論家です。『建築の七灯』（1849年）、『ヴェネツィアの石』（1851〜53年）で、ゴシック建築の職人的美を称賛し、産業社会の分業と機械化を批判しました。</p>
+<p><strong>ウィリアム・モリス</strong>（1834〜1896）は、ラスキンの思想を受け継ぎ、<strong>アーツ・アンド・クラフツ運動</strong>の中心人物になります。</p>
+<ul>
+<li><strong>モリス・マーシャル・フォークナー商会</strong>（1861年）：家具、壁紙、織物、ステンドグラス、タイル。</li>
+<li><strong>モリス・アンド・カンパニー</strong>（1875年）：組織を再編。</li>
+<li><strong>ケルムスコット・プレス</strong>（1891年）：手作りの美しい本。活字、紙、インク、装丁にこだわる。</li>
+<li><strong>社会主義</strong>：1883年に社会民主連盟、1884年に社会主義同盟に参加。『ユートピアだより』（1890年）。</li>
+</ul>
+<p>モリスの有名な言葉に、次のものがあります。</p>
+<blockquote class="callout">
+<p>「あなたの家に、役に立つと知っているか、美しいと信じているもの以外、何も置いてはいけない。」</p>
+</blockquote>
+<p>モリスは、<strong>「芸術と労働の統一」</strong>を求めました。機械による分業が、労働者を「手」にし、製品を「安っぽい大量品」にすると批判しました。しかし、モリスの製品は、手仕事のため非常に高価で、富裕層しか買えませんでした。<strong>「みんなのための芸術」を目指しながら、富裕層のための奢侈品を作る</strong>という矛盾。これが、アーツ・アンド・クラフツ運動の根本的な緊張です。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+モリスは「機械は人を不幸にする」と怒りました。でも、彼の手作り品は高すぎて、普通の人は買えませんでした。正しいことを言うことと、それを実現することは、別の難しさなのです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-053">クリストファー・ドレッサー ― 最初の工業デザイナー</h3>
+<p><strong>クリストファー・ドレッサー</strong>（1834〜1904）は、しばしば「最初の独立した工業デザイナー」と呼ばれます。彼は、陶器、金属器、ガラス、家具、壁紙、織物など、幅広い製品をデザインし、複数のメーカーに図案を提供しました。</p>
+<ul>
+<li><strong>日本美術の影響</strong>：1876〜77年の訪日で、日本の工芸に衝撃を受ける。『日本：その建築・美術・美術工芸』（1882年）。</li>
+<li><strong>機能主義</strong>：『装飾デザインの芸術』（1862年）。「芸術は用を支配する（Art Presides over Utility）」。</li>
+<li><strong>幾何学的形態</strong>：植物モチーフを抽象化し、機械生産に適した形にする。</li>
+<li><strong>多様な素材</strong>：金属、陶器、ガラス、木。素材の特性を活かす。</li>
+</ul>
+<p>ドレッサーは、モリスとは逆の道を選びました。<strong>機械生産を否定せず、機械で美しいものを作る</strong>。この姿勢が、後のバウハウスや近代デザインに通じます。</p>
+<h3 class="section-title-read" id="sec-054">アール・ヌーヴォー ― 曲線の革命</h3>
+<p>19世紀末、ヨーロッパで<strong>アール・ヌーヴォー</strong>が起こります。特徴は、<strong>有機的な曲線</strong>、<strong>植物モチーフ</strong>、<strong>総合芸術</strong>（建築、家具、装飾、グラフィックの統一）です。</p>
+<ul>
+<li><strong>ヴィクトール・オルタ</strong>：ベルギーの建築家。タッセル邸（1893年）。鉄とガラスの構造を、曲線の装飾として見せる。</li>
+<li><strong>ヘクトール・ギマール</strong>：パリのメトロ入口（1900年）。鋳鉄の曲線。</li>
+<li><strong>アルフォンス・ミュシャ</strong>：ポスター。女性と植物の曲線。</li>
+<li><strong>ルイ・コンフォート・ティファニー</strong>：ステンドグラスとランプ。</li>
+<li><strong>エミール・ガレ</strong>：ガラス器。植物と昆虫のモチーフ。</li>
+<li><strong>アントニ・ガウディ</strong>：バルセロナのサグラダ・ファミリア、グエル公園。構造と装飾の融合。</li>
+</ul>
+<p>アール・ヌーヴォーは、<strong>「近代の技術」と「自然の曲線」</strong>を結びつけようとしました。鉄、ガラス、印刷、大量生産の技術を使いながら、有機的な美を追求します。しかし、その装飾性は、やがて「過剰」と批判され、モダニズムの直線的な美学に取って代わられます。</p>
+<h3 class="section-title-read" id="sec-055">ウィーン分離派とウィーン工房</h3>
+<p>1897年、ウィーンで<strong>分離派</strong>が結成されます。クリムト、ホフマン、モーザー、オルブリヒ。伝統的なアカデミーから分離し、新しい芸術を模索します。</p>
+<ul>
+<li><strong>ウィーン分離派会館</strong>（1898年）：ヨーゼフ・マリア・オルブリヒ設計。黄金の月桂樹のドーム。</li>
+<li><strong>ウィーン工房</strong>（1903〜1932年）：ホフマンとモーザーが設立。家具、食器、織物、宝石、グラフィック。総合芸術の工房。</li>
+<li><strong>アドルフ・ロース</strong>：分離派を批判し、装飾を否定する。「装飾と犯罪」（1908年講演、1910年再講演、1913年出版）。</li>
+</ul>
+<p>ロースの主張は過激です。</p>
+<blockquote class="callout">
+<p>「文化の進化は、日用品から装飾を除去することと同義である。」</p>
+</blockquote>
+<p>しかし、ロースは無装飾の機能主義者ではありませんでした。彼は、大理石、木、真鍮などの<strong>素材の質</strong>を重視し、内部空間には豊かな素材を使いました。<strong>「装飾を否定した」のではなく、「安っぽい模様を否定した」</strong>のです。この微妙な違いは、しばしば誤解されます。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+『装飾と犯罪』は、単なる美学の論文ではありません。ロースは、装飾を「未開の文化」や「犯罪者・退化した者」の特徴と結びつける、人種主義的・進化論的なレトリックを使っています。この点は、今日の視点から強く批判されるべきです。一方で、装飾を「労働と材料の浪費」と見る経済的批判は、環境デザインの先駆けとも言えます。テキストを読むときは、美的主張と人種的偏見を分けて評価する必要があります。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-056">ドイツ工作連盟 ― 標準化か、個性か</h3>
+<p>1907年、ドイツで<strong>ドイツ工作連盟</strong>（Deutscher Werkbund）が結成されます。目的は、<strong>芸術家、建築家、デザイナー、産業界を結びつけ、ドイツ製品の国際競争力を高める</strong>ことでした。</p>
+<ul>
+<li>創設者：ヘルマン・ムテジウス、ペーター・ベーレンス、リヒャルト・リーマーシュミット、ブルーノ・パウル、ヨーゼフ・ホフマンら。</li>
+<li>背景：イギリスのアーツ・アンド・クラフツ運動と、アメリカの大量生産の脅威。</li>
+<li>主張：<strong>「質の高い大量生産」</strong>。手工芸の質を、機械生産に移植する。</li>
+</ul>
+<p>1914年、ケルンで開かれた工作連盟の大会で、<strong>ムテジウスとアンリ・ヴァン・デ・ヴェルデ</strong>が激しく対立します。</p>
+<ul>
+<li><strong>ムテジウス</strong>：標準化（Typisierung）を進め、規格に基づく大量生産を主張。ドイツの国際競争力を高める。</li>
+<li><strong>ヴァン・デ・ヴェルデ</strong>：芸術家の個性と創造性を守る。標準化は、芸術を殺す。</li>
+</ul>
+<p>この対立は、<strong>「デザインにおける個人とシステムの緊張」</strong>の原型です。今日のデザインシステム、ブランドガイドライン、プラットフォームの標準化にも、同じ緊張があります。</p>
+<h3 class="section-title-read" id="sec-057">ベーレンスとAEG ― 最初のコーポレート・アイデンティティ</h3>
+<p><strong>ペーター・ベーレンス</strong>（1868〜1940）は、1907年にドイツの電機会社<strong>AEG</strong>の芸術顧問に就任します。彼は、製品、ポスター、カタログ、店舗、建築、ロゴを統一的にデザインしました。これは、<strong>世界最初の本格的なコーポレート・アイデンティティ（CI）</strong>の一つとされます。</p>
+<ul>
+<li><strong>AEGタービン工場</strong>（1909年）：鉄とガラスの巨大な工場。機能美と記念碑性。</li>
+<li><strong>電球、扇風機、湯沸かし器、時計</strong>：規格化された製品群。</li>
+<li><strong>ロゴ、書体、広告</strong>：一貫した視覚言語。</li>
+<li><strong>建築家の教育</strong>：グロピウス、マイヤー、ミースがベーレンスの事務所で働く。</li>
+</ul>
+<p>ベーレンスは、<strong>「デザイナーは、企業の全体像を設計する」</strong>というモデルを作りました。製品単体ではなく、企業の顔、音、空間、体験を設計する。このモデルは、後のブラウン、ソニー、アップルに受け継がれます。</p>
+<h3 class="section-title-read" id="sec-058">テイラーとフォード ― 人間を機械に合わせる</h3>
+<p><strong>フレデリック・ウィンスロー・テイラー</strong>（1856〜1915）は、<strong>科学的管理法</strong>（テイラリズム）を提唱します。作業を細かく分解し、時間を測定し、最も効率的な方法を標準化します。『科学的管理法の原理』（1911年）。</p>
+<p><strong>ヘンリー・フォード</strong>（1863〜1947）は、1908年に<strong>モデルT</strong>を発売し、1913年に<strong>moving assembly line</strong>（流れ作業）を導入します。1914年には、労働者の日給を5ドルに引き上げ、8時間労働を導入します。1927年までに、1500万台のモデルTが生産されました。</p>
+<ul>
+<li><strong>大量生産</strong>：部品の標準化、互換性、流れ作業。</li>
+<li><strong>大量消費</strong>：価格を下げ、労働者も消費者にする。</li>
+<li><strong>規格</strong>：モデルTの部品は、交換可能。</li>
+<li><strong>労働</strong>：単純化、反復、監視。労働者は、機械の一部になる。</li>
+</ul>
+<p>テイラーとフォードは、<strong>「デザインの対象を、製品からシステムへ」</strong>広げました。工場、物流、労働、消費。これら全体を設計しないと、大量生産は成立しません。同時に、<strong>人間を機械に合わせる</strong>という問題を生みました。チャップリンの『モダン・タイムス』（1936年）は、その風刺です。</p>
+<h3 class="section-title-read" id="sec-059">アメリカの工業デザイン ― 流線型と欲望</h3>
+<p>1920〜30年代、アメリカで<strong>工業デザイン</strong>が職業として確立します。背景には、大恐慌、過剰生産、消費刺激があります。</p>
+<ul>
+<li><strong>レイモンド・ロウイ</strong>（1893〜1986）：冷蔵庫（コールドスポット、1934年）、鉄道機関車、スタデベイカー、シェル、エクソン、BPのロゴ。<strong>MAYA</strong>（Most Advanced Yet Acceptable）の原則。</li>
+<li><strong>ノーマン・ベル・ゲデス</strong>（1893〜1958）：『ホライズン』（1932年）、<strong>フューチュラマ</strong>（1939年ニューヨーク万博、GM館）。未来の高速道路と都市の模型。</li>
+<li><strong>ヘンリー・ドレイフス</strong>（1904〜1972）：『人のためのデザイン』（1955年）。人間工学、人体計測。ジョンとジョセフィンの人体チャート。</li>
+<li><strong>ウォルター・ドーウィン・ティーグ</strong>（1883〜1960）：コダック、フォード、Texaco。企業の視覚統一。</li>
+</ul>
+<p><strong>流線型</strong>（streamline）は、1930年代のアメリカを象徴する様式です。鉄道、車、冷蔵庫、トースター、鉛筆削りまで、涙形の曲線をまといます。空気抵抗の合理性がある場合もありますが、多くは<strong>「速度」「未来」「進歩」の象徴</strong>でした。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+1930年代のアメリカでは、冷蔵庫まで流線型になりました。速くないのに、速く見える。デザインは、機能だけでなく、夢を売るようになったのです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-060">計画的陳腐化 ― 壊れるように作る</h3>
+<p>大量生産と大量消費は、<strong>計画的陳腐化</strong>（planned obsolescence）という問題を生みます。製品を、一定期間で壊れるように、または古く見えるように設計する。</p>
+<ul>
+<li>1932年、バーナード・ロンドンが『計画的陳腐化による不況の終焉』を発表。</li>
+<li>1954年、デザイナーのブルックス・スティーブンスは、計画的陳腐化を「買い手に、必要以上に早く、少し新しく、少し良いものを欲しがらせること」と定義。</li>
+<li>自動車のモデルチェンジ、ファッションの季節サイクル、家電の修理困難。</li>
+</ul>
+<p>計画的陳腐化は、経済成長を支える一方で、資源の浪費、廃棄物、修理の困難を生みます。この問題は、20世紀後半の環境運動、そして21世紀のサーキュラー・エコノミー、修理する権利へと続きます。</p>
+<h3 class="section-title-read" id="sec-061">歴史の教訓</h3>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+産業革命は、デザインを「職業」にした。<br>
+しかし、同時に「誰が設計し、誰が作るか」という分断を生んだ。<br>
+1851年の博覧会は、機械の力を誇示し、機械の醜さを露呈した。<br>
+モリスは美を守ろうとし、ドレッサーは機械と和解しようとした。<br>
+ベーレンスは企業を設計し、テイラーとフォードは人間を機械に合わせた。<br>
+デザインの近代は、美と効率と欲望が絡み合う、矛盾の時代だった。</p>
+</blockquote>
+<hr>
+<h2 class="chapter-title" id="ch-06" data-no="06">第6章 モダニズムの爆発 ― バウハウスとその兄弟たち</h2><p class="ch-meta mono"><span>5,619 CHARACTERS</span><span>約 11 分</span></p><aside class="ch-plate"><span class="mono">PLATES IN THIS CHAPTER</span><a href="atlas.html#plate-07">PL.07 バウハウス</a></aside>
+<h3 class="section-title-read" id="sec-062">20世紀初頭の爆発</h3>
+<p>20世紀初頭、ヨーロッパの芸術とデザインは、爆発的に実験します。</p>
+<ul>
+<li><strong>未来派</strong>（1909年、マリネッティ）：速度、機械、戦争を称賛。伝統を破壊せよ。</li>
+<li><strong>キュビズム</strong>（1907年ごろ、ピカソ、ブラック）：多視点、平面の再構成。</li>
+<li><strong>シュプレマティズム</strong>（1915年、マレーヴィチ）：黒い正方形。絶対的な幾何学。</li>
+<li><strong>構成主義</strong>（1919〜20年、タトリン、ロトチェンコ）：芸術を社会の建設に結びつける。</li>
+<li><strong>デ・ステイル</strong>（1917年、モンドリアン、ファン・ドゥースブルフ）：新造形主義。直線、矩形、原色。</li>
+<li><strong>バウハウス</strong>（1919年、グロピウス）：芸術と工芸と工業の統合。</li>
+<li><strong>ヴフテマス</strong>（1920年、モスクワ）：ロシアの「バウハウス」。</li>
+</ul>
+<p>これらの運動は、互いに影響し合い、競争し、時に政治的対立を抱えながら、<strong>「新しい人間のための新しい形」</strong>を模索しました。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+20世紀初頭のデザイナーたちは、「古い様式を捨てて、機械の時代にふさわしい新しい形を作ろう」と燃えていました。その実験が、モダニズムです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-063">バウハウス ― 学校が世界を変えた</h3>
+<h5 id="sub-039">創設</h5>
+<p>1919年4月1日、<strong>ヴァルター・グロピウス</strong>（1883〜1969）が、ドイツのヴァイマールに<strong>国立バウハウス</strong>を設立します。前身は、ザクセン大公美術学校と工芸学校。グロピウスは、美術と工芸を統合し、<strong>「建築を中心とした総合芸術」</strong>を目指しました。</p>
+<p>バウハウスの宣言（1919年）の趣旨は、次のようなものです（逐語訳ではありません）。</p>
+<blockquote class="callout">
+<p>建築家、彫刻家、画家。われらは手仕事に戻り、職人と芸術家のあいだの傲慢な壁を取り払って、新しい職人のギルドを作ろう。</p>
+</blockquote>
+<p>グロピウスは、<strong>「建築（Bau）」</strong>と<strong>「家（Haus）」</strong>を組み合わせて、<strong>Bauhaus</strong>という言葉を作りました。職人のギルド「バウヒュッテ」へのオマージュでもあります。</p>
+<h5 id="sub-040">三つの都市、三人の校長</h5>
+<ul>
+<li><strong>ヴァイマール</strong>（1919〜1925）：表現主義の影響。ヨハネス・イッテンの予備課程。陶芸、織物、金属、家具、壁画、印刷の工房。</li>
+<li><strong>デッサウ</strong>（1925〜1932）：グロピウス設計の校舎（1926年）。「芸術と技術 ― 新しい統一」。工業生産との結びつき。ハンネス・マイヤー（1928〜1930）は、機能主義と社会主義を徹底。ミース・ファン・デル・ローエ（1930〜1933）は、建築と美学に集中。</li>
+<li><strong>ベルリン</strong>（1932〜1933）：廃工場を借りて存続。1933年、ナチスの圧力とゲシュタポの介入のなかで閉校。</li>
+</ul>
+<h5 id="sub-041">教育 ― 予備課程と工房</h5>
+<p>バウハウスの教育は、<strong>予備課程（Vorkurs）</strong>と<strong>工房（Werkstatt）</strong>から成ります。</p>
+<ul>
+<li><strong>予備課程</strong>：素材、色彩、形態、構成の基礎。ヨハネス・イッテン、ラースロー・モホイ＝ナジ、ヨーゼフ・アルバースが担当。</li>
+<li><strong>工房</strong>：陶芸、織物、金属、家具、壁画、印刷、舞台。マイスター（親方）と芸術家がペアで教える。</li>
+<li><strong>建築</strong>：1927年から。グロピウス、マイヤー、ミース。</li>
+<li><strong>理論</strong>：パウル・クレー、カンディンスキー、モホイ＝ナジによる色彩・形態論。</li>
+</ul>
+<p>バウハウスは、<strong>「デザインの基礎教育」</strong>というモデルを作りました。今日の美術大学・デザイン学校の基礎課程は、少なからずバウハウスの影響を受けています。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+バウハウスの予備課程は、単なる技術訓練ではありません。イッテンは、素材の触覚と色彩の心理を重視し、東洋哲学や神秘主義の影響を受けました。モホイ＝ナジは、光、運動、空間、写真、映画を統合し、「新視覚（Neues Sehen）」を提唱しました。アルバースは、紙の折り曲げと素材の経済性を通じて、形の生成を教えました。バウハウスの教育は、統一されているようで、実は教師ごとに大きく異なります。</p>
+</blockquote>
+<h5 id="sub-042">1923年の展覧会とハウス・アム・ホルン</h5>
+<p>1923年、バウハウスは「芸術と技術 ― 新しい統一」をテーマに、大規模な展覧会を開きます。目玉は、<strong>ハウス・アム・ホルン</strong>（Haus am Horn）。バウハウスの教師と学生が設計した、実験住宅です。</p>
+<ul>
+<li>鉄筋コンクリート、平屋根、機能的な間取り。</li>
+<li>キッチン、浴室、寝室、子供部屋、書斎。</li>
+<li>家具、照明、織物、食器まで、トータルにデザイン。</li>
+<li>「新しい生活様式」の提案。</li>
+</ul>
+<p>この住宅は、<strong>「デザインは、建築、家具、日用品、生活の全体を設計する」</strong>というバウハウスの理想を体現しました。同時に、当時のドイツの住宅事情や家族像を反映しています。</p>
+<h5 id="sub-043">デッサウ校舎 ― ガラスの工場</h5>
+<p>1926年、デッサウに新しい校舎が完成します。グロピウス設計。</p>
+<ul>
+<li><strong>カーテンウォール</strong>：ガラスと鉄の連続した壁。透明性。</li>
+<li><strong>工房棟</strong>：大きなガラス窓。仕事を見せる。</li>
+<li><strong>管理棟</strong>：橋で工房棟とつながる。</li>
+<li><strong>学生寮</strong>：小さな個室、バルコニー。</li>
+<li><strong>文字</strong>：屋上に「BAUHAUS」の文字。ヘルベルト・バイヤーによるサンセリフ書体。</li>
+</ul>
+<p>デッサウ校舎は、<strong>「建築は、社会の透明性と合理性の象徴である」</strong>という主張です。しかし、ガラスは夏に暑く、冬に寒いという、実用上の問題もありました。理想と現実のギャップは、ここにもあります。</p>
+<h5 id="sub-044">女性たち</h5>
+<p>バウハウスは、女性に開かれた学校でしたが、完全に平等ではありませんでした。</p>
+<ul>
+<li><strong>グンタ・シュテルツル</strong>：織物工房のマイスター。バウハウス初の女性マイスター。</li>
+<li><strong>アニ・アルバース</strong>：織物。後にアメリカで教育者。</li>
+<li><strong>マリアンネ・ブラント</strong>：金属工房。照明、ティーポット、灰皿。</li>
+<li><strong>ルチア・モホイ</strong>：写真。バウハウスの記録を残す。</li>
+<li><strong>オッティ・ベルガー</strong>、<strong>イルゼ・ゴット</strong>、<strong>ベニータ・コッホ</strong>。</li>
+</ul>
+<p>女性は、しばしば織物工房に誘導されました。金属や建築のような「男性的」とされた分野には、少数しか入れませんでした。バウハウスの平等は、当時の社会の限界を超えられませんでした。</p>
+<h5 id="sub-045">閉校と亡命</h5>
+<p>1933年、ナチスが政権を握ると、バウハウスは「退廃芸術」「ボリシェヴィズムの温床」として攻撃されます。ゲシュタポが学校を閉鎖し、最終的に校側が解散を決定します。</p>
+<p>教師と学生は、世界各地に亡命します。</p>
+<ul>
+<li>グロピウス、ブロイヤー：アメリカ。ハーバード大学。</li>
+<li>ミース：シカゴ。IIT。</li>
+<li>モホイ＝ナジ：シカゴ。ニュー・バウハウス（後のIITデザイン学部）。</li>
+<li>バイヤー：アスペン。</li>
+<li>アルバース：ブラック・マウンテン・カレッジ、イェール。</li>
+<li>テル・アビブ：ユダヤ人建築家たちが、<strong>ホワイト・シティ</strong>（約4000棟のバウハウス/インターナショナル・スタイル建築）を建設。2003年、UNESCO世界遺産。</li>
+</ul>
+<p>バウハウスは、学校としては14年しか続きませんでしたが、<strong>世界のデザイン教育、建築、タイポグラフィ、家具、グラフィック</strong>に計り知れない影響を与えました。</p>
+<h3 class="section-title-read" id="sec-064">ヴフテマス ― ロシアのもう一つのバウハウス</h3>
+<p><strong>ヴフテマス</strong>（Vkhutemas）は、1920年にモスクワで設立された、ロシアの国立高等芸術技術工房です。1920年から1930年まで存続しました。</p>
+<ul>
+<li><strong>目的</strong>：芸術と産業の統合。労働者階級のためのデザイナー養成。</li>
+<li><strong>教育</strong>：基礎課程（色彩、形態、構成）、工房（金属、木工、織物、印刷、建築）。</li>
+<li><strong>構成主義</strong>：ロトチェンコ、ポポヴァ、ステパノワ、リシツキー。</li>
+<li><strong>建築</strong>：メルニコフ、ヴェスニン兄弟。</li>
+<li><strong>閉鎖</strong>：1930年、スターリン体制のなかで解散。社会主義リアリズムへ。</li>
+</ul>
+<p>ヴフテマスは、バウハウスと並ぶ、<strong>「芸術と技術の統合」</strong>の実験でした。しかし、西側では長く忘れられ、バウハウスの影に隠れていました。近年、その重要性が見直されています。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+バウハウスには、ロシアに「兄弟」がいました。それがヴフテマスです。同じ理想を抱え、同じように政治に翻弄されました。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-065">デ・ステイル ― 直線と原色の宇宙</h3>
+<p><strong>デ・ステイル</strong>（De Stijl）は、1917年にオランダで結成された芸術運動です。中心人物は、<strong>ピート・モンドリアン</strong>、<strong>テオ・ファン・ドゥースブルフ</strong>、<strong>ヘリット・リートフェルト</strong>。</p>
+<ul>
+<li><strong>新造形主義</strong>（Nieuwe Beelding）：直線、矩形、原色（赤、青、黄）、無彩色（白、黒、灰）。</li>
+<li><strong>普遍性</strong>：個人的な感情を排し、宇宙の秩序を表現する。</li>
+<li><strong>建築</strong>：リートフェルトの<strong>シュレーダー邸</strong>（1924年）。可動間仕切り、色面、直線。</li>
+<li><strong>雑誌『デ・ステイル』</strong>：1917〜1932年。</li>
+<li><strong>解散</strong>：1931年、ファン・ドゥースブルフの死後。</li>
+</ul>
+<p>デ・ステイルは、<strong>「美術とデザインと建築を、一つの抽象言語で統一する」</strong>試みでした。その影響は、バウハウス、グラフィックデザイン、家具、建築に及びます。</p>
+<h3 class="section-title-read" id="sec-066">アール・デコ ― 機械の豪華さ</h3>
+<p><strong>アール・デコ</strong>は、1920〜30年代の装飾様式です。名前は、1925年のパリ万国装飾美術博覧会（Exposition Internationale des Arts Décoratifs et Industriels Modernes）に由来します（「アール・デコ」という言葉は、1960年代に定着）。</p>
+<ul>
+<li><strong>特徴</strong>：幾何学的な装飾、金属、鏡、漆、貴石、強い色彩、エキゾチシズム。</li>
+<li><strong>建築</strong>：クライスラー・ビル（1930年、ニューヨーク）、エンパイア・ステート・ビル（1931年）。</li>
+<li><strong>プロダクト</strong>：豪華な家具、時計、香水瓶、汽車、客船。</li>
+<li><strong>グラフィック</strong>：ポスター、雑誌、ファッション。</li>
+<li><strong>背景</strong>：ジャズ・エイジ、消費文化、植民地のモチーフ、機械時代の楽観。</li>
+</ul>
+<p>アール・デコは、<strong>「機械時代の豪華さ」</strong>を表現しました。金属の輝き、幾何学のリズム、異国情緒。しかし、その「エキゾチック」なモチーフは、しばしば植民地の文化を消費するものでした。</p>
+<h3 class="section-title-read" id="sec-067">インターナショナル・スタイル ― 世界を白くする</h3>
+<p>1932年、ニューヨーク近代美術館（MoMA）で、<strong>「インターナショナル・スタイル」</strong>展が開かれます。キュレーターは、ヘンリー＝ラッセル・ヒッチコックとフィリップ・ジョンソン。</p>
+<ul>
+<li><strong>特徴</strong>：ボリューム（量塊ではなく空間）、規則性（軸対称ではなく均等）、装飾の排除、ガラス・鋼・コンクリート。</li>
+<li><strong>建築家</strong>：ル・コルビュジエ、ミース、グロピウス、J.J.P. オウト、リチャード・ノイトラ。</li>
+<li><strong>CIAM</strong>（1928年）：近代建築国際会議。都市計画の国際的な議論。</li>
+<li><strong>ル・コルビュジエ</strong>：『輝く都市』（1935年）、ユニテ・ダビタシオン（1952年、マルセイユ）。「住宅は住むための機械である」。</li>
+<li><strong>ミース</strong>：「Less is more」。</li>
+</ul>
+<p>インターナショナル・スタイルは、<strong>「近代建築の普遍言語」</strong>を主張しました。白い壁、平らな屋根、大きな窓、開放的な間取り。しかし、気候、文化、生活様式の違いを無視し、しばしば失敗しました。熱帯の国でガラスの箱を作れば、灼熱の温室になります。寒い国で薄い壁を作れば、凍えます。<strong>普遍の名の下の地方無視</strong>は、モダニズムの大きな問題でした。</p>
+<h3 class="section-title-read" id="sec-068">モダニズムの光と影</h3>
+<p>モダニズムは、何を達成し、何を失ったのでしょうか。</p>
+<p><strong>達成したこと</strong>：
+- 大量生産と標準化による、安価で良質な製品。
+- デザインの教育と職業の確立。
+- 機能主義、人間工学、色彩理論の進展。
+- 社会住宅、公共建築、都市計画の理念。
+- グラフィックデザイン、タイポグラフィ、写真の革新。
+- 女性、移民、亡命者が世界に広げたネットワーク。</p>
+<p><strong>失ったこと</strong>：
+- 地域の伝統、職人の知識、装飾の意味。
+- 気候、風土、生活様式への適応。
+- 人間の感情、遊び、過剰、不完全さ。
+- 植民地の文化を「プリミティブ」と見なすまなざし。
+- 社会住宅の画一化、コミュニティの破壊。
+- 標準化による排除（障がい者、高齢者、少数民族）。</p>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+モダニズムは、一つの様式ではない。<br>
+機械、社会、普遍、新しい人間についての、さまざまな思想の集合である。<br>
+それは、解放と抑圧を同時に生んだ。<br>
+安価な住宅、良いデザイン、教育の民主化。<br>
+一方で、地域の知恵、装飾の意味、身体の多様性を削った。<br>
+モダニズムを評価するときは、両方を同時に見なければならない。</p>
+</blockquote>
+<h5 id="sub-046">第6章のまとめ表</h5>
+<div class="table-wrap" role="region" aria-label="表" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">運動・機関</th>
+<th scope="col">時期</th>
+<th scope="col">中心人物</th>
+<th scope="col">特徴</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>未来派</td>
+<td>1909〜</td>
+<td>マリネッティ</td>
+<td>速度、機械、戦争</td>
+</tr>
+<tr>
+<td>構成主義</td>
+<td>1919〜</td>
+<td>タトリン、ロトチェンコ</td>
+<td>芸術を社会建設へ</td>
+</tr>
+<tr>
+<td>デ・ステイル</td>
+<td>1917〜1931</td>
+<td>モンドリアン、リートフェルト</td>
+<td>直線、原色、普遍性</td>
+</tr>
+<tr>
+<td>バウハウス</td>
+<td>1919〜1933</td>
+<td>グロピウス、マイヤー、ミース</td>
+<td>芸術と技術の統合</td>
+</tr>
+<tr>
+<td>ヴフテマス</td>
+<td>1920〜1930</td>
+<td>ロトチェンコ、ポポヴァ</td>
+<td>ロシアの芸術と産業</td>
+</tr>
+<tr>
+<td>アール・デコ</td>
+<td>1920〜30年代</td>
+<td>多数</td>
+<td>機械時代の豪華さ</td>
+</tr>
+<tr>
+<td>インターナショナル・スタイル</td>
+<td>1932〜</td>
+<td>ル・コルビュジエ、ミース</td>
+<td>白い箱、普遍言語</td>
+</tr>
+</tbody>
+</table></div><p class="table-hint">横にスクロールできます →</p>
+<hr>
+<h2 class="part-title" id="part-3">第III部 デザインの世紀</h2>
+<hr>
+<h2 class="chapter-title" id="ch-07" data-no="07">第7章 戦後のデザイン ― 冷戦・消費・革命</h2><p class="ch-meta mono"><span>13,130 CHARACTERS</span><span>約 26 分</span></p>
+<h3 class="section-title-read" id="sec-069">焼け跡からの出発</h3>
+<p>1945年、第二次世界大戦が終わります。ヨーロッパと日本は焼け野原になり、アメリカは圧倒的な工業力を持つ唯一の大国になります。戦後のデザインは、<strong>復興、消費、冷戦、脱植民地化</strong>という四つの力のなかで展開します。</p>
+<ul>
+<li><strong>復興</strong>：住宅、家具、家電、交通、公共施設の需要。</li>
+<li><strong>消費</strong>：ベビーブーム、郊外化、テレビ、広告、クレジット。</li>
+<li><strong>冷戦</strong>：アメリカとソ連の体制競争。デザインは「自由と豊かさ」の宣伝になる。</li>
+<li><strong>脱植民地化</strong>：アジア・アフリカの独立。先進国のデザインが「開発」の名で輸出される。</li>
+</ul>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+戦後のデザインは、「壊れた世界を作り直す」ことから始まりました。そして、作ったものを「誰に売るか」が、次の大きな問題になりました。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-070">アメリカ ― 良い生活のデザイン</h3>
+<h5 id="sub-047">イームズ ― 快適さの工学</h5>
+<p><strong>チャールズ・イームズ</strong>（1907〜1978）と<strong>レイ・イームズ</strong>（1912〜1988）は、戦後アメリカを代表するデザイナーです。</p>
+<ul>
+<li><strong>合板の成形</strong>：戦時中の軍用副木（splint）の技術を、家具に転用。LCW（1946年）、DCM。</li>
+<li><strong>グラスファイバー</strong>：プラスチックの一体成形。DAX、DAR（1948年）。</li>
+<li><strong>ラウンジチェア</strong>（1956年）：3枚の合板、革、アルミ。快適さと高級感。</li>
+<li><strong>アルミニウム・グループ</strong>（1958年）：オフィス家具。</li>
+<li><strong>『パワーズ・オブ・テン』</strong>（1977年）：10の24乗から10の-16乗まで、宇宙のスケールを映像で見せる。</li>
+</ul>
+<p>イームズのデザインは、<strong>「素材の可能性を徹底的に探求し、人間の体に合わせる」</strong>という姿勢に貫かれています。チャールズの言葉に、次のものがあります。</p>
+<blockquote class="callout">
+<p>「細部は細部ではない。細部がデザインそのものだ。」</p>
+</blockquote>
+<p>イームズは、デザインを「問題解決」と「遊び」の両方として捉えていました。椅子、玩具、映画、展示、教育。境界を越える自由さが、彼らの魅力です。</p>
+<h5 id="sub-048">ドレイフス ― 人間を測る</h5>
+<p><strong>ヘンリー・ドレイフス</strong>（1904〜1972）は、『人のためのデザイン』（1955年）で、人間工学と人体計測をデザインの中心に置きました。</p>
+<ul>
+<li><strong>ジョンとジョセフィン</strong>：平均的な男性・女性の人体チャート。製品の寸法を決める基準。</li>
+<li><strong>ベル・テレフォン</strong>：電話機のデザイン。受話器の形、ダイヤルの位置、色。</li>
+<li><strong>ハネウェル・サーモスタット</strong>：丸い温度調節器。使いやすさと美しさ。</li>
+<li><strong>鉄道、航空機、農機具</strong>：幅広い産業デザイン。</li>
+</ul>
+<p>ドレイフスは、<strong>「デザインは、人間の身体と心理を測ることから始まる」</strong>ことを示しました。ただし、平均人体モデルは、平均から外れる人（子ども、高齢者、障がい者、女性）を排除する危険もあります。この問題は、後のインクルーシブ・デザインにつながります。</p>
+<h5 id="sub-049">コーポレート・アイデンティティ ― 企業の顔</h5>
+<p>1950〜60年代、アメリカの企業は、<strong>コーポレート・アイデンティティ（CI）</strong>を重視します。</p>
+<ul>
+<li><strong>IBM</strong>：ポール・ランドのロゴ（1956年）、エリオット・ノイズのデザイン・プログラム。建築、製品、グラフィックの統一。</li>
+<li><strong>CBS</strong>：ウィリアム・ゴールデンの「目」のロゴ（1951年）、ルー・ドーフスマンの広告。</li>
+<li><strong>ウェスティングハウス</strong>：ランドのロゴ。</li>
+<li><strong>コンテナ・コーポレーション・オブ・アメリカ</strong>：ランドのポスター。</li>
+<li><strong>GM</strong>：ハーレー・アールのスタイリング。モトラマ（1949年）、テールフィン。</li>
+</ul>
+<p>CIは、<strong>「企業を一つの人格として見せる」</strong>装置です。ロゴ、色、書体、建築、製品、広告。すべてが同じ言語で語ることで、信頼と記憶を作ります。同時に、CIは企業の権力を自然に見せる、イデオロギー的な装置でもあります。</p>
+<h3 class="section-title-read" id="sec-071">ソ連・東欧 ― もう一つの戦後デザイン</h3>
+<p>冷戦のもう一方の側でも、デザインは国家の計画と密接に結びついていました。</p>
+<ul>
+<li><strong>ソ連</strong>：1962年、全連邦技術美学研究所（VNIITE）設立。家電、家具、輸送、都市環境の設計を研究。スプートニク1号（1957年）、ガガーリン（1961年）の宇宙競争は、技術とデザインのプロパガンダになった。国家規格（GOST）が品質を規定。</li>
+<li><strong>東ドイツ</strong>：バウハウスの遺産を継ぎ、Formgestaltung（形の創造）を国家が組織。化学工業、家電、家具。</li>
+<li><strong>チェコスロバキア</strong>：スコダ、ガラス、アニメーション。1958年ブリュッセル万博の「ブラッセル・スタイル」。</li>
+<li><strong>ポーランド</strong>：ポスター・スクール（ヘンリク・トマシェフスキ、ロマン・チェシヴィッチ）。検閲のなかで、比喩とユーモアを使ったグラフィック。</li>
+<li><strong>ユーゴスラビア</strong>：独自の市場社会主義。工業デザイン、家具、建築。</li>
+</ul>
+<p>計画経済のデザインは、<strong>大量生産の能力と、消費者の選択肢の少なさ</strong>という矛盾を抱えていました。品質、修理、素材の制約。1989年以降、東欧は市場経済に移行し、西側ブランドと地元デザインの混交が進みます。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+冷戦のデザインは、アメリカ対ソ連の二択ではありません。ソ連・東欧にも、国家の計画のなかで、独自のデザイン文化がありました。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-072">ドイツ ― ウルムとブラウン</h3>
+<h5 id="sub-050">ウルム造形大学</h5>
+<p>1953年、<strong>ウルム造形大学</strong>（HfG Ulm）が設立されます。創設者は、<strong>マックス・ビル</strong>、<strong>インゲ・アイヒャー＝ショル</strong>、<strong>オトル・アイヒャー</strong>。バウハウスの伝統を継ぎながら、より科学技術と社会に開かれたデザイン教育を目指しました。</p>
+<ul>
+<li><strong>マックス・ビル</strong>（1953〜56）：バウハウス的な基礎教育。数学、幾何学、色彩。</li>
+<li><strong>トマス・マルドナド</strong>（1956〜66）：科学技術、記号論、システム論、人間工学を導入。</li>
+<li><strong>オトル・アイヒャー</strong>：グラフィック、ピクトグラム。1972年ミュンヘン五輪の視覚システム。</li>
+<li><strong>ブラウンとの協力</strong>：学生と教員が、ブラウンの製品開発に関わる。</li>
+<li><strong>閉校</strong>：1968年。財政難、政治的对立、学生運動。</li>
+</ul>
+<p>ウルムは、<strong>「デザインを芸術から科学へ」</strong>移行させる試みでした。記号論、人間工学、システム分析、社会学。デザインは、直感や美意識だけでなく、方法と検証を持つべきだという思想です。この思想は、後のデザイン方法論、デザイン思考、UXデザインに影響を与えます。</p>
+<h5 id="sub-051">ブラウンとディーター・ラムズ</h5>
+<p><strong>ブラウン</strong>は、1921年にドイツで創業した電機メーカーです。1955年、<strong>ディーター・ラムズ</strong>（1932〜）が入社し、1961年にデザイン部門の責任者になります。</p>
+<ul>
+<li><strong>SK4</strong>（1956年）：ラジオとレコードプレーヤーの一体型。通称「白雪姫の棺」。ガラスと金属の透明な蓋。</li>
+<li><strong>T3</strong>（1958年）：ポケットラジオ。小ささと操作性。</li>
+<li><strong>ET66</strong>（1987年）：計算機。丸いボタン、明確な色分け。</li>
+<li><strong>606</strong>（1960年）：Vitsoeの棚システム。モジュール式、長寿命。</li>
+<li><strong>10の原則</strong>：1970年代末に提唱。</li>
+</ul>
+<p>ラムズの10原則は、次の通りです（Vitsoeの公式英語版を要約）。</p>
+<ol>
+<li>良いデザインは革新的である。</li>
+<li>良いデザインは製品を有用にする。</li>
+<li>良いデザインは美的である。</li>
+<li>良いデザインは製品を理解可能にする。</li>
+<li>良いデザインは控えめである。</li>
+<li>良いデザインは正直である。</li>
+<li>良いデザインは長持ちする。</li>
+<li>良いデザインは最後の細部まで徹底している。</li>
+<li>良いデザインは環境に優しい。</li>
+<li>良いデザインは、できるだけ少ないデザインである。</li>
+</ol>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+ラムズは「良いデザインは、できるだけ少ないデザイン」と言いました。これは「何もデザインしない」という意味ではありません。余分なものを削り、本質だけを残すという意味です。</p>
+</blockquote>
+<p>ラムズの思想は、<strong>機能主義、簡素、誠実、長寿命、環境</strong>を柱としています。特に「控えめ」「正直」「長持ち」は、現代のサステナブルデザインにも通じます。一方で、ラムズの美学は、ドイツの機能主義とブラウンの企業文化に強く規定されており、普遍的な「良いデザイン」ではありません。白と灰色の箱が、すべての文化に合うわけではないのです。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+ラムズの10原則は、しばしば「永遠の真理」のように引用されますが、歴史的には1970年代末の消費社会への危機感から生まれました。ラムズ自身、「形、色、音の耐え難い混乱」に悩み、自分自身もその混乱に加担していると感じていました。10原則は、普遍的な美学というより、<strong>「デザイナーの倫理」</strong>の宣言です。また、第9原則「環境に優しい」は、当時としては先駆的ですが、ブラウンの実際の製品がどこまで環境負荷を減らしたかは、別の検証が必要です。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-073">イタリア ― デザインを文化にする</h3>
+<h5 id="sub-052">オリベッティ ― 工場と文化</h5>
+<p><strong>オリベッティ</strong>は、1908年にイタリアのイヴレアで創業した、タイプライターと計算機の会社です。<strong>アドリアーノ・オリベッティ</strong>（1901〜1960）は、1938年に経営を引き継ぎ、デザインと社会改革を結びつけました。</p>
+<ul>
+<li><strong>レテラ22</strong>（1950年）：マルチェロ・ニッツォーリ設計。軽く、美しいタイプライター。</li>
+<li><strong>プログラマ101</strong>（1965年）：世界初の商用デスクトップ電卓の一つ。ピエール・ジョルジョ・ペロット設計。</li>
+<li><strong>ヴァレンタイン</strong>（1969年）：エットーレ・ソットサス設計。赤い携帯用タイプライター。デザインのアイコン。</li>
+<li><strong>企業文化</strong>：工場の周りに住宅、学校、図書館、医療施設。デザインは、製品だけでなく、労働と生活の質を含む。</li>
+</ul>
+<p>オリベッティは、<strong>「デザインは企業文化である」</strong>ことを示しました。製品の美しさは、労働者の尊厳、地域の文化、経営の哲学と切り離せません。</p>
+<h5 id="sub-053">イタリアン・デザインの黄金時代</h5>
+<p>1950〜60年代、イタリアは<strong>「デザインの国」</strong>としての地位を確立します。</p>
+<ul>
+<li><strong>ヴェスパ</strong>（1946年）：コッラディーノ・ダスカーニオ設計。スクーター。戦後の移動の民主化。</li>
+<li><strong>ランブレッタ</strong>（1947年）：イノチェンティ。</li>
+<li><strong>トリエンナーレ</strong>：ミラノのデザイン展。1950〜60年代に国際的な影響。</li>
+<li><strong>カスティリオーニ兄弟</strong>：アルコ・ランプ（1962年）、スヌーピー・ランプ（1967年）。遊びと技術。</li>
+<li><strong>マルコ・ザヌーソ</strong>：レディ・チェア（1951年）。家具と工業生産。</li>
+<li><strong>リチャード・サッパー</strong>：ティツィオ・ランプ（1972年）。可動式の作業灯。</li>
+<li><strong>ジョー・コロンボ</strong>：ウニヴェルサレ・チェア（1965年）。プラスチックの一体成形。</li>
+<li><strong>エンツォ・マーリ</strong>：『Autoprogettazione』（1974年）。誰でも作れる家具の設計図。教育と批判的デザイン。</li>
+</ul>
+<p>イタリアのデザインは、<strong>「美しさは機能の一部である」</strong>という信念に支えられています。自動車、家具、照明、キッチン、ファッション。デザインは、日常の文化そのものです。</p>
+<h5 id="sub-054">ラディカル・デザインと反デザイン</h5>
+<p>1960年代末、イタリアで<strong>ラディカル・デザイン</strong>が起こります。</p>
+<ul>
+<li><strong>スーパースタジオ</strong>（1966年）：『連続するモニュメント』（1969年）。地球を覆う巨大なガラスの壁。ユートピアとディストピア。</li>
+<li><strong>アルキズーム</strong>（1966年）：『ノーストップ・シティ』（1970年）。無限に続く都市。消費社会の批判。</li>
+<li><strong>UFO</strong>、<strong>グルッポ・999</strong>、<strong>ストゥルメンティ</strong>。</li>
+<li><strong>メンフィス</strong>（1980〜87年）：エットーレ・ソットサス。色、模様、プラスチックラミネート。機能主義への反逆。</li>
+</ul>
+<p>ラディカル・デザインは、<strong>「デザインは問題を解くだけでなく、問題を提起する」</strong>ことを示しました。売れる製品を作るのではなく、都市、消費、政治、環境についての問いを、オブジェクトや図面で提示します。この姿勢は、後の批判的デザイン、スペキュラティブ・デザイン、デザイン・フィクションに受け継がれます。</p>
+<h3 class="section-title-read" id="sec-074">スカンジナビア ― 民主的デザイン</h3>
+<p>1950年代、デンマーク、スウェーデン、フィンランド、ノルウェーのデザインが、世界で注目されます。</p>
+<ul>
+<li><strong>フィン・ユール</strong>（1912〜1989）：有機的な曲線、木の温もり。</li>
+<li><strong>ハンス・ウェグナー</strong>（1914〜2007）：ウィッシュボーン・チェア（1949年）、ラウンド・チェア（1949年）。職人の技と量産のバランス。</li>
+<li><strong>アルネ・ヤコブセン</strong>（1902〜1971）：アント・チェア（1952年）、セブン・チェア（1955年）、エッグ・チェア（1958年）、スワン・チェア（1958年）。</li>
+<li><strong>アルヴァ・アールト</strong>（1898〜1976）：パイミオ・チェア（1933年）、サヴォイ・ベース（1936年）。曲げ木。</li>
+<li><strong>IKEA</strong>（1943年）：flat-pack（1956年）、民主的価格、北欧デザインの世界化。</li>
+</ul>
+<p>「スカンジナビアン・デザイン」は、<strong>「民主的で、人道的で、自然素材で、美しい」</strong>というイメージで売られました。1954〜57年のアメリカ巡回展「Design in Scandinavia」が、そのイメージを決定づけます。</p>
+<p>しかし、このイメージには<strong>神話</strong>もあります。北欧のデザインは、福祉国家、高い税、強い労働組合、職人教育、森林資源という、特定の社会条件の上に成り立っています。他の国がその表面だけを真似ても、同じ結果にはなりません。また、北欧のデザインも、植民地主義、資源輸出、社会保障の排除と無関係ではありません。</p>
+<h3 class="section-title-read" id="sec-075">日本 ― 戦後の奇跡（詳細は第10章）</h3>
+<p>日本の戦後デザインは、<strong>「技術と美の統合」</strong>を独自に発展させました。</p>
+<ul>
+<li><strong>ソニー</strong>：1955年、TR-55トランジスタラジオ。1958年、ソニーに改名。1979年、ウォークマン。</li>
+<li><strong>ホンダ</strong>：スーパーカブ（1958年）。世界で最も売れた乗り物。</li>
+<li><strong>トヨタ</strong>：カローラ（1966年）、生産方式（TPS）。</li>
+<li><strong>1964年東京オリンピック</strong>：亀倉雄策のエンブレム、勝見勝らのピクトグラム。日本のグラフィックデザインが世界に知られる。</li>
+<li><strong>1970年大阪万博</strong>：丹下健三のマスタープラン、岡本太郎の太陽の塔。デザインと国家のショーケース。</li>
+<li><strong>無印良品</strong>（1980年）：無印・良品。素材と機能の最小限。</li>
+</ul>
+<p>日本については、第10章で詳しく扱います。</p>
+<h3 class="section-title-read" id="sec-076">20世紀の非西洋デザイン ― 複数の近代</h3>
+<p>戦後のデザイン史は、欧米と日本だけの物語ではありません。アジア、アフリカ、ラテンアメリカ、中東でも、独自の近代化とデザインの実験が進みました。</p>
+<h5 id="sub-055">インド ― 手工芸と工業のあいだ</h5>
+<p>1947年の独立後、インドは「手工芸を守ること」と「工業化すること」のあいだで揺れました。<strong>国立デザイン学院（NID）</strong>は1961年、アーメダバードに設立されます。背景には、ジャワハルラール・ネルー首相の支援と、チャールズ＆レイ・イームズの提言（1958年）がありました。NIDは、農村の道具、陶器、織物、家具、グラフィック、工業製品を横断する教育を目指しました。</p>
+<ul>
+<li><strong>手工芸</strong>：カディ（手紡ぎ・手織りの布）、陶器、竹細工、真鍮。ガンディーのチャルカは、政治とデザインの象徴。</li>
+<li><strong>工業</strong>：自動車、家電、IT。1991年の経済自由化以降、ベンガルールのIT産業、タタ、マヒンドラ。</li>
+<li><strong>デザイン教育</strong>：NID、IIT（インディアン・インスティテュート・オブ・テクノロジー）のデザイン学科。</li>
+<li><strong>課題</strong>：農村と都市、手工芸と大量生産、グローバル市場と地域文化。</li>
+</ul>
+<h5 id="sub-056">ブラジル ― 熱帯のモダニズム</h5>
+<p>ブラジルは、20世紀半ばに、独自のモダニズムを発展させます。<strong>ブラジリア</strong>（1956〜60年、ルシオ・コスタの都市計画、オスカー・ニーマイヤーの建築）は、近代都市計画の実験です。家具では、ジョアキン・テンレイロ、セルジオ・ロドリゲスが、ブラジル材と職人技を活かしました。</p>
+<ul>
+<li><strong>ブラジリア</strong>：幾何学、軸線、公共建築。自動車中心の都市計画は、後に批判されます。</li>
+<li><strong>家具</strong>：ジャカランダ、ローズウッド、革。曲線と軽さ。</li>
+<li><strong>現代</strong>：カンパナ兄弟（廃材、ぬいぐるみ、混沌）、ハヴァイアナス（ゴムサンダル）。</li>
+<li><strong>課題</strong>：格差、都市のスプロール、アマゾンの森林破壊。</li>
+</ul>
+<h5 id="sub-057">メキシコ ― 革命と展示</h5>
+<p>メキシコは、1910年の革命後、壁画運動、考古学、デザインを結びつけます。<strong>ペドロ・ラミレス・バスケス</strong>は、国立人類学博物館（1964年）、アステカスタジアム（1968年）を設計しました。<strong>クララ・ポルセット</strong>は、バウハウスの影響を受けながら、メキシコの素材と職人技で家具をデザインしました。</p>
+<ul>
+<li><strong>国立人類学博物館</strong>：先住文化の展示と建築の統合。</li>
+<li><strong>オリンピック1968</strong>：グラフィック・アイデンティティの革新。</li>
+<li><strong>課題</strong>：先住文化の表象、観光、都市化。</li>
+</ul>
+<h5 id="sub-058">中国 ― 世界の工場から、デザインの国へ</h5>
+<p>1949年の新中国成立後、中国はソ連の工業モデルを導入します。1978年の改革開放以降、深圳などの経済特区が作られ、OEM（相手先ブランドによる生産）で世界の工場になります。2010年代以降、<strong>小米（シャオミ）</strong>、華為（ファーウェイ）、アリババ、テンセントなどが、独自のデザインとブランドを展開します。</p>
+<ul>
+<li><strong>製造</strong>：家電、スマホ、EV、太陽光パネル、電池。</li>
+<li><strong>デザイン教育</strong>：中央美術学院、清華大学美術学院、同済大学。</li>
+<li><strong>イベント</strong>：2008年北京オリンピック、2010年上海万博。</li>
+<li><strong>課題</strong>：模倣から創造への移行、労働条件、環境、地政学。</li>
+</ul>
+<h5 id="sub-059">韓国 ― 国家戦略としてのデザイン</h5>
+<p>韓国は、戦後、政府主導でデザイン振興を進めます。<strong>三星（サムスン）</strong>、LG、現代（ヒュンダイ）は、品質とデザインで世界市場に進出しました。1988年のソウルオリンピックは、韓国デザインのショーケースになります。</p>
+<ul>
+<li><strong>電子機器</strong>：スマホ、テレビ、家電。</li>
+<li><strong>自動車</strong>：ヒュンダイ、起亜。</li>
+<li><strong>文化</strong>：K-POP、ドラマ、ゲーム、コスメ。</li>
+<li><strong>課題</strong>：財閥依存、労働、北朝鮮との緊張。</li>
+</ul>
+<h5 id="sub-060">中東 ― 石油後のデザイン</h5>
+<p>湾岸諸国は、石油収入を使って、建築と都市の巨大プロジェクトを進めます。</p>
+<ul>
+<li><strong>ドバイ</strong>：ブルジュ・ハリファ（2010年）、人工島、巨大ショッピングモール。</li>
+<li><strong>アブダビ</strong>：ルーヴル・アブダビ（2017年、ジャン・ヌーヴェル）。</li>
+<li><strong>カタール</strong>：イスラーム美術博物館（2008年、I.M.ペイ）、ワールドカップ2022。</li>
+<li><strong>マスダール・シティ</strong>：持続可能な都市の実験（2008年〜）。</li>
+<li><strong>課題</strong>：移民労働、水、冷房、気候、文化の観光化。</li>
+</ul>
+<h5 id="sub-061">アフリカ ― モバイルとデザイン</h5>
+<p>アフリカは、20世紀後半、植民地支配からの独立、紛争、債務、構造調整を経て、21世紀に成長します。</p>
+<ul>
+<li><strong>M-Pesa</strong>（2007年、ケニア）：携帯電話による送金。銀行口座を持たない人々に金融サービスを提供。</li>
+<li><strong>デヴィッド・アジャイ</strong>：建築。国立アフリカ系アメリカ人歴史文化博物館（2016年、ワシントンDC）。</li>
+<li><strong>ファッション</strong>：ラゴスのファッションウィーク、アンカラ、ケンテ。</li>
+<li><strong>デザイン教育</strong>：ケープタウン、ナイロビ、ラゴス。</li>
+<li><strong>課題</strong>：電力、水、教育、雇用、紛争、気候。</li>
+</ul>
+<h5 id="sub-062">東南アジア ― 手工芸と都市化</h5>
+<p>東南アジアは、多様な民族、宗教、言語、素材を持つ地域です。植民地支配、独立、経済成長、観光、都市化のなかで、独自のデザインが生まれました。</p>
+<ul>
+<li><strong>インドネシア</strong>：バティック（ろうけつ染め、UNESCO無形文化遺産2009年）、ラタン、竹、ジャワの建築。首都ジャカルタの都市問題。</li>
+<li><strong>タイ</strong>：シルク、セラミック、仏教建築、バンコクのデザイン・シーン。</li>
+<li><strong>ベトナム</strong>：漆、竹、ラッカー、バイク文化、ホイアンの町並み。</li>
+<li><strong>シンガポール</strong>：HDB（公共住宅）、都市計画、ガーデンズ・バイ・ザ・ベイ（2012年）。国家主導の都市デザイン。</li>
+<li><strong>フィリピン</strong>：織物、籐、マニラの都市文化。</li>
+</ul>
+<p>東南アジアのデザインは、<strong>手工芸の伝統と、急速な都市化・観光・グローバル生産</strong>のあいだで、独特の緊張を抱えています。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+戦後のデザインは、欧米と日本だけのものではありません。インド、ブラジル、中国、韓国、中東、アフリカ、東南アジアでも、それぞれの歴史と素材に合わせたデザインが生まれました。</p>
+<p><strong>一歩深く（専門家向け）</strong><br>
+「非西洋」という言葉自体が、西洋を基準にした分類です。本書では便宜的に使いますが、実際には、複数の近代があり、それぞれが西洋の技術を選択的に取り入れ、地域の文化と混ぜています。これを「複数の近代（multiple modernities）」と呼びます。デザイン史の課題は、西洋の影響を無視することではなく、それぞれの地域の主体性と創造性を、正確に記述することです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-077">グラフィックデザインの世紀 ― 文字とイメージの戦争</h3>
+<p>20世紀のグラフィックデザインは、ポスター、雑誌、広告、企業の顔、公共の情報を担う、巨大な産業になりました。</p>
+<ul>
+<li><strong>ポスター</strong>：カッサンドル（『ノルマンディー号』1935年）、ロトチェンコ（本の広告、1924年）、ハートフィールド（反ナチスのフォトモンタージュ）、モホイ＝ナジ（バウハウスの印刷）。</li>
+<li><strong>スイス・スタイル</strong>：1950年代。ミュラー＝ブロックマン、ホフマン、ルーダー。グリッド、サンセリフ、非対称、客観性。ヘルベチカ（1957年）はその象徴。</li>
+<li><strong>アメリカ</strong>：ポール・ランド（IBM、ABC）、ソール・バス（映画タイトル、『めまい』1958年）、ミルトン・グレイザー（「I ❤ NY」1977年）、プッシュ・ピン・スタジオ。</li>
+<li><strong>カウンターカルチャー</strong>：サイケデリック・ポスター（ウェス・ウィルソン）、エミグレ（1980年代）、デヴィッド・カーソン（『Ray Gun』1992〜95年）、グランジ、デコンストラクション。読みやすさへの挑戦。</li>
+<li><strong>情報デザイン</strong>：アイソタイプ（ノイラート、1925〜34年）、ピクトグラム（東京1964、ミュンヘン1972）、タフテ（1983年）、ウェイファインディング。</li>
+<li><strong>世界</strong>：キューバのポスター（1960年代）、ポーランドのポスター（1950〜80年代）、日本のグラフィック（亀倉雄策、田中一光、横尾忠則、福田繁雄）、イランのグラフィック。</li>
+<li><strong>デジタル</strong>：モーション・グラフィックス、可変フォント、デザインシステム。</li>
+</ul>
+<p>グラフィックデザインは、<strong>情報を見えるようにし、主張を説得力あるものにする</strong>技術です。地図、標識、選挙ポスター、パッケージ、UI。それは中立ではなく、何を見せ、何を隠すかという選択です。</p>
+<h3 class="section-title-read" id="sec-078">ファッション ― 身体のデザイン</h3>
+<p>ファッションは、最も身近なデザインです。衣服は、身体を包み、守り、社会との関係を調整します。</p>
+<ul>
+<li><strong>オートクチュール</strong>：チャールズ・フレデリック・ワース（1858年、パリ）。デザイナーが作者になり、季節ごとのコレクションとファッションショーを作る。</li>
+<li><strong>ココ・シャネル</strong>：1910〜20年代。ジャージー、リトル・ブラック・ドレス、シャネルNo.5（1921年）。女性の身体を自由にする。</li>
+<li><strong>クリスチャン・ディオール</strong>：1947年「ニュールック」。くびれとボリューム。戦後の女性らしさの再定義。</li>
+<li><strong>イヴ・サンローラン</strong>：1958年、トラペーズ。1966年、女性用タキシード（ル・スモーキング）。ジェンダーの境界を揺らす。</li>
+<li><strong>クール・レジュ</strong>、<strong>ピエール・カルダン</strong>：1960年代、スペース・エイジ。未来主義。</li>
+<li><strong>日本</strong>：1970年、ケンゾー・タカダ。1971年、イッセイミヤケ。1981年、山本耀司、コム・デ・ギャルソン。黒、布の塊、非対称。</li>
+<li><strong>ベルギー</strong>：アントワープ・シックス（1986年）、マルタン・マルジェラ（1989年）。デコンストラクション、古着、匿名性。</li>
+<li><strong>イギリス</strong>：マリー・クワント（ミニスカート、1960年代）、ヴィヴィアン・ウェストウッド（パンク、1970年代）、アレキサンダー・マックイーン（1990年代）。</li>
+<li><strong>イタリア</strong>：ジョルジオ・アルマーニ（1975年、ソフト・テーラリング）、プラダ（1913年、ミウッチャ・プラダが1970〜80年代に変革）、ヴェルサーチ。</li>
+<li><strong>アメリカ</strong>：リーバイス501（1873年）、スポーツウェア、ラルフ・ローレン、ドナ・カラン。</li>
+<li><strong>ファストファッション</strong>：ZARA（1975年）、H&amp;M（1947年）、ユニクロ（1984年）、SHEIN（2008年）。安さと速さの一方で、労働、環境、大量廃棄の問題。</li>
+</ul>
+<p>ファッションは、<strong>身体と社会の関係を設計する</strong>仕事です。ジェンダー、階級、年齢、人種、宗教。何を着られるか、何を着ることを許されるか。サイズの包摂、修理、リセール、デジタルファッションも、これからの重要なテーマです。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+服は、ただの布ではありません。「私はこういう人間です」と社会に伝える、最も身近なデザインです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-079">ポップと反デザイン ― 消費社会の鏡</h3>
+<p>1950〜60年代、消費社会が成熟すると、デザインは<strong>ポップ・アート</strong>と結びつきます。</p>
+<ul>
+<li><strong>アンディ・ウォーホル</strong>：キャンベル・スープ缶、ブリロ・ボックス。大量生産と広告の記号。</li>
+<li><strong>リチャード・ハミルトン</strong>：『一体何が、今日の家庭をこれほど違い、魅力的にしているのか？』（1956年）。消費社会のコラージュ。</li>
+<li><strong>ピエロ・フォルナセッティ</strong>：装飾的な家具、パターン。</li>
+<li><strong>ヴェルナー・パントン</strong>：ファンタジー・ランドスケープ、プラスチックの椅子。</li>
+</ul>
+<p>ポップは、<strong>「消費社会を批判するのか、それとも肯定するのか」</strong>という問いを立てます。ウォーホルは、商業と芸術の境界を溶かしました。デザインもまた、商業と批判のあいだで揺れます。</p>
+<h3 class="section-title-read" id="sec-080">ポストモダン ― 「Less is a bore」</h3>
+<p>1970年代、モダニズムへの反動として<strong>ポストモダン</strong>が起こります。</p>
+<ul>
+<li><strong>ロバート・ヴェンチューリ</strong>：『建築における複雑性と矛盾』（1966年）。「Less is a bore（少ないことは退屈だ）」。</li>
+<li><strong>ヴェンチューリ、スコット・ブラウン、アイゼナワー</strong>：『ラスベガスから学ぶ』（1972年）。商業建築、看板、駐車場、高速道路。日常の景観を建築の教材にする。</li>
+<li><strong>チャールズ・ジェンクス</strong>：『ポストモダン建築の言語』（1977年）。</li>
+<li><strong>マイケル・グレイブス</strong>：ポートランド・ビル（1982年）。</li>
+<li><strong>ジェームズ・スターリング</strong>：シュトゥットガルト新州立美術館（1984年）。</li>
+<li><strong>メンフィス</strong>（1980〜87年）：色、模様、引用、アイロニー。</li>
+</ul>
+<p>ポストモダンは、<strong>「モダニズムの普遍性、機能主義、禁欲主義を疑う」</strong>運動です。歴史、文脈、装飾、遊び、意味を復権します。同時に、商業主義、表層性、冷笑主義に陥る危険もあります。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+ポストモダンは、建築・デザイン・哲学・文学で、異なる意味を持ちます。建築では、ジェンクスの「ダブル・コーディング」（専門家と大衆の両方に読める）が重要です。哲学では、リオタールの「大きな物語の終焉」が有名ですが、デザインとの関係は間接的です。ポストモダン・デザインを「装飾の復権」とだけ理解すると、その政治的・認識論的な挑戦を見失います。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-081">都市と建築 ― 生活の容器</h3>
+<p>都市は、人類が作った最大のデザインです。20世紀の都市計画は、近代建築の理念と、その失敗の歴史でもあります。</p>
+<ul>
+<li><strong>CIAM</strong>（1928年）：近代建築国際会議。都市を、住居・仕事・娯楽・交通の四機能に分ける。</li>
+<li><strong>アテネ憲章</strong>（1933年）：機能主義的城市計画。ゾーニング、高層住宅、自動車優先。</li>
+<li><strong>ル・コルビュジエ</strong>：『輝く都市』（1935年）。公園のなかの高層棟。太陽、空間、緑。</li>
+<li><strong>批判</strong>：<strong>ジェイン・ジェイコブズ</strong>『アメリカ大都市の死と生』（1961年）。混合用途、歩道、街路の目、コミュニティ。<strong>ケビン・リンチ</strong>『都市のイメージ』（1960年）。道、端、地区、結節点、ランドマーク。<strong>ヤン・ゲール</strong>『屋外空間の生活』（1971年）。人が集まる場所の条件。</li>
+<li><strong>ニューアーバニズム</strong>（1993年）：Walkable、mixed-use、transit-oriented。Seaside（フロリダ）など。</li>
+<li><strong>現代</strong>：タクティカル・アーバニズム（2012年）、15分都市（カルロス・モレノ、2016年）、スーパーブロック（バルセロナ、2016年）、サイクリング、公共空間、気候適応。</li>
+</ul>
+<p>都市は、<strong>人の行動、健康、不平等</strong>を形づくります。道路の幅、公園の位置、公共交通の料金、日陰の量。これらは、政治的な選択です。良い都市は、美しいだけでなく、歩きやすく、安全で、多様な人が出会える都市です。</p>
+<h3 class="section-title-read" id="sec-082">パパネック ― デザインの良心</h3>
+<p><strong>ヴィクター・パパネック</strong>（1923〜1998）は、1971年に『リアル・ワールドのためのデザイン』を出版します。冒頭は、こうです。</p>
+<blockquote class="callout">
+<p>「工業デザインより有害な職業は、そう多くない。」</p>
+</blockquote>
+<p>パパネックは、デザインが<strong>「浪費、搾取、環境破壊、社会的無責任」</strong>に加担していると批判しました。そして、<strong>「本当に必要なのは、贅沢品ではなく、生活の基本を満たすデザインだ」</strong>と主張します。</p>
+<ul>
+<li><strong>適正技術</strong>（appropriate technology）：地域の資源、技能、文化に合った技術。</li>
+<li><strong>障がい者のためのデザイン</strong>：パパネックは、障害のある人のための道具を多数設計。</li>
+<li><strong>「他の90%のためのデザイン」</strong>：世界人口の大多数が、先進国のデザインの恩恵を受けていない。</li>
+<li><strong>教育</strong>：学生に、社会の問題を解決するプロジェクトを課す。</li>
+</ul>
+<p>パパネックは、しばしば「理想主義者」「説教者」と批判されます。しかし、彼の問題提起は、<strong>サステナブルデザイン、インクルーシブ・デザイン、デザイン・ジャスティス</strong>の先駆けでした。</p>
+<h3 class="section-title-read" id="sec-083">オイルショック ― 限界の認識</h3>
+<p>1973年と1979年のオイルショックは、大量生産・大量消費の前提を揺るがします。</p>
+<ul>
+<li><strong>ローマクラブ『成長の限界』</strong>（1972年）：資源、人口、環境の限界を警告。</li>
+<li><strong>シューマッハ『スモール・イズ・ビューティフル』</strong>（1973年）：適正規模、地域経済、人道的技術。</li>
+<li><strong>日本の省エネ製品</strong>：小型車、省電力家電。品質管理と生産性。</li>
+<li><strong>環境運動</strong>：公害、大気汚染、水質汚濁、森林破壊。</li>
+<li><strong>デザインの反省</strong>：使い捨て、計画的陳腐化、過剰包装。</li>
+</ul>
+<p>オイルショックは、<strong>「デザインは、無限の成長を前提にできない」</strong>ことを教えました。この認識は、1990年代の環境デザイン、2000年代のサステナブルデザイン、2010年代のサーキュラー・エコノミーへと続きます。</p>
+<h3 class="section-title-read" id="sec-084">歴史の教訓</h3>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+戦後のデザインは、復興と消費と冷戦のなかで、職業として成熟した。<br>
+イームズは快適さを、ラムズは倫理を、オリベッティは文化を、パパネックは正義を追った。<br>
+ポストモダンは、モダニズムの禁欲を笑い、装飾と文脈を取り戻した。<br>
+オイルショックは、デザインの前提そのものを疑わせた。<br>
+デザインは、もはや「物の形」ではなく、「社会の形」を扱うようになった。</p>
+</blockquote>
+<hr>
+<h2 class="chapter-title" id="ch-08" data-no="08">第8章 デジタルの転回 ― 画面が世界になる</h2><p class="ch-meta mono"><span>5,867 CHARACTERS</span><span>約 12 分</span></p><aside class="ch-plate"><span class="mono">PLATES IN THIS CHAPTER</span><a href="atlas.html#plate-08">PL.08 グリッド</a></aside>
+<h3 class="section-title-read" id="sec-085">コンピュータとの出会い</h3>
+<p>デジタルデザインの歴史は、コンピュータの歴史と重なります。しかし、最初から「使いやすい画面」があったわけではありません。コンピュータは、まず計算機であり、専門家の道具でした。それを「誰でも使えるもの」に変えたのが、デザインの仕事です。</p>
+<ul>
+<li><strong>ヴァネヴァー・ブッシュ</strong>『As We May Think』（1945年）：情報の爆発に対処する、記憶拡張装置「Memex」の構想。</li>
+<li><strong>J.C.R. リックライダー</strong>『Man-Computer Symbiosis』（1960年）：人間とコンピュータの協働。</li>
+<li><strong>アイヴァン・サザーランド</strong>『Sketchpad』（1963年）：初の対話型グラフィックス・システム。ペンで図を描き、コンピュータが形を操作する。</li>
+<li><strong>ダグラス・エンゲルバート</strong>「The Mother of All Demos」（1968年）：マウス、ウィンドウ、ハイパーテキスト、ビデオ会議、共同編集。現在のパソコンの原型を、一度に披露。</li>
+<li><strong>ゼロックス・パロアルト研究所（PARC）</strong>：1970年代に、Alto（1973年）、GUI、マウス、ビットマップ・ディスプレイ、Ethernet、レーザープリンタを開発。</li>
+</ul>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+コンピュータは、もともと計算機でした。それを「絵を描き、文を書き、人とつながる機械」に変えたのが、デジタルデザインの始まりです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-086">アップル ― デザインを統合する</h3>
+<p><strong>アップル</strong>は、1976年にスティーブ・ジョブズとスティーブ・ウォズニアックが設立します。</p>
+<ul>
+<li><strong>Apple II</strong>（1977年）：個人向けパソコンの普及。</li>
+<li><strong>Lisa</strong>（1983年）：GUI、マウス。商業的には失敗。</li>
+<li><strong>Macintosh</strong>（1984年）：GUIの大衆化。「1984」のCM。使いやすさとデザインの統合。</li>
+<li><strong>iMac</strong>（1998年）：半透明のボディ、一体型。デザインの復権。</li>
+<li><strong>iPod</strong>（2001年）：クリックホイール、白いイヤホン。音楽体験の再設計。</li>
+<li><strong>iPhone</strong>（2007年）：マルチタッチ、アプリ、モバイル・インターネット。</li>
+<li><strong>App Store</strong>（2008年）：ソフトウェアの流通を再設計。</li>
+<li><strong>iPad</strong>（2010年）、<strong>Apple Watch</strong>（2015年）、<strong>Vision Pro</strong>（2024年）：空間コンピューティング。</li>
+</ul>
+<p>アップルのデザインは、<strong>「ハードウェア、ソフトウェア、サービス、コンテンツを統合する」</strong>ことに強みがあります。ジョナサン・アイヴ（1992年入社）は、ラムズの影響を公言し、素材、曲線、削り出し、パッケージまでこだわりました。</p>
+<p>ただし、アップルが<strong>GUIやスマートフォンを「発明」したわけではありません</strong>。GUIはPARCとエンゲルバート、スマートフォンは多数の先行技術（PDA、携帯電話、タッチスクリーン、iPod）の融合です。アップルの貢献は、<strong>「技術を、使いやすく、美しく、一つの体験に統合した」</strong>ことです。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+アップルの「デザイン主導」は、しばしば「天才の直感」と語られますが、実際には、素材の試作、人間工学、サプライチェーン、ソフトウェア工学、マーケティングの巨大な組織能力に支えられています。また、閉鎖的なエコシステムは、使いやすさと引き換えに、修理、拡張、競争を制限します。デザインの美しさと、ユーザーの自由は、しばしば緊張関係にあります。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-087">ウェブ ― 誰でも発信できる</h3>
+<p>1989年、<strong>ティム・バーナーズ＝リー</strong>がCERNでウェブを発明します。1991年に公開。1993年、<strong>Mosaic</strong>ブラウザ。1994年、<strong>Netscape</strong>。1998年、<strong>Google</strong>。</p>
+<ul>
+<li><strong>HTML</strong>：文書の構造を記述する言語。</li>
+<li><strong>CSS</strong>：見た目を分離する言語。</li>
+<li><strong>JavaScript</strong>：動きと対話。</li>
+<li><strong>URL</strong>：資源の住所。</li>
+<li><strong>HTTP</strong>：通信の規格。</li>
+<li><strong>検索</strong>：情報の見つけ方。</li>
+<li><strong>ソーシャルメディア</strong>：人間関係の設計。</li>
+<li><strong>レスポンシブ・デザイン</strong>（2010年、イーサン・マルコット）：画面サイズに適応するレイアウト。</li>
+<li><strong>デザインシステム</strong>：コンポーネント、トークン、ガイドライン。</li>
+</ul>
+<p>ウェブは、<strong>「デザインの民主化」</strong>をもたらしました。誰でもページを作れ、誰でも世界に発信できます。同時に、<strong>「デザインの均質化」</strong>も進みました。同じテンプレート、同じフォント、同じレイアウト。プラットフォームのアルゴリズムが、見た目と行動を標準化します。</p>
+<h3 class="section-title-read" id="sec-088">インタラクション・デザインとUX</h3>
+<p>1980年代、<strong>ビル・モグリッジ</strong>と<strong>ビル・バープランク</strong>が「インタラクション・デザイン」という言葉を使い始めます。人間とコンピュータの相互作用を、デザインの対象にする分野です。</p>
+<ul>
+<li><strong>ユーザー中心設計</strong>（UCD）：ユーザーのニーズ、能力、文脈を理解して設計する。</li>
+<li><strong>ユーザビリティ</strong>：効率、学習しやすさ、エラーの少なさ、満足度。</li>
+<li><strong>情報アーキテクチャ</strong>：情報の構造とナビゲーション。</li>
+<li><strong>インタラクション・デザイン</strong>：時間、フィードバック、状態、遷移。</li>
+<li><strong>UX（ユーザー体験）</strong>：ドン・ノーマンが1990年代にAppleで使い始めたとされる。製品単体ではなく、使う前・使う間・使った後の体験全体。</li>
+</ul>
+<p><strong>ドン・ノーマン</strong>の『誰のためのデザイン？』（1988年）は、デザインの認知心理学を一般に広めました。</p>
+<ul>
+<li><strong>アフォーダンス</strong>：物が提供する行為の可能性。椅子は「座る」をアフォードする。</li>
+<li><strong>シグニファイア</strong>：行為を促す視覚的な手がかり。ドアノブ、ボタン、矢印。</li>
+<li><strong>マッピング</strong>：操作と結果の対応。コンロのつまみと火口の位置。</li>
+<li><strong>フィードバック</strong>：行為の結果を知らせる。音、光、振動。</li>
+<li><strong>概念モデル</strong>：ユーザーが頭のなかで作る仕組みの理解。</li>
+</ul>
+<p>ノーマンは後に「ユーザー中心設計」という言葉を批判的に見直し、<strong>「人間中心設計」</strong>や<strong>「人を中心にしたデザイン」</strong>を好むようになります。ユーザーは受動的な存在ではなく、状況のなかで行為する人間だからです。</p>
+<h3 class="section-title-read" id="sec-089">サービスデザイン ― 見えないものを見せる</h3>
+<p><strong>サービスデザイン</strong>は、サービスを、顧客の体験と組織のプロセスの両方から設計する分野です。</p>
+<ul>
+<li><strong>リン・ショスタック</strong>（1982年/1984年）：サービスの設計と管理。サービス・ブループリント。</li>
+<li><strong>ライブワーク</strong>（2001年、ノルウェー）：サービスデザインの実践。</li>
+<li><strong>顧客ジャーニー</strong>：認知、検討、購入、使用、サポート、解約。</li>
+<li><strong>タッチポイント</strong>：店舗、アプリ、電話、メール、請求書。</li>
+<li><strong>フロントステージ／バックステージ</strong>：顧客に見える部分と、支える組織の部分。</li>
+<li><strong>共創</strong>：顧客と従業員が、サービスの価値を一緒に作る。</li>
+</ul>
+<p>サービスデザインは、<strong>「デザインの対象を、モノから関係へ」</strong>広げました。病院、銀行、行政、交通、教育。良くも悪くも、サービスは体験の設計です。</p>
+<h3 class="section-title-read" id="sec-090">デザイン思考 ― 方法か、信仰か</h3>
+<p><strong>デザイン思考</strong>は、デザイナーの思考法を、ビジネスや社会の問題に応用する方法論です。</p>
+<ul>
+<li><strong>ハーバート・サイモン</strong>『人工物の科学』（1969年）：デザインを「問題解決の科学」として位置づける。</li>
+<li><strong>ホルスト・リッテルとメルヴィン・ウェバー</strong>（1973年）：「厄介な問題（wicked problems）」。定義が曖昧で、正解がなく、解決が新たな問題を生む問題。</li>
+<li><strong>ドナルド・ショーン</strong>『省察的実践家』（1983年）：専門家は、行為しながら考える。</li>
+<li><strong>リチャード・ブキャナン</strong>（1992年）：「厄介な問題」をデザイン思考で扱う。</li>
+<li><strong>IDEO</strong>（1991年）：デビッド・ケリーらが設立。人間中心、プロトタイピング、多職種チーム。</li>
+<li><strong>ティム・ブラウン</strong>（2008年、Harvard Business Review）：デザイン思考を、人・技術・ビジネスの交点として定義。</li>
+<li><strong>スタンフォード d.school</strong>（2005年）：教育プログラム。</li>
+<li><strong>ダブル・ダイヤモンド</strong>（2004年、Design Council）：発見、定義、開発、提供。</li>
+<li><strong>デザイン・スプリント</strong>（2010年代、Google Ventures）：5日間で問題を検証。</li>
+</ul>
+<p>デザイン思考は、<strong>「共感、問題定義、アイデア、プロトタイプ、テスト」</strong>のプロセスとして普及しました。企業、政府、NGO、教育機関が採用し、デザインの社会的地位を高めました。</p>
+<p>しかし、批判もあります。</p>
+<ul>
+<li><strong>表面的な共感</strong>：ユーザーを理解したつもりになる。</li>
+<li><strong>政治の無視</strong>：問題の構造、権力、格差を扱わない。</li>
+<li><strong>方法の画一化</strong>：付箋とホワイトボードの儀式になる。</li>
+<li><strong>成果の測定困難</strong>：イノベーションの成果をどう測るか。</li>
+<li><strong>労働の搾取</strong>：デザイナーの長時間労働、低賃金。</li>
+<li><strong>「デザイン思考は失敗した」</strong>（ブルース・ナスバウム、2011年）。</li>
+<li><strong>「デザイン思考は本質的に保守的で、現状を維持する」</strong>（ナターシャ・イスカンダー、2018年）。</li>
+</ul>
+<p>デザイン思考は、万能薬ではありません。しかし、<strong>「ユーザーを中心に置く」「早く試す」「多職種で協働する」</strong>という原則は、今も有効です。問題は、方法そのものではなく、<strong>誰のための、何のためのデザインか</strong>という問いを、省略してしまうことです。</p>
+<h3 class="section-title-read" id="sec-091">マテリアル・デザインとデザインシステム</h3>
+<p>2014年、Googleは<strong>Material Design</strong>を発表します。紙とインクの比喩、影、動き、グリッド、色彩。Android、Web、アプリの統一言語です。</p>
+<ul>
+<li><strong>Material Design</strong>（2014年）：Googleのデザイン言語。</li>
+<li><strong>Human Interface Guidelines</strong>（Apple）：iOS、macOSのガイドライン。</li>
+<li><strong>Fluent Design</strong>（Microsoft）：光、深度、動き、素材。</li>
+<li><strong>Carbon</strong>（IBM）、<strong>Polaris</strong>（Shopify）、<strong>Atlassian Design System</strong>。</li>
+<li><strong>デザイン・トークン</strong>：色、文字、間隔、影を、コードとデザインで共有する変数。</li>
+<li><strong>コンポーネント</strong>：ボタン、フォーム、ナビゲーションの再利用可能な部品。</li>
+<li><strong>アクセシビリティ</strong>：コントラスト、フォーカス、スクリーンリーダー、キーボード操作。</li>
+</ul>
+<p>デザインシステムは、<strong>「デザインをスケールさせる」</strong>ための装置です。大企業、多数の製品、世界中のチーム。一貫性、効率、品質、アクセシビリティを支えます。同時に、<strong>「創造性の標準化」</strong>という危険もあります。すべての製品が同じ見た目になり、地域や文化の違いが無視されるのです。</p>
+<h3 class="section-title-read" id="sec-092">インターフェースは権力である</h3>
+<p>デジタルのデザインは、<strong>「画面の見た目」</strong>だけではありません。何を見せ、何を隠し、何を選びやすくし、何を選びにくくするか。インターフェースは、行動の設計です。</p>
+<ul>
+<li><strong>ダークパターン</strong>：解約を難しくする、追加料金を隠す、同意を誘導する。</li>
+<li><strong>アテンション・エコノミー</strong>：通知、無限スクロール、いいね。注意を奪う設計。</li>
+<li><strong>パーソナライゼーション</strong>：好みに合わせる。同時に、閉じた世界を作る。</li>
+<li><strong>監視</strong>：行動データ、位置情報、生体情報。</li>
+<li><strong>アルゴリズム</strong>：何が表示されるかを決める。デザインは、コードのなかにある。</li>
+</ul>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+画面のデザインは、部屋の設計に似ています。ドアの位置、照明、家具の配置で、人の動きが変わります。デジタルでは、その部屋が毎秒変わり、あなたの行動を記録します。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-093">ゲームとサウンド ― ルールと響きのデザイン</h3>
+<p><strong>ゲームデザイン</strong>は、ルール、フィードバック、難易度、報酬、物語を設計する分野です。</p>
+<ul>
+<li><strong>初期</strong>：『Spacewar!』（1962年）、『Pong』（1972年）、アーケード。</li>
+<li><strong>任天堂</strong>：宮本茂の『ドンキーコング』（1981年）、『スーパーマリオブラザーズ』（1985年）、『ゼルダの伝説』（1986年）。横井軍平のゲームボーイ（1989年）。</li>
+<li><strong>家庭用機</strong>：プレイステーション（1994年）、Xbox（2001年）、モバイルゲーム、eスポーツ。</li>
+<li><strong>理論</strong>：フロー（チクセントミハイ）、アフォーダンス、学習曲線、強化スケジュール、ナラティブ。</li>
+<li><strong>課題</strong>：依存、暴力、労働、アクセシビリティ、ゲーム化（gamification）の倫理。</li>
+</ul>
+<p><strong>サウンドデザイン</strong>は、製品、映画、ゲーム、空間の音を設計する分野です。</p>
+<ul>
+<li><strong>映画</strong>：ウォルター・マーチ（『地獄の黙示録』）、ベン・バート（『スター・ウォーズ』）。</li>
+<li><strong>製品</strong>：電子レンジの「ピッ」、車のドアの閉まる音、EVの走行音。</li>
+<li><strong>空間</strong>：駅、病院、商業施設のBGMとアナウンス。</li>
+<li><strong>ブランド</strong>：起動音、通知音、コーヒーマシンの音。</li>
+<li><strong>アクセシビリティ</strong>：補聴器、字幕、振動、視覚的な代替。</li>
+</ul>
+<p>ゲームとサウンドは、<strong>時間と注意をデザインする</strong>技術です。何を気持ちよく感じ、何に夢中になり、何を聞き逃すか。それは、UIの見た目以上に、体験の深い層に働きかけます。</p>
+<h3 class="section-title-read" id="sec-094">歴史の教訓</h3>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+デジタルの転回は、デザインの対象を「モノ」から「インターフェース」「サービス」「システム」へ広げた。<br>
+使いやすさは、民主化と依存の両方をもたらす。<br>
+デザイン思考は、デザインをビジネスの言語にしたが、政治と責任を薄めた。<br>
+デザインシステムは、品質をスケールさせるが、創造性を標準化する。<br>
+画面は、もはや窓ではなく、世界の一部である。</p>
+</blockquote>
+<hr>
+<h2 class="chapter-title" id="ch-09" data-no="09">第9章 デザインの現在 ― 気候・包摂・AI・正義</h2><p class="ch-meta mono"><span>8,145 CHARACTERS</span><span>約 16 分</span></p><aside class="ch-plate"><span class="mono">PLATES IN THIS CHAPTER</span><a href="atlas.html#plate-11">PL.11 サーキュラー</a> <a href="atlas.html#plate-12">PL.12 AI</a></aside>
+<h3 class="section-title-read" id="sec-095">2026年のデザイン地図</h3>
+<p>2026年のデザインは、次の８つの転換のただ中にあります。</p>
+<ol>
+<li><strong>モノからシステムへ</strong>：製品単体ではなく、サービス、サプライチェーン、制度を設計する。</li>
+<li><strong>ユーザーから人間へ</strong>：平均的なユーザーではなく、多様な身体・能力・文化・状況を扱う。</li>
+<li><strong>普遍からローカルへ</strong>：グローバルな標準と、地域の文脈・主権を両立する。</li>
+<li><strong>所有からアクセス・修理へ</strong>：売り切るのではなく、長く使える関係を設計する。</li>
+<li><strong>画面から空間・環境へ</strong>：スマホ、AR/VR、音声、センサー、都市。</li>
+<li><strong>人間から非人間へ</strong>：動物、植物、生態系、AIエージェントも、デザインの当事者になる。</li>
+<li><strong>制作から生成へ</strong>：AIが形、文章、画像、コードを生成する。</li>
+<li><strong>作者から責任へ</strong>：誰が作ったかより、誰が責任を負うかが問われる。</li>
+</ol>
+<p>以下、この８つを、具体的な動きで見ていきます。</p>
+<h3 class="section-title-read" id="sec-096">9-1 気候とサーキュラー・エコノミー</h3>
+<h5 id="sub-063">環境デザインの系譜</h5>
+<ul>
+<li><strong>1970年代</strong>：パパネック、シューマッハ、ローマクラブ。公害、資源、成長の限界。</li>
+<li><strong>1980年代</strong>：グリーンデザイン。リサイクル、省エネ、有害物質の削減。</li>
+<li><strong>1990年代</strong>：エコデザイン。ライフサイクル評価（LCA）、設計段階からの環境配慮。</li>
+<li><strong>2000年代</strong>：Cradle to Cradle（2002年、マクドノーとブラウングト）。「廃棄物は食物である」。素材を、生物学的循環と技術的循環に分ける。</li>
+<li><strong>2010年代</strong>：サーキュラー・エコノミー。Ellen MacArthur Foundation。廃棄物を出さない、製品と素材を循環させる、自然を再生する。</li>
+<li><strong>2020年代</strong>：規制と義務化。EUのエコデザイン規則（ESPR）、修理する権利、デジタル製品パスポート。</li>
+</ul>
+<h5 id="sub-064">サーキュラー・エコノミーの３原則</h5>
+<p>Ellen MacArthur Foundationは、サーキュラー・エコノミーを、次の３原則で説明します。</p>
+<ol>
+<li><strong>廃棄物と汚染を排除する</strong>（Eliminate waste and pollution）。</li>
+<li><strong>製品と素材を、最も高い価値で循環させる</strong>（Circulate products and materials）。</li>
+<li><strong>自然を再生する</strong>（Regenerate nature）。</li>
+</ol>
+<p>これは、<strong>「リサイクル」だけではありません</strong>。まず、そもそも廃棄物を出さない。次に、修理、再利用、再製造、シェアリングで、製品を長く使う。最後に、素材を自然に戻す。リサイクルは、最後の手段です。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+サーキュラー・エコノミーは、「ゴミをリサイクルする」より前に、「ゴミを出さない」「直して使う」「友だちにあげる」を考えることです。</p>
+</blockquote>
+<h5 id="sub-065">規制の波</h5>
+<ul>
+<li><strong>EUエコデザイン規則（ESPR）</strong>：2024年に成立。製品の環境持続性要件、デジタル製品パスポート、修理可能性、素材の透明性。</li>
+<li><strong>修理する権利</strong>：EU指令（2024年）。家電、電子機器の修理を容易にし、部品、工具、情報へのアクセスを保証。2026年までに国内法化。</li>
+<li><strong>欧州アクセシビリティ法（EAA）</strong>：2025年6月28日から適用。デジタル製品・サービスのアクセシビリティ。</li>
+<li><strong>AI Act</strong>：2024年8月1日発効。リスクベースの規制。禁止行為、汎用AI、高リスクAIの義務。</li>
+</ul>
+<p>デザインは、<strong>「任意の善意」から「法的義務」</strong>へ移行しつつあります。これは、デザインの専門性と責任が、社会から正式に認められたことを意味します。</p>
+<h3 class="section-title-read" id="sec-097">9-2 インクルーシブ・デザインとアクセシビリティ</h3>
+<h5 id="sub-066">ユニバーサル・デザインの起源</h5>
+<p><strong>ロナルド・メイス</strong>（1941〜1998）は、アメリカの建築家で、自身もポリオの後遺症を持っていました。1980年代に<strong>「ユニバーサル・デザイン」</strong>という言葉を提唱し、ノースカロライナ州立大学にセンターを設立します。</p>
+<p>ユニバーサル・デザインの７原則：</p>
+<ol>
+<li>公平な使用（Equitable use）。</li>
+<li>柔軟な使用（Flexibility in use）。</li>
+<li>単純で直感的な使用（Simple and intuitive use）。</li>
+<li>知覚可能な情報（Perceptible information）。</li>
+<li>エラーの許容（Tolerance for error）。</li>
+<li>低い身体的努力（Low physical effort）。</li>
+<li>接近と使用のためのサイズと空間（Size and space for approach and use）。</li>
+</ol>
+<h5 id="sub-067">インクルーシブ・デザイン</h5>
+<p><strong>マイクロソフト</strong>は、インクルーシブ・デザインを、次の３原則で説明します。</p>
+<ol>
+<li><strong>排除を認識する</strong>（Recognize exclusion）。</li>
+<li><strong>多様性から学ぶ</strong>（Learn from diversity）。</li>
+<li><strong>一人のために解き、多くの人に広げる</strong>（Solve for one, extend to many）。</li>
+</ol>
+<p>ユニバーサル・デザインが「すべての人に同じもの」を目指すのに対し、インクルーシブ・デザインは「<strong>ミスマッチ</strong>」に注目します。人と環境のあいだの不一致を、デザインで解消する。<strong>「障がい」は、人の側にあるのではなく、人と環境の関係にある</strong>という考え方です。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+社会モデルでは、障がいは「個人の医学的問題」ではなく、「社会の障壁」によって作られると考えます。階段は、車椅子の人を排除しますが、階段そのものが悪いのではなく、エレベーターがない環境が排除を作ります。インクルーシブ・デザインは、この環境側の障壁を設計で減らす試みです。ただし、すべての障壁をなくせるわけではなく、個別の合理的配慮も必要です。</p>
+</blockquote>
+<h5 id="sub-068">アクセシビリティの基準</h5>
+<ul>
+<li><strong>WCAG 2.2</strong>：2024年12月12日、W3C勧告。知覚可能、操作可能、理解可能、堅牢（POUR）の４原則。A、AA、AAAの３レベル。</li>
+<li><strong>EAA</strong>：2025年6月28日からEUで適用。銀行、交通、電子商取引、電子書籍など。</li>
+<li><strong>Section 508</strong>（アメリカ）、<strong>ADA</strong>（アメリカ）、<strong>障害者差別解消法</strong>（日本）。</li>
+<li><strong>アクセシビリティ・オーディット</strong>：自動テストと人手のテスト。スクリーンリーダー、キーボード、色覚、認知。</li>
+</ul>
+<p>アクセシビリティは、<strong>「特別な人のための特別な対応」</strong>ではありません。高齢者、一時的な怪我、明るい屋外、騒がしい電車、片手での操作。誰もが、一時的に「障がい」のある状態になります。アクセシビリティは、<strong>「誰にとっても使いやすい」</strong>デザインの基盤です。</p>
+<h3 class="section-title-read" id="sec-098">9-3 デザイン・ジャスティスと脱植民地化</h3>
+<h5 id="sub-069">デザイン・ジャスティス</h5>
+<p><strong>サシャ・コスタンザ＝チョック</strong>は、2020年に『デザイン・ジャスティス』を出版します。デザインが、人種、ジェンダー、障がい、階級、植民地主義によって、誰を排除し、誰に負担を押しつけているかを問います。</p>
+<p>デザイン・ジャスティスの原則（要約）：</p>
+<ol>
+<li>搾取的なシステムではなく、持続可能で、共同体に責任を持つ設計。</li>
+<li>デザインのプロセスに、影響を受ける人々が参加する。</li>
+<li>デザインの便益と負担を、公平に分配する。</li>
+<li>未来の世代、非人間の生命、生態系への影響を考慮する。</li>
+<li>デザインの知識とツールを、共同体と共有する。</li>
+<li>デザインの歴史と文脈を尊重する。</li>
+<li>デザインの専門家だけでなく、共同体の知識を重視する。</li>
+<li>デザインの結果に、説明責任を持つ。</li>
+<li>デザインのプロセスを、透明にする。</li>
+<li>デザインを、社会変革の道具として使う。</li>
+</ol>
+<h5 id="sub-070">脱植民地化</h5>
+<p><strong>Decolonising Design</strong>は、2016年に始まった、デザイン教育・実践・研究の脱植民地化を求めるプラットフォームです。</p>
+<ul>
+<li>デザインの「普遍」は、西洋の地方的な知である。</li>
+<li>デザインの歴史は、植民地主義と帝国の歴史と切り離せない。</li>
+<li>デザインの教育は、非西洋の知を排除してきた。</li>
+<li>デザインの実践は、先住民、有色人種、グローバル・サウスの労働を搾取してきた。</li>
+<li>デザインの未来は、複数の世界（pluriverse）を尊重する必要がある。</li>
+</ul>
+<p><strong>アルトゥーロ・エスコバル</strong>は、『多元世界のためのデザイン』（2018年）で、デザインを「資本主義の道具」から「生活の再構成」へ開くことを提案します。<strong>「もう一つの世界は可能か」</strong>ではなく、<strong>「すでに多数の世界がある」</strong>という視点です。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+デザイン・ジャスティスは、「誰がデザインし、誰がその恩恵を受け、誰が犠牲になるか」を、公平に考えようという運動です。</p>
+</blockquote>
+<h5 id="sub-071">参加型デザイン</h5>
+<p>参加型デザインは、1970年代のスカンジナビアから始まりました。労働者が、自分たちの職場のシステム設計に参加する権利を求めました。</p>
+<ul>
+<li><strong>共同設計（co-design）</strong>：デザイナーと利用者が、一緒に設計する。</li>
+<li><strong>ユーザー・イノベーション</strong>：利用者が、自分たちの必要に合わせて製品を改良する。</li>
+<li><strong>リビングラボ</strong>：実際の環境で、利用者と一緒に試す。</li>
+<li><strong>市民参加</strong>：都市計画、公共サービス、政策。</li>
+</ul>
+<p>参加型デザインは、<strong>「デザイナーが答えを与える」</strong>モデルから、<strong>「デザイナーが対話を設計する」</strong>モデルへの転換です。ただし、参加が常に平等とは限りません。誰が参加できるか、誰が声を上げられるか、誰が決定権を持つか。権力の問題は残ります。</p>
+<h5 id="sub-072">ジェンダーとデザイン</h5>
+<p>デザインは、ジェンダーを形づくり、ジェンダーによって形づくられてきました。</p>
+<ul>
+<li><strong>教育と職業</strong>：バウハウスでは、女性はしばしば織物工房に誘導されました。グンタ・シュテルツルとアニ・アルバースは織物で、マリアンネ・ブラントは金属工房で頭角を現しましたが、建築や工業デザインの主流からは排除されがちでした。</li>
+<li><strong>家庭のデザイン</strong>：キッチン、洗濯機、掃除機は「家事を楽にする」と言われましたが、<strong>ルース・シュワルツ・コーワン</strong>『母により多くの仕事を』（1983年）は、家事の時間が減らず、基準が上がったことを示しました。テクノロジーは、労働を消すのではなく、再配分します。</li>
+<li><strong>ジェンダー化された製品</strong>：ピンクと青、女性用と男性用のカミソリ、工具、車、医療機器。「小さくしてピンクにする（shrink it and pink it）」という批判は、女性を「別の市場」として扱うことの問題を突きます。</li>
+<li><strong>ファッション</strong>：シャネル、ヴィオネ、シャパレル。サンローランの「ル・スモーキング」（1966年）は、女性が男性用のタキシードを着ることを提案し、ジェンダーの境界を揺らしました。</li>
+<li><strong>包摂</strong>：マタニティ、授乳、生理、更年期、介護、適応服（adaptive clothing）、サイズの多様性。身体の現実に合わないデザインは、排除を生みます。</li>
+<li><strong>評価と権力</strong>：デニス・スコット・ブラウンは、ロバート・ヴェンチューリとの共同作業で知られますが、1991年のプリツカー賞はヴェンチューリ単独に贈られ、スコット・ブラウンは含まれませんでした。その後、彼女を含めるよう求める運動が起こりました。作者性の分配は、ジェンダーと無関係ではありません。</li>
+</ul>
+<p>ジェンダーとデザインは、<strong>「女性向けの製品を作る」</strong>ことではありません。誰の身体が標準とされ、誰の労働が見えず、誰の声が作者として記録されるかという、権力の問題です。</p>
+<h5 id="sub-073">人種・階級とデザイン</h5>
+<p>デザインは、人種や階級の不平等を、見えない形で固定することもあります。</p>
+<ul>
+<li><strong>製品の標準</strong>：肌色の絆創膏、絵文字の肌色、化粧品の色展開、AIの学習データ。白い肌が「標準」とされると、それ以外の身体は「例外」になります。</li>
+<li><strong>空間</strong>：赤線引き（redlining）、高速道路による黒人地区の分断、公共空間の「敵対的デザイン」（ベンチの仕切り、スパイク）。デザインは、誰がどこに居ていいかを決めます。</li>
+<li><strong>階級</strong>：高級品と安価品、所有とアクセス、住宅、交通、医療。デザインの「民主化」は、しばしば市場の拡大を意味し、平等を意味しません。</li>
+<li><strong>交差性</strong>：人種、階級、ジェンダー、障がい、移民の地位は、重なり合います。一つの軸だけを見ると、別の排除を見落とします。</li>
+</ul>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+人種とテクノロジーの研究では、<strong>ルハ・ベンジャミン</strong>『Race After Technology』（2019年）、<strong>サフィヤ・ノーブル</strong>『Algorithms of Oppression』（2018年）、<strong>ジョイ・ブオラムウィニ＆ティムニット・ゲブル</strong>「Gender Shades」（2018年）などが、データ、アルゴリズム、インターフェースに埋め込まれた偏見を分析しています。デザイン・ジャスティスは、これらの分析を、製品・サービス・空間の設計に接続する実践です。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-099">9-4 スペキュラティブ・デザインと批判的デザイン</h3>
+<p><strong>アンソニー・ダン</strong>と<strong>フィオナ・ラビー</strong>は、<strong>批判的デザイン</strong>（critical design）と<strong>スペキュラティブ・デザイン</strong>（speculative design）を提唱します。</p>
+<ul>
+<li><strong>批判的デザイン</strong>：製品の形を借りて、社会の前提を問い直す。</li>
+<li><strong>スペキュラティブ・デザイン</strong>：未来の可能性を、具体的な物語とオブジェクトで提示する。</li>
+<li><strong>デザイン・フィクション</strong>：架空の世界を、徹底的にリアルに描く。</li>
+<li><strong>『Speculative Everything』</strong>（2013年）：未来を予測するのではなく、未来の選択肢を増やす。</li>
+</ul>
+<p>スペキュラティブ・デザインは、<strong>「問題を解く」</strong>のではなく、<strong>「問題を立てる」</strong>デザインです。たとえば、遺伝子編集、監視、気候移住、AIの人格、非人間の権利。まだ存在しない製品や制度を、あえて具体的に描くことで、私たちの価値観を揺さぶります。</p>
+<p>批判もあります。<strong>「現実の政治や経済から遊離している」「富裕層の娯楽になっている」「具体的な解決策がない」</strong>。スペキュラティブ・デザインは、現実の問題を解く力は弱いかもしれません。しかし、<strong>「未来を想像する能力」</strong>は、民主主義に不可欠です。誰が未来を想像し、誰がそれを決めるのか。この問いは、AI時代にますます重要になります。</p>
+<h3 class="section-title-read" id="sec-100">9-5 AIとデザイン</h3>
+<h5 id="sub-074">何が変わったのか</h5>
+<p>2022年以降、生成AIが急速に普及します。</p>
+<ul>
+<li><strong>画像生成</strong>：Midjourney（2022年）、DALL·E 2（2022年）、Stable Diffusion（2022年）、Adobe Firefly（2023年）。</li>
+<li><strong>テキスト生成</strong>：ChatGPT（2022年）、Claude、Geminiなど。</li>
+<li><strong>コード生成</strong>：GitHub Copilot（2021年）、Cursorなど。</li>
+<li><strong>デザインツール</strong>：Figma AI、Canva Magic Studio、Adobe Sensei。</li>
+<li><strong>動画・音声生成</strong>：Sora（2024年）、Runway、ElevenLabs。</li>
+</ul>
+<p>AIは、デザインの<strong>「制作」</strong>の一部を自動化します。アイデア出し、ムードボード、レイアウト、画像、コピー、コード、プロトタイプ。デザイナーは、<strong>「プロンプトを書く人」「生成物を選ぶ人」「システムを設計する人」</strong>になります。</p>
+<h5 id="sub-075">AIはデザイナーを置き換えるか</h5>
+<p>短い答え：<strong>「置き換える」と「置き換えない」の二択は間違い</strong>です。</p>
+<ul>
+<li><strong>置き換える仕事</strong>：定型的な画像生成、単純なレイアウト、コピーの下書き、アイコンの量産。</li>
+<li><strong>置き換えない仕事</strong>：問題の発見、文脈の理解、利害関係者の調整、倫理的判断、説明責任、組織の変革。</li>
+<li><strong>新しく生まれる仕事</strong>：AIの振る舞いの設計、データのキュレーション、生成物の評価、AIと人間の協働の設計、AIのバイアス監査。</li>
+</ul>
+<p>歴史は、<strong>「技術が仕事を消す」</strong>という単純な物語を繰り返し否定してきました。印刷は写本師の仕事を減らしましたが、出版、編集、タイポグラフィの仕事を生みました。産業革命は手工芸を減らしましたが、工業デザイン、エンジニアリング、広告の仕事を生みました。AIも、仕事の内容を再配置します。ただし、<strong>移行の速度と公平性</strong>は、歴史とは比べ物にならないほど厳しいかもしれません。</p>
+<h5 id="sub-076">AIのデザイン問題</h5>
+<ul>
+<li><strong>バイアス</strong>：学習データの偏りが、差別的な結果を生む。</li>
+<li><strong>著作権</strong>：学習データの使用、生成物の権利。</li>
+<li><strong>労働</strong>：データ・アノテーション、クリエイターの搾取。</li>
+<li><strong>環境</strong>：学習と推論のエネルギー、水、希少資源。</li>
+<li><strong>均質化</strong>：同じモデル、同じスタイル、同じアイデア。</li>
+<li><strong>説明責任</strong>：誰が、AIの決定に責任を負うのか。</li>
+<li><strong>自律性</strong>：AIエージェントが、人間の代わりに交渉し、購入し、設計する。</li>
+<li><strong>真正性</strong>：人間が作ったことの意味。</li>
+</ul>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+AI時代のデザインは、「人間中心設計」の枠組みを拡張する必要があります。AIは、道具であると同時に、<strong>「ユーザー」</strong>でもあり（AIエージェントがサービスを使う）、<strong>「共作者」</strong>でもあり（生成AIがデザインを提案する）、<strong>「環境」</strong>でもあります（アルゴリズムが世界の見え方を決める）。人間・AI・制度・生態系を、一つのシステムとして設計する「more-than-human design」や「ontological design」の視点が重要になります。</p>
+</blockquote>
+<h5 id="sub-077">2026年の実践</h5>
+<ul>
+<li><strong>AIを素材として使う</strong>：生成、変異、探索。人間の判断で選ぶ。</li>
+<li><strong>AIを共同工作者として使う</strong>：アイデアの拡張、批判、テスト。</li>
+<li><strong>AIをユーザーとして設計する</strong>：エージェントが読むインターフェース、API、データ。</li>
+<li><strong>AIの倫理を設計する</strong>：透明性、説明可能性、同意、監査。</li>
+<li><strong>AIに置き換えられない価値を磨く</strong>：文脈、関係、身体、ケア、責任。</li>
+</ul>
+<h3 class="section-title-read" id="sec-101">9-6 2026年のデザイン・リーダーシップ</h3>
+<p>デザインは、もはや「制作部門」ではありません。経営、政策、医療、教育、気候、AI。あらゆる領域に浸透しています。デザイン・リーダーに求められる能力は、次の通りです。</p>
+<ol>
+<li><strong>問題を発見する</strong>：与えられた課題ではなく、本当の問題を問う。</li>
+<li><strong>システムを見る</strong>：部分最適ではなく、全体の関係を理解する。</li>
+<li><strong>人と対話する</strong>：多様な利害関係者を結びつける。</li>
+<li><strong>試作する</strong>：考えを、早く、安く、具体的にする。</li>
+<li><strong>測定する</strong>：成果を、定量と定性の両方で評価する。</li>
+<li><strong>倫理を守る</strong>：誰が傷つくか、誰が排除されるかを見る。</li>
+<li><strong>説明する</strong>：なぜそのデザインなのかを、言葉で語る。</li>
+<li><strong>手を動かす</strong>：ツールと素材を理解する。</li>
+<li><strong>学び続ける</strong>：技術と社会の変化に適応する。</li>
+<li><strong>手放す</strong>：自分が作ったものを、他者が使えるようにする。</li>
+</ol>
+<h3 class="section-title-read" id="sec-102">歴史の教訓</h3>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+デザインの現在は、気候、包摂、AI、正義の四つの圧力に晒されている。<br>
+サーキュラー・エコノミーは、廃棄物を前提にしない。<br>
+インクルーシブ・デザインは、平均的人間を疑う。<br>
+デザイン・ジャスティスは、誰が恩恵を受け、誰が犠牲になるかを問う。<br>
+スペキュラティブ・デザインは、未来の選択肢を増やす。<br>
+AIは、制作を変えるが、判断と責任は人間に残る。<br>
+デザインの未来は、技術ではなく、価値観で決まる。</p>
+</blockquote>
+<hr>
+<h2 class="part-title" id="part-4">第IV部 日本と、読み方</h2>
+<hr>
+<h2 class="chapter-title" id="ch-10" data-no="10">第10章 日本のデザイン全史 ― 縄文から2026年まで</h2><p class="ch-meta mono"><span>8,362 CHARACTERS</span><span>約 17 分</span></p><aside class="ch-plate"><span class="mono">PLATES IN THIS CHAPTER</span><a href="atlas.html#plate-13">PL.13 茶碗</a></aside>
+<h3 class="section-title-read" id="sec-103">なぜ日本だけを一章使うのか</h3>
+<p>日本は、デザイン史のなかで特異な位置を占めます。明治以降、急速に西洋の技術と制度を導入しながら、独自の職人文化、美意識、製造業の品質管理を発展させました。戦後は、ソニー、ホンダ、トヨタ、無印良品、任天堂、資生堂、イッセイミヤケなど、世界に影響を与えるブランドを生みました。</p>
+<p>しかし、日本デザイン論は、しばしば<strong>「禅」「侘寂」「職人」</strong>といった神秘的な言葉で語られ、神話化されてきました。この章では、その神話を剥がしながら、歴史の具体物に沿って、日本のデザインを通史として描きます。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+日本のデザインは「禅と侘寂」だけではありません。縄文土器、着物、浮世絵、家電、ゲーム、アニメまで、驚くほど多様です。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-104">10-1 縄文・弥生・古墳 ― 土と森のデザイン</h3>
+<h5 id="sub-078">縄文土器</h5>
+<p>日本列島では、約1万4000年前から<strong>縄文土器</strong>が作られます。世界最古級の土器の一つです。</p>
+<ul>
+<li><strong>縄目</strong>：縄を押しつけた模様。装飾であると同時に、粘土の結合を強め、熱伝導を調整する機能があったと考えられます。</li>
+<li><strong>形式の多様性</strong>：地域ごとに、深鉢、浅鉢、壺、注口土器。火焔型土器（新潟）は、過剰な装飾で知られます。</li>
+<li><strong>土偶</strong>：女性像、動物像。祭祀、病気、出産、豊穣に関係するという説。</li>
+<li><strong>生活</strong>：狩猟、漁労、採集。竪穴住居。貝塚。</li>
+</ul>
+<p>縄文土器は、<strong>「装飾と機能の未分化」</strong>を示す典型です。美しさは、機能の外側にあるのではなく、機能の一部として作られています。</p>
+<h5 id="sub-079">弥生文化</h5>
+<p>紀元前300年ごろから、稲作、青銅器、鉄器が伝わります。</p>
+<ul>
+<li><strong>弥生土器</strong>：縄文に比べて、薄く、均質で、機能的。貯蔵、煮炊き、祭祀。</li>
+<li><strong>青銅器</strong>：銅鏡、銅剣、銅矛、銅鐸。権力と祭祀の象徴。</li>
+<li><strong>機織り</strong>：麻、絹。衣服の始まり。</li>
+<li><strong>環濠集落</strong>：防御と共同体の設計。吉野ヶ里遺跡。</li>
+</ul>
+<h5 id="sub-080">古墳</h5>
+<p>3〜6世紀、<strong>古墳</strong>が作られます。前方後円墳、円墳、方墳。<strong>埴輪</strong>（はにわ）は、墓の上に並べる素焼きの像です。人物、馬、家、器財。<strong>「死の空間のデザイン」</strong>であり、権力の視覚化です。</p>
+<h3 class="section-title-read" id="sec-105">10-2 神道と平安 ― 木と紙の美</h3>
+<h5 id="sub-081">伊勢神宮 ― 20年に一度、作り直す</h5>
+<p><strong>伊勢神宮</strong>は、日本の神社建築の原型です。内宮（皇大神宮）と外宮（豊受大神宮）。<strong>式年遷宮</strong>（しきねんせんぐう）は、20年に一度、社殿を建て替える儀式です。2013年に第62回が行われました。</p>
+<ul>
+<li><strong>素材</strong>：檜、萱葺きの屋根、白い布。</li>
+<li><strong>構造</strong>：木の柱と梁。金属の釘をあまり使わない、木の組物。</li>
+<li><strong>様式</strong>：神明造。切妻屋根、高床、棟持柱。</li>
+<li><strong>意味</strong>：永遠の建築は、永遠の素材ではなく、<strong>「作り直す制度」</strong>によって保たれる。これは、現代のサステナブル建築にも通じる思想です。</li>
+</ul>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+式年遷宮は、単なる建て替えではありません。木材の調達、職人の継承、祭儀、地域経済、神道の時間観が一体となった制度です。一方で、巨木の枯渇、林業の衰退、費用の問題もあります。「伝統は変わらない」のではなく、「変化を制度化することで、形を保つ」のです。</p>
+</blockquote>
+<h5 id="sub-082">平安時代 ― 着物と紙の文化</h5>
+<p>794年、平安京（京都）に遷都。<strong>国風文化</strong>が発展します。</p>
+<ul>
+<li><strong>着物</strong>：直線裁ちの衣服。身分、季節、色、文様。<strong>十二単</strong>、<strong>狩衣</strong>、<strong>小袖</strong>。</li>
+<li><strong>和紙</strong>：楮、三椏、雁皮。漉き方、模様、襖、障子、書物。</li>
+<li><strong>漆器</strong>：蒔絵、螺鈿、沈金。漆は、保存性、光沢、修復性に優れる。</li>
+<li><strong>屏風</strong>：空間を仕切る、絵を描く、物語を語る。</li>
+<li><strong>庭園</strong>：寝殿造の庭。池、橋、島、植栽。</li>
+<li><strong>書道</strong>：仮名文字。線の太さ、余白、リズム。</li>
+</ul>
+<p>平安のデザインは、<strong>「平面の美」</strong>と<strong>「素材の繊細さ」</strong>に特徴があります。着物の文様、和紙の質感、漆の光沢、屏風の構図。これらは、現代の日本のグラフィックデザイン、パッケージ、インテリアにも影響を与えています。</p>
+<h3 class="section-title-read" id="sec-106">10-3 中世 ― 禅と茶のデザイン</h3>
+<h5 id="sub-083">禅宗と空間</h5>
+<p>12〜13世紀、禅宗が中国から伝わります。禅は、建築、庭園、書、陶芸、料理に影響を与えます。</p>
+<ul>
+<li><strong>書院造</strong>：床の間、書院、障子、襖。室内の軸線と格式。</li>
+<li><strong>枯山水</strong>：石と砂で山水を表す。龍安寺（15世紀）の石庭。余白と抽象。</li>
+<li><strong>茶室</strong>：小さな入口（にじり口）、土壁、竹、草庵。不平等を排除する空間。</li>
+<li><strong>墨絵</strong>：雪舟、牧谿。余白と筆の勢い。</li>
+</ul>
+<h5 id="sub-084">茶の湯 ― 総合芸術としてのデザイン</h5>
+<p><strong>千利休</strong>（1522〜1591）は、<strong>わび茶</strong>を完成させます。茶の湯は、建築、庭園、陶器、花、書、料理、服装、所作を統合した、<strong>総合芸術</strong>です。</p>
+<ul>
+<li><strong>楽焼</strong>：千利休の指導で、長次郎が作った手捏ねの茶碗。歪み、厚み、景色。</li>
+<li><strong>茶室</strong>：四畳半、あるいはもっと小さい空間。床の間、炉、水屋。</li>
+<li><strong>道具</strong>：茶碗、茶筅、茶杓、花入、香合。名物、由来、箱書き。</li>
+<li><strong>美学</strong>：<strong>侘寂</strong>（わびさび）。不完全、儚さ、素朴、静けさ。</li>
+</ul>
+<p>侘寂は、しばしば「日本の美意識の核心」とされますが、歴史的には<strong>茶の湯の美学</strong>として形成された、特定の文脈の概念です。すべての日本文化が侘寂というわけではありません。金閣寺の華麗さ、江戸の浮世絵の派手さ、現代のカワイイ文化は、侘寂とは別の美学です。</p>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+侘寂は「完璧じゃないから美しい」という考え方です。でも、それは日本のすべてではなく、お茶の世界で磨かれた、一つの美意識です。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-107">10-4 江戸 ― 浮世絵と都市のデザイン</h3>
+<h5 id="sub-085">江戸の都市計画</h5>
+<p>1603年、徳川家康が江戸に幕府を開きます。江戸は、18世紀には人口100万人を超える、世界最大級の都市になります。</p>
+<ul>
+<li><strong>水路</strong>：運河、堀、川。物流と防御。</li>
+<li><strong>防火</strong>：火除地、土蔵、瓦屋根。火事への対策。</li>
+<li><strong>街路</strong>：格子状の町割り。大名屋敷、町人地、寺社地。</li>
+<li><strong>上下水</strong>：井戸、水路、し尿のリサイクル。循環型都市。</li>
+<li><strong>市場</strong>：日本橋、魚河岸。貨幣、度量衡、問屋。</li>
+</ul>
+<p>江戸は、<strong>「循環型都市」</strong>として、現代のサーキュラー・エコノミーの先駆けと評価されることがあります。ただし、身分差別、疫病、貧困、火災もあり、理想化は禁物です。</p>
+<h5 id="sub-086">浮世絵 ― 大量印刷のグラフィックデザイン</h5>
+<p><strong>浮世絵</strong>は、江戸時代の木版画です。版元、絵師、彫師、摺師の分業で作られます。</p>
+<ul>
+<li><strong>菱川師宣</strong>：浮世絵の祖。</li>
+<li><strong>喜多川歌麿</strong>：美人画。</li>
+<li><strong>葛飾北斎</strong>：『富嶽三十六景』（1830〜32年ごろ）。「神奈川沖浪裏」。</li>
+<li><strong>歌川広重</strong>：『東海道五十三次』（1833〜34年）。風景版画。</li>
+<li><strong>役者絵</strong>、<strong>相撲絵</strong>、<strong>春画</strong>、<strong>摺物</strong>。</li>
+</ul>
+<p>浮世絵は、<strong>「大量生産される芸術」</strong>です。版木を彫り、和紙に摺り、色を重ねる。多色摺り（錦絵）は、1765年ごろに始まります。浮世絵は、19世紀後半にヨーロッパに渡り、<strong>ジャポニスム</strong>として、印象派、アール・ヌーヴォー、グラフィックデザインに影響を与えます。</p>
+<h5 id="sub-087">着物とテキスタイル</h5>
+<p>江戸時代、着物は、身分、職業、季節、地域を示す、高度なデザイン体系になります。</p>
+<ul>
+<li><strong>小袖</strong>：直線裁ち。反物の幅と長さを無駄なく使う。</li>
+<li><strong>友禅</strong>：糸目糊で防染し、色彩豊かな文様を描く。</li>
+<li><strong>絞り</strong>：括り染め。立体感のある模様。</li>
+<li><strong>型染</strong>：型紙で糊を置き、染める。大量生産可能。</li>
+<li><strong>帯</strong>：帯地、帯締め、帯揚げ。結び方で意味が変わる。</li>
+</ul>
+<p>着物は、<strong>「平面から身体を包む」</strong>デザインです。西洋の立体裁断とは違い、直線の布を身体に合わせて着付けます。洗い張り、仕立て直し、染め直し。<strong>修理と再利用</strong>が前提のシステムです。</p>
+<h3 class="section-title-read" id="sec-108">10-5 明治 ― 近代化とデザイン教育</h3>
+<p>1868年、明治維新。日本は、西洋の技術、制度、デザインを急速に導入します。</p>
+<ul>
+<li><strong>殖産興業</strong>：官営工場、輸出産業。生糸、茶、陶磁器、漆器。</li>
+<li><strong>万国博覧会</strong>：1873年ウィーン、1876年フィラデルフィア、1878年パリ。日本の工芸が出品され、ジャポニスムのきっかけになる。</li>
+<li><strong>内国勧業博覧会</strong>：1877年東京、1903年大阪。産業とデザインの展示。</li>
+<li><strong>建築</strong>：お雇い外国人（ジョサイア・コンドルなど）。鹿鳴館（1883年）、三菱一号館（1894年）。<strong>擬洋風建築</strong>。</li>
+<li><strong>教育</strong>：工部美術学校（1876年）、東京美術学校（1887年）、東京職工学校（1881年、後の東京高等工業学校）。図案、製図、工芸の教育。</li>
+<li><strong>意匠</strong>：日本独自の「デザイン」概念。図案、意匠、工夫。</li>
+</ul>
+<p>明治のデザインは、<strong>「西洋の技術」と「日本の工芸」</strong>の衝突と融合から始まります。輸出用の陶磁器、漆器、染織は、西洋の好みに合わせてデザインされ、同時に日本の職人技術を世界に知らせました。しかし、その多くは、日本の伝統を「エキゾチック」に消費するものでもありました。</p>
+<h3 class="section-title-read" id="sec-109">10-6 大正・昭和戦前 ― モダンと民藝</h3>
+<h5 id="sub-088">大正モダン</h5>
+<p>1912〜1926年、大正時代。都市化、大衆文化、消費社会。</p>
+<ul>
+<li><strong>百貨店</strong>：三越、白木屋、松坂屋。陳列、広告、パッケージ。</li>
+<li><strong>大衆雑誌</strong>：『キング』（1925年）、『主婦の友』。大量印刷。</li>
+<li><strong>映画</strong>、<strong>レコード</strong>、<strong>喫茶店</strong>、<strong>モガ</strong>（モダンガール）。</li>
+<li><strong>建築</strong>：分離派建築会（1920年）、ル・コルビュジエの影響。</li>
+<li><strong>グラフィック</strong>：ポスター、パッケージ、広告。杉浦非水、吉田豊。</li>
+</ul>
+<h5 id="sub-089">民藝 ― 名もなき職人の美</h5>
+<p><strong>柳宗悦</strong>（1889〜1961）は、1925年に<strong>民藝</strong>（民衆的工芸）という言葉を、濱田庄司、河井寛次郎とともに作ります。1936年、東京に<strong>日本民藝館</strong>を開設。</p>
+<ul>
+<li><strong>用の美</strong>：日常の道具の美しさ。使い込まれた器、素朴な布、木の家具。</li>
+<li><strong>無名性</strong>：作者よりも、伝統と共同体を重視。</li>
+<li><strong>手仕事</strong>：機械生産への批判。地域の素材と技術。</li>
+<li><strong>蒐集と展示</strong>：朝鮮、沖縄、アイヌ、日本の民具。</li>
+<li><strong>輸出</strong>：民藝運動は、日本の工芸を世界に紹介。バーナード・リーチとの交流。</li>
+</ul>
+<p>民藝は、<strong>「近代への批判」</strong>であると同時に、<strong>「近代的な運動」</strong>でもありました。柳は、雑誌を編集し、展覧会を開き、博物館を作り、海外と交流しました。民藝は、ノスタルジーではなく、メディアと制度を使った運動です。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+民藝運動には、植民地主義とナショナリズムの問題があります。柳は朝鮮の工芸を高く評価しましたが、同時に「朝鮮の美は悲哀である」といったオリエンタリズム的な表現を使いました。また、民藝の「無名性」は、実際の作り手の名前を消すことにもなりました。民藝は、日本の工芸を守った一方で、職人の労働条件や地域の政治を覆い隠す側面もありました。</p>
+</blockquote>
+<h5 id="sub-090">バウハウスと日本の近代デザイン</h5>
+<p>1920〜30年代、バウハウスは日本の建築家、デザイナーに影響を与えます。</p>
+<ul>
+<li><strong>雑誌『国際建築』</strong>、<strong>『新建築』</strong>：バウハウスの紹介。</li>
+<li><strong>建築家</strong>：前川国男、坂倉準三、丹下健三。ル・コルビュジエ、バウハウスの影響。</li>
+<li><strong>デザイン教育</strong>：東京高等工業学校、千葉大学工学部。構成教育、基礎造形。</li>
+<li><strong>プロダクト</strong>：国産の電気製品、家具、文具。機能主義の影響。</li>
+</ul>
+<h5 id="sub-091">戦時下 ― デザインの動員</h5>
+<p>1930〜40年代、戦時体制のなかで、デザインは国家の動員に組み込まれます。</p>
+<ul>
+<li><strong>統制経済</strong>：材料の配給、規格の統一。</li>
+<li><strong>プロパガンダ</strong>：ポスター、展覧会、映画。</li>
+<li><strong>航空機、軍需品</strong>：機能主義の技術。</li>
+<li><strong>「日本的なもの」</strong>：伝統の再利用。国民精神の象徴。</li>
+</ul>
+<p>戦時下のデザインは、<strong>「良いデザイン」が政治と無関係ではない</strong>ことを示す、重い教訓です。</p>
+<h3 class="section-title-read" id="sec-110">10-7 戦後 ― 技術と美の奇跡</h3>
+<h5 id="sub-092">復興と工業デザイン</h5>
+<p>1945年、敗戦。日本は、GHQの占領下で、民主化、工業化、輸出振興を進めます。</p>
+<ul>
+<li><strong>1946年</strong>：ソニーの前身、東京通信工業設立。</li>
+<li><strong>1948年</strong>：本田技研工業設立。</li>
+<li><strong>1950年</strong>：朝鮮戦争特需。日本の工業が復活。</li>
+<li><strong>1950年代</strong>：日本インダストリアルデザイナー協会（JIDA）など、デザイン団体の組織化。</li>
+<li><strong>1952年</strong>：<strong>GK設計</strong>（後のGKデザイン）設立。榮久庵憲司。</li>
+<li><strong>1955年</strong>：ソニー、TR-55トランジスタラジオ。</li>
+<li><strong>1957年</strong>：<strong>グッドデザイン賞</strong>（Gマーク）開始。通産省の「グッドデザイン商品選定制度」。</li>
+<li><strong>1958年</strong>：ホンダ、スーパーカブ。ソニーに社名変更。</li>
+</ul>
+<p>戦後の日本デザインは、<strong>「輸出のための品質」</strong>と<strong>「生活のための使いやすさ」</strong>を両立させました。Gマークは、品質とデザインの基準を作り、消費者の信頼を獲得します。</p>
+<h5 id="sub-093">1960年代 ― オリンピックと新幹線</h5>
+<ul>
+<li><strong>1964年東京オリンピック</strong>：亀倉雄策のエンブレム（赤い太陽と金の五輪）、勝見勝らのピクトグラム。世界初の本格的なオリンピック・ピクトグラム体系。93カ国、5,137人の選手。</li>
+<li><strong>1964年東海道新幹線</strong>：東京〜大阪。0系の流線型。高速鉄道のデザイン。</li>
+<li><strong>1964年</strong>：東京モノレール、首都高速道路。</li>
+<li><strong>1960年代</strong>：家電の普及。テレビ、洗濯機、冷蔵庫。団地、郊外。</li>
+<li><strong>1968年</strong>：明治百年。万博の準備。</li>
+</ul>
+<p>1964年は、日本のデザインが<strong>「戦後復興の象徴」</strong>から<strong>「国際的なデザイン大国」</strong>へ転換した年です。オリンピックのピクトグラムは、言語の壁を越える情報デザインの先駆けでした。</p>
+<h5 id="sub-094">1970年大阪万博 ― 未来のショーケース</h5>
+<p>1970年、大阪で<strong>日本万国博覧会</strong>（Expo '70）が開かれます。</p>
+<ul>
+<li><strong>テーマ</strong>：「人類の進歩と調和」。</li>
+<li><strong>マスタープラン</strong>：丹下健三。</li>
+<li><strong>太陽の塔</strong>：岡本太郎。高さ約70メートル。生命、祭り、未来。</li>
+<li><strong>メタボリズム</strong>：黒川紀章、菊竹清訓。成長する建築、カプセル。</li>
+<li><strong>展示</strong>：未来都市、ロボット、宇宙、環境。</li>
+<li><strong>来場者</strong>：約6400万人。</li>
+</ul>
+<p>万博は、<strong>「デザインと国家のショーケース」</strong>でした。同時に、公害、環境破壊、消費社会への批判も強まりました。</p>
+<h5 id="sub-095">1970年代 ― オイルショックとウォークマン</h5>
+<ul>
+<li><strong>1973年オイルショック</strong>：省エネ、小型車、品質管理。</li>
+<li><strong>1979年ウォークマン</strong>：TPS-L2。ソニー。個人用音楽プレーヤー。市場調査ではなく、井深大の「飛行機で音楽を聴きたい」という個人的な欲求から生まれたという逸話。</li>
+<li><strong>1970年代</strong>：日本の家電、自動車、時計、カメラが世界市場を席巻。</li>
+<li><strong>デザイン</strong>：機能主義、小型化、精密さ。GK、ソニー、ブラザー、ヤマハ。</li>
+</ul>
+<h5 id="sub-096">1980年代 ― 無印とファッションとゲーム</h5>
+<ul>
+<li><strong>1980年</strong>：<strong>無印良品</strong>、西友のプライベートブランドとして誕生。40品目。「無印」「良品」。素材、機能、価格のバランス。</li>
+<li><strong>1981年</strong>：山本耀司、コム・デ・ギャルソン（川久保玲）がパリに進出。黒、布の塊、非対称。<strong>「ヒロシマ・シック」</strong>。</li>
+<li><strong>1983年</strong>：任天堂、ファミリーコンピュータ。</li>
+<li><strong>1989年</strong>：ゲームボーイ。横井軍平の「枯れた技術の水平思考」。</li>
+<li><strong>1980年代</strong>：バブル経済。デザインの華やかさ、消費、ブランド。</li>
+</ul>
+<p>無印良品は、<strong>「これがいい」ではなく「これでいい」</strong>という思想で、過剰なブランドを排し、素材と機能を前面に出しました。原研哉は2000年代に、無印のアートディレクションを担当し、「白」「空」「余白」の美学を世界に広めます。</p>
+<h5 id="sub-097">1990年代 ― 失われた十年とデジタル</h5>
+<ul>
+<li><strong>1991年</strong>：バブル崩壊。無印良品、ロンドンに初の海外店。</li>
+<li><strong>1994年</strong>：ソニー・プレイステーション。</li>
+<li><strong>1996年</strong>：ポケモン（ゲームボーイ）。</li>
+<li><strong>1990年代</strong>：インターネット、携帯電話、iモード（1999年）。</li>
+<li><strong>デザイン</strong>：不況のなかで、コスト削減、ユニバーサル・デザイン、環境配慮。</li>
+<li><strong>建築</strong>：安藤忠雄、SANAA、伊東豊雄。世界的な評価。</li>
+</ul>
+<h5 id="sub-098">2000年代 ― グローバル化と「クールジャパン」</h5>
+<ul>
+<li><strong>2001年</strong>：原研哉が無印良品のアートディレクターに。無印、東証一部上場。</li>
+<li><strong>2002年</strong>：nendo設立（佐藤オオキ）。無印、アメリカ市場へ。</li>
+<li><strong>2003年</strong>：原研哉『デザインのデザイン』（英訳は2007年）。深澤直人、±0を設立（年号は諸説あり）。</li>
+<li><strong>2010年代</strong>：<strong>クールジャパン</strong>政策。アニメ、マンガ、ゲーム、ファッション、食。</li>
+<li><strong>2011年</strong>：東日本大震災。デザインの社会的役割、復興、エネルギー。</li>
+<li><strong>2020/2021年</strong>：東京オリンピック。コロナ延期。デザイン論争（エンブレム、ロゴ、開会式）。</li>
+<li><strong>2025年</strong>：大阪・関西万博。</li>
+</ul>
+<h5 id="sub-099">2020年代 ― 高齢化、AI、サステナビリティ</h5>
+<ul>
+<li><strong>高齢化</strong>：人口減少、介護、医療、地域共生。ユニバーサル・デザイン、ロボット、住まい。</li>
+<li><strong>AI</strong>：生成AI、ロボティクス、自動運転。デザインの仕事の変化。</li>
+<li><strong>サステナビリティ</strong>：脱炭素、循環経済、修理、長寿命。</li>
+<li><strong>クラフト</strong>：後継者不足、職人の高齢化、海外市場。</li>
+<li><strong>観光</strong>：オーバーツーリズム、地域資源のデザイン。</li>
+<li><strong>防災</strong>：地震、台風、水害。レジリエントなデザイン。</li>
+</ul>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+日本のデザインは、戦後「安くて良いものを世界に売る」ことで成長しました。今は「長く使えるもの、地域に根ざしたもの、人を包摂するもの」が問われています。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-111">10-8 日本のデザインを支える12の概念</h3>
+<div class="table-wrap" role="region" aria-label="表" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">概念</th>
+<th scope="col">意味</th>
+<th scope="col">注意点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>用の美</td>
+<td>使うことで生まれる美</td>
+<td>民藝の文脈。すべての日本製品に当てはまるわけではない</td>
+</tr>
+<tr>
+<td>民藝</td>
+<td>民衆的工芸。名もなき職人の美</td>
+<td>近代的な運動。無名性は労働を覆い隠すことも</td>
+</tr>
+<tr>
+<td>侘寂</td>
+<td>不完全・儚さ・素朴の美</td>
+<td>茶の湯の美学。日本全体の美学ではない</td>
+</tr>
+<tr>
+<td>間</td>
+<td>余白、間隔、関係</td>
+<td>建築、庭園、グラフィック。中国の「留白」とも関係</td>
+</tr>
+<tr>
+<td>もったいない</td>
+<td>浪費への抵抗、修理</td>
+<td>環境意識の源。但し、過剰な自己犠牲にも</td>
+</tr>
+<tr>
+<td>改善</td>
+<td>継続的な改善</td>
+<td>TPS、品質管理。労働強化にならないように</td>
+</tr>
+<tr>
+<td>職人</td>
+<td>手仕事の専門家</td>
+<td>ロマン化せず、賃金・後継者・安全を問う</td>
+</tr>
+<tr>
+<td>小型化</td>
+<td>小さく、軽く、高機能</td>
+<td>ソニー、任天堂。バッテリー、修理性との緊張</td>
+</tr>
+<tr>
+<td>省エネ</td>
+<td>エネルギー効率</td>
+<td>石油ショック、ハイブリッド。原子力依存の問題</td>
+</tr>
+<tr>
+<td>高品質</td>
+<td>品質管理、精度</td>
+<td>過剰品質、コスト、環境負荷のバランス</td>
+</tr>
+<tr>
+<td>パッケージ</td>
+<td>包む、贈る、保護する</td>
+<td>過剰包装、プラスチック問題</td>
+</tr>
+<tr>
+<td>余白</td>
+<td>白、空、静けさ</td>
+<td>原研哉の「白」。文化的な意味は一様ではない</td>
+</tr>
+</tbody>
+</table></div><p class="table-hint">横にスクロールできます →</p>
+<h3 class="section-title-read" id="sec-112">10-9 日本デザイン神話を剥がす</h3>
+<ol>
+<li><strong>「日本は昔から禅と侘寂の国」</strong>：侘寂は、中世の茶の湯で形成された、特定の美学です。日本には、金閣、浮世絵、カワイイ、サイバーパンクなど、別の美学もあります。</li>
+<li><strong>「日本のデザインは職人技」</strong>：職人技は重要ですが、日本の強さは、職人と工学と品質管理の<strong>組織的な統合</strong>にあります。ソニー、トヨタ、任天堂は、職人だけでは説明できません。</li>
+<li><strong>「日本は独自のデザイン文化を持つ」</strong>：日本は、中国、朝鮮、西洋から学び、混ぜ、変形してきました。純粋な「日本」はありません。</li>
+<li><strong>「クールジャパンは国策の成功」</strong>：アニメ、ゲーム、ファッションは、民間の創造性と市場の産物です。国策は、それを後追いし、時に矮小化しました。</li>
+<li><strong>「日本のデザインは環境に優しい」</strong>：省エネ製品は多いですが、大量生産、プラスチック、原子力、輸入資源の問題もあります。聖人化は禁物です。</li>
+</ol>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+日本のデザインは、土器からゲームまで、驚くほど多様である。<br>
+その強さは、職人、工学、品質管理、美意識の統合にある。<br>
+しかし、それは「日本精神」ではなく、歴史的な制度と努力の産物である。<br>
+神話を捨てることで、初めて日本のデザインを正確に理解し、未来に活かせる。</p>
+</blockquote>
+<hr>
+<h2 class="chapter-title" id="ch-11" data-no="11">第11章 対象を読む方法 ― 12の原理と60の用語</h2><p class="ch-meta mono"><span>4,806 CHARACTERS</span><span>約 10 分</span></p>
+<h3 class="section-title-read" id="sec-113">モノを読む９つのステップ</h3>
+<p>デザインを見るとき、私たちはすぐに「好き」「嫌い」と言います。しかし、それだけでは、なぜそう感じるのか、誰にとって良いのかがわかりません。次の９つのステップで、対象を読んでみましょう。</p>
+<ol>
+<li><strong>描写する</strong>：色、形、素材、大きさ、重さ、文字、傷。解釈せずに、見えることを書く。</li>
+<li><strong>特定する</strong>：誰が、いつ、どこで、何のために作ったか。署名、刻印、ラベル、文献。</li>
+<li><strong>使う</strong>：実際に使ってみる。手に取る、座る、歩く、読む。身体で確かめる。</li>
+<li><strong>構造を見る</strong>：どう組み立てられているか。接合、素材、部品、修理可能性。</li>
+<li><strong>機能を見る</strong>：何を可能にし、何を不可能にするか。使いやすさ、誤用、危険。</li>
+<li><strong>意味を見る</strong>：何を象徴しているか。色、形、素材、文脈、広告、展示。</li>
+<li><strong>生産を見る</strong>：誰が、どのように、どのくらいの労働とエネルギーで作ったか。</li>
+<li><strong>後日談を見る</strong>：使われた後、修理されたか、捨てられたか、再利用されたか、博物館に入ったか。</li>
+<li><strong>比較する</strong>：同じ時代の他の対象、他の地域の似た対象、前後の時代と比べる。</li>
+</ol>
+<p>この９ステップは、美術品にも、スマホにも、椅子にも、都市にも使えます。大切なのは、<strong>「好き嫌い」の前に、観察と文脈を置く</strong>ことです。</p>
+<h3 class="section-title-read" id="sec-114">デザインを支える12の原理</h3>
+<h5 id="sub-100">1. アフォーダンス（Affordance）</h5>
+<p>物が提供する行為の可能性。椅子は「座る」、取っ手は「引く」、ボタンは「押す」をアフォードします。ただし、アフォーダンスは文化と身体によって変わります。</p>
+<h5 id="sub-101">2. シグニファイア（Signifier）</h5>
+<p>行為を促す手がかり。矢印、ラベル、色、形。アフォーダンスが「可能性」なら、シグニファイアは「合図」です。</p>
+<h5 id="sub-102">3. マッピング（Mapping）</h5>
+<p>操作と結果の対応。コンロのつまみと火口の位置、ゲームのコントローラーと画面の動き。自然な対応は、学習を減らします。</p>
+<h5 id="sub-103">4. フィードバック（Feedback）</h5>
+<p>行為の結果を知らせること。音、光、振動、メッセージ。フィードバックが遅いと、人は不安になります。</p>
+<h5 id="sub-104">5. 制約（Constraint）</h5>
+<p>できることを制限する。間違った使い方を防ぐ。物理的な制約、文化的な制約、論理的な制約。</p>
+<h5 id="sub-105">6. 概念モデル（Conceptual Model）</h5>
+<p>ユーザーが頭のなかで作る、仕組みの理解。ファイル、フォルダ、ゴミ箱。良い概念モデルは、説明なしで使える。</p>
+<h5 id="sub-106">7. 階層（Hierarchy）</h5>
+<p>重要度の順序。大きさ、色、位置、余白。何を最初に見せ、何を後回しにするか。</p>
+<h5 id="sub-107">8. グリッド（Grid）</h5>
+<p>配置の基準。列、行、余白、比率。新聞、雑誌、ウェブ、都市。グリッドは、秩序と柔軟性を両立させます。</p>
+<h5 id="sub-108">9. コントラスト（Contrast）</h5>
+<p>違いを作る。明暗、色、大きさ、書体、素材。コントラストは、焦点とリズムを作ります。</p>
+<h5 id="sub-109">10. リズム（Rhythm）</h5>
+<p>繰り返しと変化。模様、柱、窓、文字、動き。リズムは、時間と空間に心地よさを作ります。</p>
+<h5 id="sub-110">11. エコノミー（Economy）</h5>
+<p>最小の手段で最大の効果。材料、工程、言葉、動き。ただし、経済性は、耐久性、修理性、安全性とバランスが必要です。</p>
+<h5 id="sub-111">12. 修復（Repair）</h5>
+<p>壊れたときに直せること。部品、工具、情報、設計。修復可能性は、持続性と愛着の基盤です。</p>
+<blockquote class="callout callout--deep">
+<p><strong>一歩深く（専門家向け）</strong><br>
+これらの原理は、ゲシュタルト心理学、認知心理学、人間工学、記号論、建築理論から来ています。ただし、原理は「法則」ではありません。文化、身体、状況によって効果は変わります。たとえば、赤が「危険」を意味する文化もあれば、「幸運」を意味する文化もあります。原理を普遍的なレシピとして使うのではなく、<strong>仮説として使い、テストする</strong>ことが重要です。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-115">色彩 ― 見えることの設計</h3>
+<p>色彩は、単なる「好み」ではありません。光、素材、文化、身体、規格が交差する、デザインの基盤です。</p>
+<ul>
+<li><strong>三属性</strong>：色相（hue）、明度（value）、彩度（saturation）。色は、この三次元の空間のなかの位置として捉えられます。</li>
+<li><strong>混色</strong>：光の加法混色（RGB）、絵の具の減法混色（CMY）、印刷のCMYK。画面と印刷では、色の出方が違います。</li>
+<li><strong>表色系</strong>：マンセル、NCS、Pantone。Pantoneは、印刷・素材・ブランドの色を共有するための仕組みです。</li>
+<li><strong>対比</strong>：同時対比、明暗対比、補色対比。同じ色でも、隣の色で違って見えます。</li>
+<li><strong>文化</strong>：赤は、危険、愛、幸運、革命。白は、純粋、喪、空白。意味は、文化と文脈で変わります。</li>
+<li><strong>アクセシビリティ</strong>：WCAG 2.2は、通常の文字で4.5:1、大きな文字で3:1以上のコントラストを求めます（AA）。色だけで情報を伝えてはいけません。</li>
+<li><strong>素材</strong>：顔料、染料、釉薬、アルマイト、塗装。素材と光で、色は変化します。</li>
+</ul>
+<h3 class="section-title-read" id="sec-116">タイポグラフィ ― 文字の身体</h3>
+<p>タイポグラフィは、文字を「読める」「伝わる」「美しい」ものにする技術です。</p>
+<ul>
+<li><strong>解剖</strong>：ベースライン、xハイト、アセンダー、ディセンダー、カウンター、ステム、セリフ。</li>
+<li><strong>分類</strong>：ヒューマニスト、トランジショナル、モダン、スラブセリフ、サンセリフ（グロテスク、ジオメトリック、ヒューマニスト）、スクリプト、ディスプレイ。</li>
+<li><strong>組版</strong>：カーニング、トラッキング、行間（リーディング）、行長（メジャー）、階層、孤立行・分離行。</li>
+<li><strong>日本語</strong>：和文と欧文の混植、禁則処理、約物、縦組み、フォントライセンス。日本語の文字は、欧文より複雑で、行間と余白の設計が重要です。</li>
+<li><strong>アクセシビリティ</strong>：文字サイズ、コントラスト、行間、読みやすさ。ディスレクシア向けフォントは、万能ではありません。</li>
+<li><strong>可変フォント</strong>：一つのファイルで、太さ、幅、光学サイズを連続的に変えられる。デジタルならではの表現。</li>
+</ul>
+<h3 class="section-title-read" id="sec-117">グリッド ― 秩序の骨格</h3>
+<p>グリッドは、情報を配置するための見えない骨格です。</p>
+<ul>
+<li><strong>基本</strong>：マージン、カラム、ガター、ベースライン。</li>
+<li><strong>種類</strong>：マニュスクリプト、カラム、モジュラー、ベースライン。</li>
+<li><strong>スイス・スタイル</strong>：非対称グリッド、サンセリフ、左揃え。ミュラー＝ブロックマンの『グリッド・システム』（1981年）。</li>
+<li><strong>ウェブ</strong>：12カラム、CSS Grid、レスポンシブ。画面サイズに応じて、グリッドを組み替える。</li>
+<li><strong>イデオロギー</strong>：グリッドは、秩序、効率、平等を作りますが、同時に、はみ出すもの、混沌、地域の多様性を排除することもあります。</li>
+</ul>
+<blockquote class="callout callout--kid">
+<p><strong>赤ちゃんでもわかる一言</strong><br>
+色は「気持ち」、文字は「声」、グリッドは「骨格」です。この三つが揃うと、情報は、読みやすく、覚えやすく、美しくなります。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-118">60の用語集</h3>
+<div class="table-wrap" role="region" aria-label="表" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">用語</th>
+<th scope="col">意味</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>デザイン</td>
+<td>意図を、制約のなかで、他者のために形にすること</td>
+</tr>
+<tr>
+<td>意匠</td>
+<td>製品の外観・装飾・形</td>
+</tr>
+<tr>
+<td>図案</td>
+<td>模様や文様の下絵</td>
+</tr>
+<tr>
+<td>プロダクトデザイン</td>
+<td>製品の形・機能・使い勝手の設計</td>
+</tr>
+<tr>
+<td>インダストリアルデザイン</td>
+<td>工業生産のための製品設計</td>
+</tr>
+<tr>
+<td>グラフィックデザイン</td>
+<td>文字・図・写真による視覚伝達</td>
+</tr>
+<tr>
+<td>タイポグラフィ</td>
+<td>文字の配置・書体・組版</td>
+</tr>
+<tr>
+<td>エディトリアルデザイン</td>
+<td>本・雑誌・新聞の編集デザイン</td>
+</tr>
+<tr>
+<td>インフォメーションデザイン</td>
+<td>情報の構造化と可視化</td>
+</tr>
+<tr>
+<td>インタラクション・デザイン</td>
+<td>人とシステムの相互作用の設計</td>
+</tr>
+<tr>
+<td>UXデザイン</td>
+<td>利用体験全体の設計</td>
+</tr>
+<tr>
+<td>UIデザイン</td>
+<td>画面・操作部の設計</td>
+</tr>
+<tr>
+<td>サービスデザイン</td>
+<td>サービスの体験とプロセスの設計</td>
+</tr>
+<tr>
+<td>デザインシステム</td>
+<td>部品・規則・ガイドラインの体系</td>
+</tr>
+<tr>
+<td>アフォーダンス</td>
+<td>物が提供する行為の可能性</td>
+</tr>
+<tr>
+<td>シグニファイア</td>
+<td>行為を促す手がかり</td>
+</tr>
+<tr>
+<td>マッピング</td>
+<td>操作と結果の対応</td>
+</tr>
+<tr>
+<td>フィードバック</td>
+<td>行為の結果の通知</td>
+</tr>
+<tr>
+<td>制約</td>
+<td>可能な行為の制限</td>
+</tr>
+<tr>
+<td>概念モデル</td>
+<td>仕組みについての心的モデル</td>
+</tr>
+<tr>
+<td>メンタルモデル</td>
+<td>ユーザーが持つ理解の枠組み</td>
+</tr>
+<tr>
+<td>ユーザビリティ</td>
+<td>使いやすさ</td>
+</tr>
+<tr>
+<td>アクセシビリティ</td>
+<td>多様な人が使えること</td>
+</tr>
+<tr>
+<td>インクルーシブ・デザイン</td>
+<td>排除を減らす設計</td>
+</tr>
+<tr>
+<td>ユニバーサル・デザイン</td>
+<td>できるだけ多くの人が使える設計</td>
+</tr>
+<tr>
+<td>人間中心設計</td>
+<td>人間のニーズ・能力・文脈を中心に置く設計</td>
+</tr>
+<tr>
+<td>参加型デザイン</td>
+<td>利用者が設計過程に参加する</td>
+</tr>
+<tr>
+<td>共創</td>
+<td>多様な当事者が一緒に価値を創る</td>
+</tr>
+<tr>
+<td>デザイン思考</td>
+<td>デザイナーの思考法を問題解決に応用する方法</td>
+</tr>
+<tr>
+<td>ダブルダイヤモンド</td>
+<td>発見・定義・開発・提供のプロセス</td>
+</tr>
+<tr>
+<td>デザインスプリント</td>
+<td>短期間で検証する手法</td>
+</tr>
+<tr>
+<td>プロトタイピング</td>
+<td>試作による検証</td>
+</tr>
+<tr>
+<td>ワイヤーフレーム</td>
+<td>画面の構造の線画</td>
+</tr>
+<tr>
+<td>モックアップ</td>
+<td>見た目・操作の試作</td>
+</tr>
+<tr>
+<td>ペルソナ</td>
+<td>代表的なユーザー像</td>
+</tr>
+<tr>
+<td>カスタマージャーニー</td>
+<td>顧客体験の時間軸</td>
+</tr>
+<tr>
+<td>サービスブループリント</td>
+<td>サービスのプロセスと接点の図</td>
+</tr>
+<tr>
+<td>タッチポイント</td>
+<td>顧客と組織の接点</td>
+</tr>
+<tr>
+<td>デザイントークン</td>
+<td>色・文字・間隔などの共有変数</td>
+</tr>
+<tr>
+<td>コンポーネント</td>
+<td>再利用可能な部品</td>
+</tr>
+<tr>
+<td>レスポンシブデザイン</td>
+<td>画面サイズに適応する設計</td>
+</tr>
+<tr>
+<td>モバイルファースト</td>
+<td>モバイルを優先する設計</td>
+</tr>
+<tr>
+<td>プログレッシブエンハンスメント</td>
+<td>基本機能を保ち、環境に応じて強化する</td>
+</tr>
+<tr>
+<td>グレースフルデグラデーション</td>
+<td>機能が制限されても使い続けられる設計</td>
+</tr>
+<tr>
+<td>ダークパターン</td>
+<td>ユーザーを欺く設計</td>
+</tr>
+<tr>
+<td>アテンションエコノミー</td>
+<td>注意を集めて収益化する経済</td>
+</tr>
+<tr>
+<td>サステナブルデザイン</td>
+<td>環境・社会・経済の持続性を考慮する設計</td>
+</tr>
+<tr>
+<td>エコデザイン</td>
+<td>環境負荷を減らす設計</td>
+</tr>
+<tr>
+<td>サーキュラーデザイン</td>
+<td>循環を前提とする設計</td>
+</tr>
+<tr>
+<td>ライフサイクル評価（LCA）</td>
+<td>製品の一生の環境影響を評価する</td>
+</tr>
+<tr>
+<td>クラドル・トゥ・クラドル</td>
+<td>廃棄物を栄養として循環させる設計</td>
+</tr>
+<tr>
+<td>デザイン・フォー・ディスアセンブリ</td>
+<td>分解・修理・再資源化を前提とする設計</td>
+</tr>
+<tr>
+<td>修理する権利</td>
+<td>消費者が製品を修理できる権利</td>
+</tr>
+<tr>
+<td>デジタル製品パスポート</td>
+<td>製品の素材・修理・環境情報のデジタル記録</td>
+</tr>
+<tr>
+<td>スペキュラティブデザイン</td>
+<td>未来の可能性を問うデザイン</td>
+</tr>
+<tr>
+<td>クリティカルデザイン</td>
+<td>社会の前提を問い直すデザイン</td>
+</tr>
+<tr>
+<td>デザインフィクション</td>
+<td>架空の世界を具体的に描く手法</td>
+</tr>
+<tr>
+<td>デザイン・ジャスティス</td>
+<td>デザインの公平性・参加・責任を問う</td>
+</tr>
+<tr>
+<td>脱植民地化</td>
+<td>植民地主義の遺産を問い直す</td>
+</tr>
+<tr>
+<td>多元世界（pluriverse）</td>
+<td>複数の世界観・生活様式の共存</td>
+</tr>
+<tr>
+<td>モア・ザン・ヒューマン</td>
+<td>人間以外の存在も考慮する設計</td>
+</tr>
+</tbody>
+</table></div><p class="table-hint">横にスクロールできます →</p>
+<h3 class="section-title-read" id="sec-119">あらゆるデザインに問う10の質問</h3>
+<ol>
+<li>これは、誰のためのものか。</li>
+<li>誰を排除しているか。</li>
+<li>誰が作り、誰が労働しているか。</li>
+<li>何を可能にし、何を不可能にしているか。</li>
+<li>どんな意味や価値観を運んでいるか。</li>
+<li>どのくらい長く使えるか。修理できるか。</li>
+<li>素材はどこから来て、どこへ行くのか。</li>
+<li>使う人の身体と時間を、どう扱っているか。</li>
+<li>代替案は何か。なぜこれが選ばれたのか。</li>
+<li>10年後、これはどうなっているか。</li>
+</ol>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+デザインを読むことは、ものを貶すことでも、崇拝することでもない。<br>
+「なぜ、この形なのか」「誰にとって、この形なのか」を問うことである。<br>
+良い読み手は、作り手の意図と、使う人の経験と、社会の構造を、同時に見る。</p>
+</blockquote>
+<hr>
+<h2 class="chapter-title" id="ch-12" data-no="12">第12章 デザイン全史 年表</h2><p class="ch-meta mono"><span>4,277 CHARACTERS</span><span>約 9 分</span></p>
+<div class="table-wrap" role="region" aria-label="表" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">年</th>
+<th scope="col">出来事</th>
+<th scope="col">デザイン上の意味</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>約260万年前</td>
+<td>オルドワン石器</td>
+<td>最初の道具製作</td>
+</tr>
+<tr>
+<td>約176万年前</td>
+<td>アシューリアン握斧</td>
+<td>対称形の石器</td>
+</tr>
+<tr>
+<td>約30万年前</td>
+<td>ホモ・サピエンス登場</td>
+<td>認知能力の拡大</td>
+</tr>
+<tr>
+<td>約7万年前</td>
+<td>ブロンボス洞窟の刻線</td>
+<td>象徴表現の始まり</td>
+</tr>
+<tr>
+<td>約4万5000年前</td>
+<td>スラウェシ洞窟壁画</td>
+<td>イメージのデザイン</td>
+</tr>
+<tr>
+<td>約2万年前</td>
+<td>仙人洞の土器</td>
+<td>最古級の陶器</td>
+</tr>
+<tr>
+<td>約1万4000年前</td>
+<td>縄文土器</td>
+<td>日本の土器文化</td>
+</tr>
+<tr>
+<td>約1万年前</td>
+<td>農耕開始</td>
+<td>定住と貯蔵</td>
+</tr>
+<tr>
+<td>約8000年前</td>
+<td>メソポタミアのトークン</td>
+<td>会計の記号</td>
+</tr>
+<tr>
+<td>約5000年前</td>
+<td>銅・青銅の冶金</td>
+<td>新材料</td>
+</tr>
+<tr>
+<td>約5000年前</td>
+<td>ウルク都市</td>
+<td>都市計画</td>
+</tr>
+<tr>
+<td>約5000年前</td>
+<td>エジプト象形文字</td>
+<td>文字のデザイン</td>
+</tr>
+<tr>
+<td>約4500年前</td>
+<td>モヘンジョ・ダロ</td>
+<td>格子都市と下水道</td>
+</tr>
+<tr>
+<td>約4500年前（紀元前2560年ごろ）</td>
+<td>ギザの大ピラミッド</td>
+<td>巨大建築</td>
+</tr>
+<tr>
+<td>約3300年前</td>
+<td>プロト・クネイフォルム</td>
+<td>楔形文字の起源</td>
+</tr>
+<tr>
+<td>約3200年前</td>
+<td>楔形文字</td>
+<td>行政と文学</td>
+</tr>
+<tr>
+<td>約3200年前</td>
+<td>中国の甲骨文字</td>
+<td>漢字の起源</td>
+</tr>
+<tr>
+<td>約2500年前</td>
+<td>アテネのアクロポリス</td>
+<td>古典建築</td>
+</tr>
+<tr>
+<td>約2000年前</td>
+<td>ローマの水道橋</td>
+<td>公共インフラ</td>
+</tr>
+<tr>
+<td>紀元105年</td>
+<td>蔡倫の製紙</td>
+<td>紙の普及</td>
+</tr>
+<tr>
+<td>537年</td>
+<td>ハギア・ソフィア</td>
+<td>ビザンツのドーム</td>
+</tr>
+<tr>
+<td>794年</td>
+<td>平安京遷都</td>
+<td>日本の国風文化</td>
+</tr>
+<tr>
+<td>1040年ごろ</td>
+<td>畢昇の活字</td>
+<td>中国の活字印刷</td>
+</tr>
+<tr>
+<td>1050年ごろ</td>
+<td>ロマネスク建築</td>
+<td>石造建築</td>
+</tr>
+<tr>
+<td>1140年ごろ</td>
+<td>ゴシック建築</td>
+<td>光と構造</td>
+</tr>
+<tr>
+<td>1200年ごろ</td>
+<td>禅宗の伝来</td>
+<td>日本の禅と茶</td>
+</tr>
+<tr>
+<td>1440年ごろ</td>
+<td>グーテンベルクの活版印刷</td>
+<td>印刷革命</td>
+</tr>
+<tr>
+<td>1455年ごろ</td>
+<td>42行聖書</td>
+<td>活版印刷の実用化</td>
+</tr>
+<tr>
+<td>1494年</td>
+<td>アルディーネ印刷所</td>
+<td>活字と出版</td>
+</tr>
+<tr>
+<td>1501年</td>
+<td>イタリック体</td>
+<td>携帯できる本</td>
+</tr>
+<tr>
+<td>1522〜1591年</td>
+<td>千利休</td>
+<td>わび茶の完成</td>
+</tr>
+<tr>
+<td>1603年</td>
+<td>江戸幕府</td>
+<td>江戸の都市デザイン</td>
+</tr>
+<tr>
+<td>1632〜1653年</td>
+<td>タージ・マハル</td>
+<td>ムガル建築</td>
+</tr>
+<tr>
+<td>1682年</td>
+<td>ヴェルサイユ宮殿</td>
+<td>権力の演出</td>
+</tr>
+<tr>
+<td>1759年</td>
+<td>ウェッジウッド創業</td>
+<td>デザインとビジネス</td>
+</tr>
+<tr>
+<td>1776年</td>
+<td>アダム・スミス『国富論』</td>
+<td>分業の理論</td>
+</tr>
+<tr>
+<td>1804年</td>
+<td>ジャカード織機</td>
+<td>パンチカード</td>
+</tr>
+<tr>
+<td>1830年代</td>
+<td>浮世絵の黄金期</td>
+<td>大量印刷の芸術</td>
+</tr>
+<tr>
+<td>1851年</td>
+<td>ロンドン万国博覧会</td>
+<td>クリスタル・パレス</td>
+</tr>
+<tr>
+<td>1856年</td>
+<td>オーウェン・ジョーンズ『装飾の文法』</td>
+<td>装飾の分類</td>
+</tr>
+<tr>
+<td>1861年</td>
+<td>モリス商会</td>
+<td>アーツ・アンド・クラフツ</td>
+</tr>
+<tr>
+<td>1887年</td>
+<td>アーツ・アンド・クラフツ展覧会協会</td>
+<td>運動の組織化</td>
+</tr>
+<tr>
+<td>1891年</td>
+<td>ケルムスコット・プレス</td>
+<td>手作りの本</td>
+</tr>
+<tr>
+<td>1893年</td>
+<td>タッセル邸</td>
+<td>アール・ヌーヴォー</td>
+</tr>
+<tr>
+<td>1897年</td>
+<td>ウィーン分離派</td>
+<td>新しい芸術</td>
+</tr>
+<tr>
+<td>1900年</td>
+<td>パリ万博</td>
+<td>アール・ヌーヴォー全盛</td>
+</tr>
+<tr>
+<td>1903年</td>
+<td>ウィーン工房</td>
+<td>総合芸術の工房</td>
+</tr>
+<tr>
+<td>1907年</td>
+<td>ドイツ工作連盟</td>
+<td>標準化と芸術</td>
+</tr>
+<tr>
+<td>1907年</td>
+<td>ベーレンス、AEG顧問</td>
+<td>コーポレート・アイデンティティ</td>
+</tr>
+<tr>
+<td>1908年</td>
+<td>フォード・モデルT</td>
+<td>大量生産</td>
+</tr>
+<tr>
+<td>1909年</td>
+<td>AEGタービン工場</td>
+<td>工業建築</td>
+</tr>
+<tr>
+<td>1911年</td>
+<td>テイラー『科学的管理法』</td>
+<td>労働の標準化</td>
+</tr>
+<tr>
+<td>1913年</td>
+<td>フォード、流れ作業</td>
+<td>大量生産の完成</td>
+</tr>
+<tr>
+<td>1913年</td>
+<td>ロース『装飾と犯罪』出版</td>
+<td>装飾の否定</td>
+</tr>
+<tr>
+<td>1915年</td>
+<td>マレーヴィチ『黒い正方形』</td>
+<td>シュプレマティズム</td>
+</tr>
+<tr>
+<td>1917年</td>
+<td>デ・ステイル結成</td>
+<td>抽象と普遍</td>
+</tr>
+<tr>
+<td>1919年</td>
+<td>バウハウス設立</td>
+<td>芸術と技術の統合</td>
+</tr>
+<tr>
+<td>1919年</td>
+<td>タトリン『第三インターナショナル記念塔』</td>
+<td>構成主義</td>
+</tr>
+<tr>
+<td>1920年</td>
+<td>ヴフテマス設立</td>
+<td>ロシアのデザイン教育</td>
+</tr>
+<tr>
+<td>1923年</td>
+<td>バウハウス展</td>
+<td>ハウス・アム・ホルン</td>
+</tr>
+<tr>
+<td>1924年</td>
+<td>シュレーダー邸</td>
+<td>デ・ステイル建築</td>
+</tr>
+<tr>
+<td>1925年</td>
+<td>パリ装飾美術博覧会</td>
+<td>アール・デコ</td>
+</tr>
+<tr>
+<td>1925年</td>
+<td>民藝という言葉</td>
+<td>柳宗悦ら</td>
+</tr>
+<tr>
+<td>1926年</td>
+<td>バウハウス・デッサウ校舎</td>
+<td>ガラスの建築</td>
+</tr>
+<tr>
+<td>1928年</td>
+<td>チヒョルト『新しいタイポグラフィ』</td>
+<td>近代組版</td>
+</tr>
+<tr>
+<td>1932年</td>
+<td>MoMA「インターナショナル・スタイル」展</td>
+<td>近代建築の命名</td>
+</tr>
+<tr>
+<td>1933年</td>
+<td>バウハウス閉校</td>
+<td>ナチスの圧力</td>
+</tr>
+<tr>
+<td>1936年</td>
+<td>日本民藝館開館</td>
+<td>民藝の制度化</td>
+</tr>
+<tr>
+<td>1939年</td>
+<td>ニューヨーク万博</td>
+<td>フューチュラマ</td>
+</tr>
+<tr>
+<td>1945年</td>
+<td>ブッシュ『As We May Think』</td>
+<td>情報デザインの先駆</td>
+</tr>
+<tr>
+<td>1946年</td>
+<td>ヴェスパ</td>
+<td>戦後の移動</td>
+</tr>
+<tr>
+<td>1947年</td>
+<td>ディオール「ニュールック」</td>
+<td>戦後ファッション</td>
+</tr>
+<tr>
+<td>1951年</td>
+<td>英国フェスティバル</td>
+<td>戦後デザイン</td>
+</tr>
+<tr>
+<td>1953年</td>
+<td>ウルム造形大学</td>
+<td>デザインの科学化</td>
+</tr>
+<tr>
+<td>1955年</td>
+<td>ソニーTR-55</td>
+<td>日本のトランジスタ</td>
+</tr>
+<tr>
+<td>1955年</td>
+<td>ドレイフス『人のためのデザイン』</td>
+<td>人間工学</td>
+</tr>
+<tr>
+<td>1956年</td>
+<td>イームズ・ラウンジチェア</td>
+<td>戦後アメリカ</td>
+</tr>
+<tr>
+<td>1956年</td>
+<td>ブラウンSK4</td>
+<td>機能主義</td>
+</tr>
+<tr>
+<td>1957年</td>
+<td>グッドデザイン賞開始</td>
+<td>日本のデザイン基準</td>
+</tr>
+<tr>
+<td>1957年</td>
+<td>ヘルベチカ</td>
+<td>スイス・タイポ</td>
+</tr>
+<tr>
+<td>1958年</td>
+<td>スーパーカブ</td>
+<td>世界のモビリティ</td>
+</tr>
+<tr>
+<td>1960年</td>
+<td>リックライダー『Man-Computer Symbiosis』</td>
+<td>人間と機械</td>
+</tr>
+<tr>
+<td>1961年</td>
+<td>ラムズ、ブラウン部門責任者</td>
+<td>機能主義の黄金期</td>
+</tr>
+<tr>
+<td>1963年</td>
+<td>サザーランド『Sketchpad』</td>
+<td>対話型グラフィックス</td>
+</tr>
+<tr>
+<td>1964年</td>
+<td>東京オリンピック</td>
+<td>ピクトグラム</td>
+</tr>
+<tr>
+<td>1964年</td>
+<td>東海道新幹線</td>
+<td>高速鉄道</td>
+</tr>
+<tr>
+<td>1966年</td>
+<td>ヴェンチューリ『複雑性と矛盾』</td>
+<td>ポストモダン</td>
+</tr>
+<tr>
+<td>1968年</td>
+<td>エンゲルバート「Mother of All Demos」</td>
+<td>GUIの原型</td>
+</tr>
+<tr>
+<td>1970年</td>
+<td>大阪万博</td>
+<td>未来のショーケース</td>
+</tr>
+<tr>
+<td>1971年</td>
+<td>パパネック『リアル・ワールドのためのデザイン』</td>
+<td>デザインの倫理</td>
+</tr>
+<tr>
+<td>1972年</td>
+<td>『ラスベガスから学ぶ』</td>
+<td>日常景観の建築</td>
+</tr>
+<tr>
+<td>1972年</td>
+<td>ミュンヘン五輪ピクトグラム</td>
+<td>情報デザイン</td>
+</tr>
+<tr>
+<td>1973年</td>
+<td>オイルショック</td>
+<td>環境と省エネ</td>
+</tr>
+<tr>
+<td>1973年</td>
+<td>ゼロックスAlto</td>
+<td>GUIの実用化</td>
+</tr>
+<tr>
+<td>1973年</td>
+<td>リッテル＆ウェバー「厄介な問題」</td>
+<td>デザイン方法論</td>
+</tr>
+<tr>
+<td>1977年</td>
+<td>イームズ『パワーズ・オブ・テン』</td>
+<td>スケールのデザイン</td>
+</tr>
+<tr>
+<td>1979年</td>
+<td>ウォークマン</td>
+<td>個人用音楽</td>
+</tr>
+<tr>
+<td>1980年</td>
+<td>無印良品</td>
+<td>無印・良品</td>
+</tr>
+<tr>
+<td>1981年</td>
+<td>メンフィス、初展</td>
+<td>ポストモダン・デザイン</td>
+</tr>
+<tr>
+<td>1981年</td>
+<td>山本耀司、コムデギャルソン、パリ進出</td>
+<td>日本ファッション</td>
+</tr>
+<tr>
+<td>1982年</td>
+<td>ショスタック、サービスデザイン</td>
+<td>サービスの設計</td>
+</tr>
+<tr>
+<td>1984年</td>
+<td>マッキントッシュ</td>
+<td>GUIの普及</td>
+</tr>
+<tr>
+<td>1988年</td>
+<td>ノーマン『The Design of Everyday Things』</td>
+<td>認知とデザイン</td>
+</tr>
+<tr>
+<td>1989年</td>
+<td>ゲームボーイ</td>
+<td>携帯ゲーム</td>
+</tr>
+<tr>
+<td>1989年</td>
+<td>ワールドワイドウェブ</td>
+<td>ウェブの誕生</td>
+</tr>
+<tr>
+<td>1991年</td>
+<td>IDEO設立</td>
+<td>デザイン思考</td>
+</tr>
+<tr>
+<td>1994年</td>
+<td>プレイステーション</td>
+<td>家庭用ゲーム</td>
+</tr>
+<tr>
+<td>1996年</td>
+<td>ポケモン</td>
+<td>ゲームと文化</td>
+</tr>
+<tr>
+<td>1997年</td>
+<td>プリウス</td>
+<td>ハイブリッド車</td>
+</tr>
+<tr>
+<td>1998年</td>
+<td>iMac</td>
+<td>デザインの復権</td>
+</tr>
+<tr>
+<td>2001年</td>
+<td>iPod</td>
+<td>音楽体験</td>
+</tr>
+<tr>
+<td>2002年</td>
+<td>クラドル・トゥ・クラドル</td>
+<td>循環型デザイン</td>
+</tr>
+<tr>
+<td>2005年</td>
+<td>スタンフォード d.school</td>
+<td>デザイン思考教育</td>
+</tr>
+<tr>
+<td>2007年</td>
+<td>iPhone</td>
+<td>スマートフォン</td>
+</tr>
+<tr>
+<td>2008年</td>
+<td>App Store</td>
+<td>アプリ経済</td>
+</tr>
+<tr>
+<td>2010年</td>
+<td>レスポンシブ・デザイン</td>
+<td>多画面対応</td>
+</tr>
+<tr>
+<td>2013年</td>
+<td>『Speculative Everything』</td>
+<td>未来のデザイン</td>
+</tr>
+<tr>
+<td>2014年</td>
+<td>Material Design</td>
+<td>デザイン言語</td>
+</tr>
+<tr>
+<td>2015年</td>
+<td>国連SDGs</td>
+<td>持続可能な開発</td>
+</tr>
+<tr>
+<td>2016年</td>
+<td>Decolonising Design</td>
+<td>脱植民地化</td>
+</tr>
+<tr>
+<td>2018年</td>
+<td>『多元世界のためのデザイン』</td>
+<td>複数の世界</td>
+</tr>
+<tr>
+<td>2020年</td>
+<td>『デザイン・ジャスティス』</td>
+<td>デザインの公平性</td>
+</tr>
+<tr>
+<td>2022年</td>
+<td>生成AIの普及</td>
+<td>デザインの生成</td>
+</tr>
+<tr>
+<td>2024年</td>
+<td>EU AI Act発効</td>
+<td>AI規制</td>
+</tr>
+<tr>
+<td>2024年</td>
+<td>WCAG 2.2勧告</td>
+<td>アクセシビリティ</td>
+</tr>
+<tr>
+<td>2024年</td>
+<td>EUエコデザイン規則</td>
+<td>循環型製品</td>
+</tr>
+<tr>
+<td>2025年</td>
+<td>欧州アクセシビリティ法適用</td>
+<td>アクセシビリティ義務</td>
+</tr>
+<tr>
+<td>2026年</td>
+<td>デザインとAIの現在</td>
+<td>判断と責任</td>
+</tr>
+</tbody>
+</table></div><p class="table-hint">横にスクロールできます →</p>
+<hr>
+<h2 class="part-title" id="part-5">第V部 検証と未来</h2>
+<hr>
+<h2 class="chapter-title" id="ch-13" data-no="13">第13章 通説vs.証拠 ― 20の神話を壊す</h2><p class="ch-meta mono"><span>5,555 CHARACTERS</span><span>約 11 分</span></p>
+<h3 class="section-title-read" id="sec-120">なぜ神話を壊すのか</h3>
+<p>デザイン史には、便利な「神話」がたくさんあります。神話は、複雑な歴史をわかりやすくし、共感を生みます。しかし、神話はしばしば、権力を隠し、労働を消し、多様性を削ります。この章では、よく聞く20の通説を、証拠と照らし合わせます。</p>
+<p>判定は、次の3つです。</p>
+<ul>
+<li><strong>○</strong>：ほぼ正しい。ただし、ニュアンスが必要。</li>
+<li><strong>△</strong>：半分正しい。条件や文脈による。</li>
+<li><strong>×</strong>：誤り、または誤解を招く。</li>
+</ul>
+<blockquote class="callout callout--note">
+<p><strong>注意</strong><br>
+この章の判定は、本書の調査範囲におけるものです。歴史には異説があり、新しい研究で変わる可能性があります。詳細は付録Aのファクトチェック記録を見てください。</p>
+</blockquote>
+<hr>
+<h5 id="sub-112">神話1：「バウハウスは一つの様式だった」</h5>
+<p><strong>判定：×</strong></p>
+<p>バウハウスは、1919〜1933年の学校であり、一つの統一様式ではありません。ヴァイマール期（表現主義、手仕事）、デッサウ期（機能主義、工業生産）、ベルリン期（建築、美学）で、思想も作風も変わります。校長も、グロピウス、マイヤー、ミースで大きく異なります。</p>
+<p>「バウハウス様式」という言葉は、後世のデザイン史・マーケティングが作った便宜的なラベルです。白い箱、サンセリフ、鋼管椅子は、バウハウスの一部であって、全体ではありません。</p>
+<hr>
+<h5 id="sub-113">神話2：「バウハウスは世界最初のデザイン学校だった」</h5>
+<p><strong>判定：×</strong></p>
+<p>バウハウス以前にも、美術学校、工芸学校、建築学校は存在しました。同時代には、ロシアの<strong>ヴフテマス</strong>（1920年設立）があり、バウハウスと似た理念（芸術と技術の統合、基礎教育、工房）を持っていました。</p>
+<p>バウハウスの重要性は、「最初」であることではなく、<strong>教育モデル、出版物、亡命者ネットワークを通じて、世界中に影響を広げた</strong>ことです。</p>
+<hr>
+<h5 id="sub-114">神話3：「形は機能に従う（Form follows function）はバウハウスのスローガンだった」</h5>
+<p><strong>判定：×</strong></p>
+<p>「形は機能に従う」は、アメリカの建築家<strong>ルイス・サリヴァン</strong>が1896年の論文で書いた言葉です。正確には「form ever follows function（形は常に機能に従う）」。</p>
+<p>バウハウスは、この言葉をそのままスローガンにしたわけではありません。バウハウスの思想は、機能、素材、構造、社会の関係を、もっと複雑に扱いました。また、「機能」は、機械的な用途だけでなく、心理的・社会的な機能も含みます。</p>
+<hr>
+<h5 id="sub-115">神話4：「ロースはすべての装飾を否定した」</h5>
+<p><strong>判定：△</strong></p>
+<p>アドルフ・ロースは、『装飾と犯罪』（1908年講演、1910年再講演、1913年出版）で、日用品の装飾を激しく批判しました。しかし、彼は無装飾の機能主義者ではありませんでした。大理石、木、真鍮などの素材の質を重視し、内部空間には豊かな素材を使いました。</p>
+<p>また、このテキストには、装飾を「未開」「犯罪者」「退化」と結びつける人種主義的なレトリックがあります。今日読むときは、美学的主張と偏見を分けて評価する必要があります。</p>
+<hr>
+<h5 id="sub-116">神話5：「モリスは機械を全面否定した」</h5>
+<p><strong>判定：△</strong></p>
+<p>ウィリアム・モリスは、機械による分業と大量生産を批判しましたが、すべての機械を否定したわけではありません。彼の会社は、一部の工程で機械を使い、手仕事と機械を組み合わせました。彼の批判の中心は、<strong>資本主義的な分業が、労働者を「手」にし、仕事の喜びを奪う</strong>ことでした。</p>
+<p>また、モリスの手作り品は高価で、富裕層しか買えませんでした。「みんなのための芸術」という理想と、実際の市場の矛盾は、アーツ・アンド・クラフツ運動の根本的な問題です。</p>
+<hr>
+<h5 id="sub-117">神話6：「クリスタル・パレスは最初の鉄とガラスの建築だった」</h5>
+<p><strong>判定：×</strong></p>
+<p>クリスタル・パレス（1851年）は、鉄とガラスの建築の<strong>集大成</strong>であり、最初ではありません。18世紀には、温室、市場、駅舎、橋などで、鉄骨とガラスの構造が使われていました。パクストン自身も、温室の設計者でした。</p>
+<p>クリスタル・パレスの革新性は、素材の発明ではなく、<strong>プレハブ式の大量生産、短期間の建設、巨大なスケール、博覧会というメディア</strong>にあります。</p>
+<hr>
+<h5 id="sub-118">神話7：「最初の工業デザイナーは、ジョセフ・クロード・シネルだ」</h5>
+<p><strong>判定：△</strong></p>
+<p>「工業デザイン」という言葉の起源は、はっきりしません。シネルが1919年に使ったという説もありますが、本人は否定しています。1840年の『The Art-Union』に最初の使用例があるという説もあります。</p>
+<p>職業としては、クリストファー・ドレッサー（1834〜1904）のように、複数のメーカーに図案を提供した独立デザイナーが、19世紀後半に存在しました。<strong>「最初の一人」を決めることより、職業が徐々に形成された過程を見る</strong>ほうが重要です。</p>
+<hr>
+<h5 id="sub-119">神話8：「ラムズの10原則は、時代を超えた永遠の真理だ」</h5>
+<p><strong>判定：△</strong></p>
+<p>ラムズの10原則は、1970年代末に、消費社会の「形、色、音の耐え難い混乱」への危機感から生まれました。歴史的・文化的に規定された思想です。</p>
+<p>特に「控えめ」「正直」「長持ち」「環境に優しい」は、今日のサステナブルデザインにも通じます。一方で、白と灰色のミニマリズムが、すべての文化や用途に適するわけではありません。10原則は、<strong>デザイナーの倫理の宣言</strong>として読むのが正確です。</p>
+<hr>
+<h5 id="sub-120">神話9：「アップルがGUIとスマートフォンを発明した」</h5>
+<p><strong>判定：×</strong></p>
+<p>GUIは、ゼロックス・パロアルト研究所（Alto、1973年）やダグラス・エンゲルバート（1968年）の研究に起源があります。スマートフォンも、PDA、携帯電話、タッチスクリーン、iPodなど、多数の先行技術の融合です。</p>
+<p>アップルの貢献は、<strong>技術を、使いやすく、美しく、一つの体験に統合した</strong>ことです。発明と統合は、別の仕事です。両方を区別して評価する必要があります。</p>
+<hr>
+<h5 id="sub-121">神話10：「デザイン思考はIDEOが発明した」</h5>
+<p><strong>判定：×</strong></p>
+<p>デザイン思考のルーツは、ハーバート・サイモン『人工物の科学』（1969年）、リッテルとウェバーの「厄介な問題」（1973年）、ドナルド・ショーンの「省察的実践」（1983年）、リチャード・ブキャナンの論文（1992年）などにあります。</p>
+<p>IDEO（1991年）とスタンフォード d.school（2005年）は、デザイン思考を<strong>普及</strong>させ、ビジネスの言語に翻訳しました。発明と普及は、別の仕事です。</p>
+<hr>
+<h5 id="sub-122">神話11：「ユニバーサル・デザインは、すべての人に同じものを提供することだ」</h5>
+<p><strong>判定：×</strong></p>
+<p>ユニバーサル・デザインは、できるだけ多くの人が使えるように設計する思想ですが、「一つのサイズですべてに合う（one size fits all）」ではありません。7つの原則は、公平性、柔軟性、単純さ、知覚可能性、エラー許容、低負荷、空間の確保を求めます。</p>
+<p>インクルーシブ・デザインは、さらに「ミスマッチ」に注目します。人と環境の不一致を、設計で減らす。すべての障壁をなくせるわけではなく、個別の合理的配慮も必要です。</p>
+<hr>
+<h5 id="sub-123">神話12：「サステナブル・デザインとは、リサイクルすることだ」</h5>
+<p><strong>判定：×</strong></p>
+<p>サーキュラー・エコノミーは、リサイクルより前に、<strong>廃棄物を出さない、長く使う、修理する、再利用する、再製造する</strong>ことを優先します。リサイクルは、最後の手段です。</p>
+<p>また、サステナビリティは、環境だけでなく、社会（労働、人権、地域）と経済（長期的な価値）を含みます。「環境に優しい」製品が、労働者を搾取していたら、サステナブルとは言えません。</p>
+<hr>
+<h5 id="sub-124">神話13：「日本デザインは、禅と侘寂のミニマリズムだ」</h5>
+<p><strong>判定：×</strong></p>
+<p>侘寂は、中世の茶の湯で形成された、特定の美学です。日本には、金閣寺の華麗さ、浮世絵の派手さ、カワイイ文化、サイバーパンク、過剰なパッケージなど、多様な美学があります。</p>
+<p>「日本＝禅」というイメージは、欧米のオリエンタリズムと、日本のナショナリズムが作り上げたものです。日本のデザインを理解するには、職人、工学、品質管理、マスメディア、消費文化の歴史を見る必要があります。</p>
+<hr>
+<h5 id="sub-125">神話14：「民藝は、近代に抗する伝統主義だった」</h5>
+<p><strong>判定：△</strong></p>
+<p>民藝は、機械生産と資本主義への批判を含みますが、同時に<strong>近代的な運動</strong>でした。柳宗悦は、雑誌を編集し、展覧会を開き、博物館を作り、海外と交流しました。民藝は、メディア、制度、市場を使った運動です。</p>
+<p>また、民藝の「無名性」は、職人の名前を消し、労働条件を覆い隠す側面もありました。柳の朝鮮観には、オリエンタリズム的な表現もあります。民藝は、単純な伝統主義ではなく、近代の矛盾を抱えた運動です。</p>
+<hr>
+<h5 id="sub-126">神話15：「アール・デコは、単なる装飾様式だ」</h5>
+<p><strong>判定：△</strong></p>
+<p>アール・デコは、1920〜30年代の装飾様式ですが、単なる表面の装飾ではありません。機械時代の素材（金属、ガラス、漆）、大量生産、消費文化、帝国の交易、ジャズ・エイジの文化と結びついていました。</p>
+<p>クライスラー・ビル、客船、映画館、香水瓶。アール・デコは、<strong>近代の速度と豪華さを、視覚化する装置</strong>でした。同時に、植民地のモチーフを消費する「エキゾチシズム」の問題もあります。</p>
+<hr>
+<h5 id="sub-127">神話16：「バウハウスは政治的に中立だった」</h5>
+<p><strong>判定：×</strong></p>
+<p>グロピウスは、バウハウスを「非政治的」と主張しましたが、学校は政治的に激しく争われました。ヴァイマール期には保守派から攻撃され、デッサウ期にはナチスが閉校を迫り、マイヤーは社会主義的な立場で解任されました。</p>
+<p>バウハウスの閉校は、ナチスの文化的抑圧と無関係ではありません。同時に、校側が最終的に解散を決めたという複雑さもあります。「政治的中立」は、当時の建前であり、現実ではありませんでした。</p>
+<hr>
+<h5 id="sub-128">神話17：「テルアビブのホワイト・シティは、純粋なバウハウスだ」</h5>
+<p><strong>判定：△</strong></p>
+<p>テルアビブには、1930年代にユダヤ人建築家たちが、バウハウス/インターナショナル・スタイルの影響を受けた建築を多数建てました。約4000棟とも言われ、2003年にUNESCO世界遺産に登録されています。</p>
+<p>しかし、それは「純粋なバウハウス」ではありません。気候、風土、文化、予算に合わせた<strong>現地適応</strong>があり、建築家も多様です。「バウハウス」は、便利なラベルですが、実際は国際様式の地方変種です。</p>
+<hr>
+<h5 id="sub-129">神話18：「ユーザーは常に正しい」</h5>
+<p><strong>判定：×</strong></p>
+<p>ユーザーは、多様で、矛盾し、変化します。ユーザーの言葉をそのまま聞くだけでは、本当のニーズはわかりません。観察、対話、試作、検証が必要です。</p>
+<p>また、ユーザー中心設計は、しばしば「現状の欲望」に最適化し、社会全体の利益や、未来の世代、非人間の生命を無視します。「ユーザーは常に正しい」は、マーケティングの標語であり、デザインの原理ではありません。</p>
+<hr>
+<h5 id="sub-130">神話19：「AIはデザイナーを置き換える」</h5>
+<p><strong>判定：×</strong></p>
+<p>AIは、デザインの<strong>一部のタスク</strong>を自動化します。画像生成、レイアウト、コピー、コード、プロトタイプ。しかし、問題の発見、文脈の理解、利害関係者の調整、倫理的判断、説明責任は、人間に残ります。</p>
+<p>歴史を見ても、技術は仕事を「消す」のではなく、「再配置」してきました。ただし、移行の速度と公平性は、深刻な問題です。「置き換える/置き換えない」の二択ではなく、<strong>どのタスクが、誰によって、どの条件で再配置されるか</strong>を見る必要があります。</p>
+<hr>
+<h5 id="sub-131">神話20：「デザインは、ものを美しくすることだ」</h5>
+<p><strong>判定：×</strong></p>
+<p>デザインは、美しさを含みますが、それだけではありません。意図を、制約のなかで、他者のために形にすることです。製品、システム、サービス、体験、組織、政策。美しさは、機能、使いやすさ、意味、持続性、正義と並ぶ、一つの評価軸です。</p>
+<p>「美しくする」だけなら、デザインは装飾の技術になります。しかし、デザインは、<strong>世界の一部を、別のあり方にする</strong>技術です。だから、倫理と責任が必要なのです。</p>
+<hr>
+<h3 class="section-title-read" id="sec-121">20の神話のまとめ</h3>
+<div class="table-wrap" role="region" aria-label="表" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">神話</th>
+<th scope="col">判定</th>
+<th scope="col">一言</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>バウハウスは一つの様式</td>
+<td>×</td>
+<td>学校であり、時期で変わる</td>
+</tr>
+<tr>
+<td>2</td>
+<td>世界最初のデザイン学校</td>
+<td>×</td>
+<td>ヴフテマスなど先行・同時代</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Form follows function はバウハウス</td>
+<td>×</td>
+<td>サリヴァンの言葉</td>
+</tr>
+<tr>
+<td>4</td>
+<td>ロースは装飾を全否定</td>
+<td>△</td>
+<td>素材の質は重視</td>
+</tr>
+<tr>
+<td>5</td>
+<td>モリスは機械を全否定</td>
+<td>△</td>
+<td>分業と資本主義を批判</td>
+</tr>
+<tr>
+<td>6</td>
+<td>クリスタル・パレスが最初</td>
+<td>×</td>
+<td>鉄とガラスの集大成</td>
+</tr>
+<tr>
+<td>7</td>
+<td>最初の工業デザイナーはシネル</td>
+<td>△</td>
+<td>職業の形成過程を見る</td>
+</tr>
+<tr>
+<td>8</td>
+<td>ラムズの10原則は永遠</td>
+<td>△</td>
+<td>1970年代末の倫理宣言</td>
+</tr>
+<tr>
+<td>9</td>
+<td>アップルがGUI/スマホを発明</td>
+<td>×</td>
+<td>統合と発明は別</td>
+</tr>
+<tr>
+<td>10</td>
+<td>デザイン思考はIDEOが発明</td>
+<td>×</td>
+<td>サイモンらに起源</td>
+</tr>
+<tr>
+<td>11</td>
+<td>ユニバーサル・デザインは画一</td>
+<td>×</td>
+<td>柔軟性とミスマッチ</td>
+</tr>
+<tr>
+<td>12</td>
+<td>サステナブル＝リサイクル</td>
+<td>×</td>
+<td>まず排除・修理・再利用</td>
+</tr>
+<tr>
+<td>13</td>
+<td>日本＝禅と侘寂</td>
+<td>×</td>
+<td>多様な美学</td>
+</tr>
+<tr>
+<td>14</td>
+<td>民藝は反近代</td>
+<td>△</td>
+<td>近代的な運動</td>
+</tr>
+<tr>
+<td>15</td>
+<td>アール・デコは装飾だけ</td>
+<td>△</td>
+<td>機械時代と消費文化</td>
+</tr>
+<tr>
+<td>16</td>
+<td>バウハウスは政治的中立</td>
+<td>×</td>
+<td>激しく政治化</td>
+</tr>
+<tr>
+<td>17</td>
+<td>ホワイト・シティは純バウハウス</td>
+<td>△</td>
+<td>現地適応した国際様式</td>
+</tr>
+<tr>
+<td>18</td>
+<td>ユーザーは常に正しい</td>
+<td>×</td>
+<td>多様で矛盾する</td>
+</tr>
+<tr>
+<td>19</td>
+<td>AIはデザイナーを置き換える</td>
+<td>×</td>
+<td>タスクの再配置</td>
+</tr>
+<tr>
+<td>20</td>
+<td>デザインは美しくすること</td>
+<td>×</td>
+<td>意図・制約・他者・かたち</td>
+</tr>
+</tbody>
+</table></div><p class="table-hint">横にスクロールできます →</p>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+神話は、歴史をわかりやすくするが、同時に何かを隠す。<br>
+デザイン史を学ぶときは、「誰が得をする話か」「誰が見えなくなっているか」を問う。<br>
+通説を疑うことは、歴史を壊すことではなく、歴史を精密にすることである。</p>
+</blockquote>
+<hr>
+<h2 class="chapter-title" id="ch-14" data-no="14">第14章 読書案内 ― 55冊と50の対象</h2><p class="ch-meta mono"><span>4,530 CHARACTERS</span><span>約 9 分</span></p>
+<h3 class="section-title-read" id="sec-122">読書の地図</h3>
+<p>デザイン史の本は、星の数ほどあります。ここでは、<strong>入門、通史、理論、非西洋、日本、デジタル、環境、倫理</strong>の8つの棚に分けて、55冊を紹介します。すべてを読む必要はありません。自分の関心に合わせて、3〜5冊から始めてください。</p>
+<h5 id="sub-132">1. 入門（まずはここから）</h5>
+<ol>
+<li>ジョン・ヘスケット『デザイン：非常に短い入門』（Oxford UP, 2002）</li>
+<li>ジョン・ヘスケット『デザインの歴史と現在』（邦訳あり）</li>
+<li>ペニー・スパーク『デザインと文化の入門』（Routledge, 2004）</li>
+<li>ガイ・ジュリエ『デザインの文化』（Sage, 2000）</li>
+<li>デヴィッド・レイズマン『近代デザイン史』（Laurence King, 2003/2010）</li>
+</ol>
+<h5 id="sub-133">2. 通史</h5>
+<ol start="6">
+<li>ヴィクター・マーゴリン『世界デザイン史』（Bloomsbury, 2015/2017）</li>
+<li>ジョナサン・ウッドハム『20世紀のデザイン』（Oxford UP, 1997）</li>
+<li>シャーロット＆ピーター・フィール『20世紀のデザイン』（Taschen, 1999）</li>
+<li>ペニー・スパーク『デザインの天才』（Quadrille, 2009）</li>
+<li>フィロメナ・ハリソン他『Phaidon Design Classics』（Phaidon, 2006）</li>
+</ol>
+<h5 id="sub-134">3. 理論と方法</h5>
+<ol start="11">
+<li>ドナルド・ノーマン『誰のためのデザイン？』（Basic Books, 1988/2013）</li>
+<li>ハーバート・サイモン『人工物の科学』（MIT Press, 1969）</li>
+<li>クリストファー・アレクサンダー『形の合成に関するノート』（Harvard UP, 1964）</li>
+<li>クリストファー・アレクサンダー他『パタン・ランゲージ』（Oxford UP, 1977）</li>
+<li>ドナルド・ショーン『省察的実践家』（Basic Books, 1983）</li>
+<li>ナイジェル・クロス『デザイン思考』（Berg, 2011）</li>
+<li>ルーシー・キンベル『デザイン思考の再考』（Design and Culture, 2011）</li>
+<li>エツィオ・マンズィーニ『みんながデザインするとき』（MIT Press, 2015）</li>
+</ol>
+<h5 id="sub-135">4. 非西洋とグローバル</h5>
+<ol start="19">
+<li>アルトゥーロ・エスコバル『多元世界のためのデザイン』（Duke UP, 2018）</li>
+<li>サシャ・コスタンザ＝チョック『デザイン・ジャスティス』（MIT Press, 2020）</li>
+<li>アンソニー・ダン＆フィオナ・ラビー『Speculative Everything』（MIT Press, 2013）</li>
+<li>ヴィクター・パパネック『リアル・ワールドのためのデザイン』（Pantheon, 1971）</li>
+<li>キャサリン・ホームズ『ミスマッチ』（MIT Press, 2018）</li>
+<li>マイクロソフト『Inclusive Design Toolkit』（2016/2018）</li>
+<li>W3C『WCAG 2.2』（2024）</li>
+</ol>
+<h5 id="sub-136">5. 日本</h5>
+<ol start="26">
+<li>柳宗悦『民藝四十年』（岩波文庫）</li>
+<li>柳宗悦『無名の職人』（Kodansha, 1972）</li>
+<li>谷崎潤一郎『陰翳礼讃』（1933）</li>
+<li>原研哉『デザインのデザイン』（岩波書店、2003／英訳 <em>Designing Design</em>, Lars Müller, 2007）</li>
+<li>原研哉『白』（Lars Müller, 2010）</li>
+<li>レナード・コレン『Wabi-Sabi』（Imperfect, 1994）</li>
+<li>黒川紀章『メタボリズムの未来都市』（美術出版社）</li>
+<li>磯崎新他『Japan-ness in Architecture』（MIT Press, 2006）</li>
+<li>川添登『民芸とは何か』（講談社）</li>
+<li>日本デザイン学会編『デザイン学とは何か』（丸善）</li>
+</ol>
+<h5 id="sub-137">6. デジタルとインタラクション</h5>
+<ol start="36">
+<li>ドナルド・ノーマン『エモーショナル・デザイン』（Basic Books, 2004）</li>
+<li>ジェシー・ジェームズ・ギャレット『The Elements of User Experience』（New Riders, 2002）</li>
+<li>スティーブ・クルーグ『Don't Make Me Think』（New Riders, 2000）</li>
+<li>アラン・クーパー『About Face』（Wiley, 1995）</li>
+<li>マーク・スティックドーン＆ヤコブ・シュナイダー『This Is Service Design Thinking』（BIS, 2010）</li>
+<li>エドワード・タフテ『The Visual Display of Quantitative Information』（Graphics Press, 1983）</li>
+<li>ロバート・ブリングハースト『The Elements of Typographic Style』（Hartley &amp; Marks, 1992）</li>
+<li>エレン・ラプトン『Thinking with Type』（Princeton Architectural Press, 2004）</li>
+</ol>
+<h5 id="sub-138">7. 環境とシステム</h5>
+<ol start="44">
+<li>ウィリアム・マクドノー＆マイケル・ブラウングト『Cradle to Cradle』（North Point, 2002）</li>
+<li>ドネラ・メドウズ『システム思考』（Chelsea Green, 2008）</li>
+<li>ケイト・ラワース『ドーナツ経済学』（Random House, 2017）</li>
+<li>エレン・マッカーサー財団『サーキュラー・エコノミー』（2026）</li>
+<li>EU『エコデザイン規則（ESPR）』（2024）</li>
+<li>EU『修理する権利指令』（2024）</li>
+</ol>
+<h5 id="sub-139">8. 倫理と批評</h5>
+<ol start="50">
+<li>ヴァルター・ベンヤミン『複製技術時代の芸術作品』（1935）</li>
+<li>サフィヤ・ノーブル『アルゴリズムの抑圧』（NYU Press, 2018）</li>
+<li>ケイト・クロフォード『AIの地図』（Yale UP, 2021）</li>
+<li>ショシャナ・ズボフ『監視資本主義の時代』（PublicAffairs, 2019）</li>
+<li>ブルーノ・ラトゥール「Where Are the Missing Masses?」（1992）</li>
+<li>マデリン・アクリッチ「The De-Scription of Technical Objects」（1992）</li>
+</ol>
+<p>（※重複・追加を含めて55冊になりました。読書案内は、多めに用意するのが親切です。）</p>
+<h3 class="section-title-read" id="sec-123">50の対象 ― 見ておきたいデザイン</h3>
+<ol>
+<li>アシューリアン握斧（大英博物館）</li>
+<li>縄文火焔型土器（十日町市博物館）</li>
+<li>エジプトの化粧パレット（各地の博物館）</li>
+<li>アッティカの黒絵陶器（大英博物館）</li>
+<li>ローマのガラス器（ローマ国立博物館）</li>
+<li>サーンチーのストゥーパ（インド）</li>
+<li>タージ・マハル（インド）</li>
+<li>アルハンブラ宮殿（スペイン）</li>
+<li>シャー・モスク（イランのイスファハン）</li>
+<li>汝窯青磁（台北故宮博物院）</li>
+<li>明式黄花梨椅子（メトロポリタン美術館）</li>
+<li>浮世絵「神奈川沖浪裏」（メトロポリタン美術館）</li>
+<li>伊勢神宮（三重）</li>
+<li>龍安寺石庭（京都）</li>
+<li>楽焼茶碗（京都）</li>
+<li>グーテンベルク42行聖書（各地）</li>
+<li>アルディーネ版『ポリフィルス』（1499年）</li>
+<li>ヴェルサイユ宮殿（フランス）</li>
+<li>ウェッジウッドの「クイーンズ・ウェア」（V&amp;A）</li>
+<li>クリスタル・パレス（1851年、現存せず）</li>
+<li>モリスの壁紙「Trellis」（V&amp;A）</li>
+<li>ドレッサーの金属器（V&amp;A）</li>
+<li>ギマールのメトロ入口（パリ）</li>
+<li>ウィーン分離派会館（ウィーン）</li>
+<li>AEGタービン工場（ベルリン）</li>
+<li>フォード・モデルT（ヘンリー・フォード博物館）</li>
+<li>バウハウス・デッサウ校舎（デッサウ）</li>
+<li>バウハウスのワシリー・チェア（マルセル・ブロイヤー）</li>
+<li>シュレーダー邸（ユトレヒト）</li>
+<li>クライスラー・ビル（ニューヨーク）</li>
+<li>イームズ・ラウンジチェア（1956年）</li>
+<li>ブラウンSK4（1956年）</li>
+<li>オリベッティ・レテラ22（1950年）</li>
+<li>ヴェスパ（1946年）</li>
+<li>ウォークマンTPS-L2（1979年）</li>
+<li>無印良品の壁掛けCDプレーヤー（1999年）</li>
+<li>ゲームボーイ（1989年）</li>
+<li>マッキントッシュ（1984年）</li>
+<li>iPhone（2007年）</li>
+<li>メンフィスのカールトン書棚（1981年）</li>
+<li>パントンの椅子（1960年代）</li>
+<li>アールトのサヴォイ・ベース（1936年）</li>
+<li>ヤコブセンのエッグ・チェア（1958年）</li>
+<li>ソットサスのヴァレンタイン（1969年）</li>
+<li>サッパーのティツィオ（1972年）</li>
+<li>エンツォ・マーリ『Autoprogettazione』の家具（1974年）</li>
+<li>丹下健三の国立代々木競技場（1964年）</li>
+<li>岡本太郎の太陽の塔（1970年）</li>
+<li>安藤忠雄の光の教会（1989年）</li>
+<li>SANAAの金沢21世紀美術館（2004年）</li>
+</ol>
+<h3 class="section-title-read" id="sec-124">博物館・アーカイブ・雑誌</h3>
+<ul>
+<li><strong>V&amp;A</strong>（ロンドン）：デザインの百科事典的なコレクション。</li>
+<li><strong>MoMA</strong>（ニューヨーク）：近代デザインのコレクション。建築・デザイン部門。</li>
+<li><strong>Cooper Hewitt</strong>（ニューヨーク）：アメリカのデザイン。</li>
+<li><strong>Design Museum</strong>（ロンドン）：現代デザイン。</li>
+<li><strong>バウハウス・アルヒーフ</strong>（ベルリン／ヴァイマール／デッサウ）。</li>
+<li><strong>日本民藝館</strong>（東京）：民藝。</li>
+<li><strong>国立民族学博物館</strong>（大阪）：世界の物質文化。</li>
+<li><strong>メトロポリタン美術館</strong>（ニューヨーク）：イスラーム、中国、日本。</li>
+<li><strong>大英博物館</strong>（ロンドン）：世界の工芸。</li>
+<li><strong>Journal of Design History</strong>（Oxford）。</li>
+<li><strong>Design Issues</strong>（MIT Press）。</li>
+<li><strong>Design and Culture</strong>（Bloomsbury）。</li>
+<li><strong>Design Studies</strong>（Elsevier）。</li>
+</ul>
+<h3 class="section-title-read" id="sec-125">学び方の5つの習慣</h3>
+<ol>
+<li><strong>見る</strong>：週に1つ、身のまわりのものを、9つのステップで観察する。</li>
+<li><strong>読む</strong>：月に1冊、通史か理論を読む。年表と照らし合わせる。</li>
+<li><strong>作る</strong>：手を動かす。紙、木、布、コード。素材の制約を知る。</li>
+<li><strong>書く</strong>：対象について、500字の分析を書く。好き嫌いの前に、観察と文脈。</li>
+<li><strong>訪ねる</strong>：博物館、工場、職人の工房、都市。一次資料に触れる。</li>
+</ol>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+デザイン史の知識は、本だけでは身につかない。<br>
+見て、触って、作って、壊して、直して、初めてわかることがある。<br>
+読書は地図であり、旅そのものではない。</p>
+</blockquote>
+<hr>
+<h2 class="chapter-title" id="ch-15" data-no="15">第15章 デザインの未来 ― 何が残り、何が変わるのか</h2><p class="ch-meta mono"><span>1,913 CHARACTERS</span><span>約 4 分</span></p><aside class="ch-plate"><span class="mono">PLATES IN THIS CHAPTER</span><a href="atlas.html#plate-12">PL.12 AI</a></aside>
+<h3 class="section-title-read" id="sec-126">10の提案</h3>
+<h5 id="sub-140">1. モノから、関係へ</h5>
+<p>デザインの対象は、製品から、サービス、システム、制度、関係へ広がります。良い椅子を作るだけでなく、椅子が使われる場、修理する仕組み、廃棄された後の循環を設計する。</p>
+<h5 id="sub-141">2. 人間中心から、生命中心へ</h5>
+<p>人間だけがユーザーではありません。動物、植物、生態系、未来の世代、AIエージェントも、デザインの影響を受けます。「人間のため」だけでは、気候危機を止められません。</p>
+<h5 id="sub-142">3. 普遍から、多元世界へ</h5>
+<p>グローバルな標準は必要ですが、地域の文化、主権、知恵を無視してはいけません。複数の世界が共存する「pluriverse」の視点が、これからのデザインの基盤になります。</p>
+<h5 id="sub-143">4. 収奪から、再生へ</h5>
+<p>素材を採り、使い、捨てる線形経済から、再生する循環経済へ。デザインは、廃棄物を出さない、自然を回復する、地域の生態系を支える方向に進みます。</p>
+<h5 id="sub-144">5. 画面から、空間と環境へ</h5>
+<p>スマートフォンの画面は、まだ重要ですが、デザインの場は、AR/VR、音声、センサー、都市、建築、身体へ広がります。インターフェースは、画面から世界へ溶け出します。</p>
+<h5 id="sub-145">6. 作者から、管理者へ</h5>
+<p>デザイナーは、作者であるだけでなく、システムの管理者、編集者、キュレーター、仲介者になります。AIが生成し、コミュニティが参加し、規制が形を決める。作者性は、分散します。</p>
+<h5 id="sub-146">7. 解決から、問いへ</h5>
+<p>デザインは、問題を解くだけでなく、問題を立てます。何が問題か、誰にとって問題か、なぜ今問題か。スペキュラティブ・デザインと批判的デザインは、この問いの技術です。</p>
+<h5 id="sub-147">8. イノベーションから、メンテナンスへ</h5>
+<p>新しいものを作るだけでなく、既存のものを維持し、修理し、改善する。インフラ、建築、公共サービス、コミュニティ。<strong>「壊れないこと」</strong>も、デザインの仕事です。</p>
+<h5 id="sub-148">9. デザイン思考から、デザイン判断へ</h5>
+<p>プロセスや付箋ではなく、<strong>「何が良いか」を判断する力</strong>が重要になります。美的判断、倫理的判断、政治的判断、技術的判断。デザインは、総合的な判断の学問です。</p>
+<h5 id="sub-149">10. 「良いデザイン」から、「正しいデザイン」へ</h5>
+<p>「良い」は、誰にとって良いのか。デザイン・ジャスティスは、便益と負担の公平な分配、参加、説明責任を求めます。美しさと正義は、対立するのではなく、両立すべき目標です。</p>
+<h3 class="section-title-read" id="sec-127">何が残るのか</h3>
+<p>技術が変わっても、次のものは残ります。</p>
+<ul>
+<li><strong>身体</strong>：人間は、身体で世界を知覚し、操作します。身体の大きさ、力、感覚、老化。デザインは、身体から逃れられません。</li>
+<li><strong>文脈</strong>：文化、歴史、地域、制度。同じ製品でも、使われる場によって意味が変わります。</li>
+<li><strong>関係</strong>：人と人、人と物、人と自然。デザインは、関係の編集です。</li>
+<li><strong>時間</strong>：使う、慣れる、壊れる、直す、捨てる、思い出す。デザインは、時間のなかで変化します。</li>
+<li><strong>責任</strong>：誰が決め、誰が責任を負うか。AIが生成しても、責任は人間に残ります。</li>
+<li><strong>希望</strong>：デザインは、今の世界を別の形にする可能性です。希望は、根拠のない楽観ではなく、具体的な制作のなかにあります。</li>
+</ul>
+<h3 class="section-title-read" id="sec-128">デザイナーの誓い</h3>
+<blockquote class="callout">
+<p>私は、デザインが人を傷つける力を持つことを知っています。<br>
+だから、誰がこのデザインを使い、誰が使えないかを、最初に考えます。<br>
+私は、美しさを追求しますが、それは誰かを排除する美しさではありません。<br>
+私は、作る前に、問います。なぜ作るのか。誰のために作るのか。作らない選択はないか。<br>
+私は、壊れたものを直し、長く使えるようにし、次の世代に手渡します。<br>
+私は、自分の専門外の人から学び、自分の無知を認めます。<br>
+私は、作ったものに対して、最後まで責任を負います。<br>
+これが、私のデザインの誓いです。</p>
+</blockquote>
+<h3 class="section-title-read" id="sec-129">最後に ― デザインは、世界の編集である</h3>
+<p>デザインの歴史をたどると、人間はいつも、<strong>「今ある世界を、別の形にしたい」</strong>という願いから、何かを作ってきました。土器は食べ物を保存し、文字は記憶を保存し、印刷は知識を広げ、工場は物を増やし、画面は距離を縮めました。そのたびに、新しい可能性と、新しい問題が生まれました。</p>
+<p>デザインは、世界を「創造」するのではなく、「編集」します。素材を選び、関係を組み替え、意味を付け替える。その編集の力は、使い方次第で、解放にも抑圧にもなります。</p>
+<p>だから、デザインを学ぶことは、<strong>「どんな世界に住みたいか」</strong>を考えることです。それは、技術者だけの仕事ではありません。使う人、作る人、直す人、捨てる人、未来の世代。すべての人が、デザインの当事者です。</p>
+<blockquote class="callout callout--lesson">
+<p><strong>歴史の教訓</strong><br>
+デザインの未来は、予測できない。<br>
+しかし、方向は選べる。<br>
+より包摂的に、より再生可能に、より公正に、より人間以外のものにも優しく。<br>
+その選択は、今日の、小さなデザインの決断のなかにある。</p>
+</blockquote>
+<hr>
+<h2 class="chapter-title" id="app-a" data-no="APPENDIX A">付録A ファクトチェック記録</h2>
+<h3 class="section-title-read" id="sec-130">方法</h3>
+<p>本書の検証は、次の3段階で行いました。</p>
+<h5 id="sub-150">資料の内訳</h5>
+<ul>
+<li>百科事典項目（英語版Wikipediaの本文）：206件</li>
+<li>一次資料・公的資料・博物館ページ：20件以上（Vitsoe、W3C、Microsoft、Ellen MacArthur Foundation、V&amp;A、Bauhaus-Archiv、Bauhaus Dessau、Cooper Hewitt、欧州委員会、Good Design Award、日本語版Wikipediaの日本民藝館項目など）</li>
+<li>検証した主張：100件（第7〜9章の追加項目を含む）</li>
+<li>修正した主な誤り：14件</li>
+</ul>
+<h5 id="sub-151">第1パス：年号と基本情報</h5>
+<p>約200の百科事典項目（英語版Wikipediaの本文）を取得し、年号、人物、運動、発明、定義を含む文を抽出しました。これを索引として、時代と地域の全体像をつかみました。ただし、百科事典は二次資料であり、それだけでは確定しません。</p>
+<h5 id="sub-152">第2パス：一次資料・博物館・規格</h5>
+<p>主要な主張について、次のような一次資料・公的資料に当たりました。</p>
+<ul>
+<li><strong>Dieter Rams 10 principles</strong>：Vitsoe公式ページ（CC BY-NC-ND 4.0）。</li>
+<li><strong>WCAG 2.2</strong>：W3C勧告（2024年12月12日）。</li>
+<li><strong>インクルーシブ・デザイン</strong>：Microsoft Inclusive Design公式サイト。</li>
+<li><strong>サーキュラー・エコノミー</strong>：Ellen MacArthur Foundation公式サイト。</li>
+<li><strong>V&amp;Aのデザイン定義</strong>：V&amp;A公式ページ。</li>
+<li><strong>バウハウス</strong>：Bauhaus-Archiv、Bauhaus Dessau Foundationの公式ページ。</li>
+<li><strong>EU規制</strong>：欧州委員会のEAAページ、AI Act、ESPR、修理する権利指令。</li>
+<li><strong>印刷・デザイン史</strong>：Britannicaの関連項目、Cooper Hewittの公式情報。</li>
+<li><strong>日本のデザイン</strong>：各社の公式年表、博物館、百科事典の記述。</li>
+</ul>
+<h5 id="sub-153">第3パス：引用・数字・名称の照合</h5>
+<p>引用文、製品名、人物名、年号、数字を、複数の資料で照合しました。特に以下の点を修正しました。</p>
+<ul>
+<li>メンフィス： 「1981年結成」 → 「1980年に活動開始、1981年に最初の展覧会、1987年解散」。</li>
+<li>スタンフォード d.school： 「2003年設立」 → 「2005年設立（前身の授業は2003年から）」。</li>
+<li>東京1964のピクトグラム： 「亀倉雄策」 → 「勝見勝らのチーム」（亀倉はエンブレム）。</li>
+<li>バウハウス閉校： 「ナチスが閉校」 → 「ナチスの圧力とゲシュタポの介入のなかで、校側が解散を決定」。</li>
+<li>無印良品： 「2001年ロンドン店」 → 「1991年ロンドン店、1998年東証二部、2001年東証一部」。</li>
+<li>原研哉『デザインのデザイン』： 「2007年」 → 「2003年（英訳2007年）」。</li>
+<li>深澤直人±0： 「2008年設立」 → 「2003年ごろ設立」（年号は諸説あり）。</li>
+<li>フォード・モデルT： 「1908年」 → 「1908年8月12日生産開始、9月27日出荷」。</li>
+<li>バウハウス宣言： 「直接引用」 → 「要旨」（原文の逐語訳ではない）。</li>
+</ul>
+<h3 class="section-title-read" id="sec-131">検証表</h3>
+<blockquote class="callout">
+<p><strong>注記</strong><br>
+この表は、本書が採用した主張を検証したものです。採用しなかった通説・誤りは、第13章「通説vs.証拠」に、×/△の判定つきでまとめています。また、検証の途中で見つかった誤りは、「修正した主な誤り」に記録しています。</p>
+</blockquote>
+<div class="table-wrap" role="region" aria-label="表" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">主張</th>
+<th scope="col">確認した資料</th>
+<th scope="col">判定・注記</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>バウハウスは1919年、ヴァイマールに設立</td>
+<td>バウハウス記事、Bauhaus-Archiv</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>2</td>
+<td>バウハウスは1925年にデッサウへ、1932年にベルリンへ</td>
+<td>バウハウス記事、Bauhaus Dessau</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>3</td>
+<td>バウハウスの校長はグロピウス、マイヤー、ミース</td>
+<td>バウハウス記事、Bauhaus-Archiv</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>4</td>
+<td>バウハウスは1933年に閉校</td>
+<td>バウハウス記事、複数資料</td>
+<td>確認済み（閉校の経緯は注記）</td>
+</tr>
+<tr>
+<td>5</td>
+<td>ヴフテマスは1920年、モスクワに設立、1930年閉校</td>
+<td>バウハウス記事、Vkhutemas記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>6</td>
+<td>デ・ステイルは1917年結成、1931年まで</td>
+<td>De Stijl記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>7</td>
+<td>ドイツ工作連盟は1907年結成</td>
+<td>工作連盟記事、Bauhaus記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>8</td>
+<td>ベーレンスは1907年にAEGの芸術顧問</td>
+<td>ベーレンス記事、Bauhaus記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>9</td>
+<td>AEGタービン工場は1909年</td>
+<td>ベーレンス記事、複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>10</td>
+<td>クリスタル・パレスは1851年</td>
+<td>クリスタル・パレス記事、Britannica</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>11</td>
+<td>モリス商会は1861年、ケルムスコット・プレスは1891年</td>
+<td>モリス記事、グラフィックデザイン記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>12</td>
+<td>ロース『装飾と犯罪』は1908年講演、1913年出版</td>
+<td>ロース記事</td>
+<td>確認済み（講演は1910年説も）</td>
+</tr>
+<tr>
+<td>13</td>
+<td>ウルム造形大学は1953〜1968年</td>
+<td>ウルム記事、バウハウス記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>14</td>
+<td>ラムズは1955年にブラウン入社、1961年にデザイン部門責任者</td>
+<td>ラムズ記事、Vitsoe</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>15</td>
+<td>ラムズの10原則は1970年代末</td>
+<td>Vitsoe公式</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>16</td>
+<td>メンフィスは1980〜1987年</td>
+<td>メンフィス記事</td>
+<td>確認済み（1981年初展）</td>
+</tr>
+<tr>
+<td>17</td>
+<td>イームズ・ラウンジチェアは1956年</td>
+<td>イームズ記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>18</td>
+<td>オリベッティは1908年創業</td>
+<td>オリベッティ記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>19</td>
+<td>ヴァレンタインは1969年</td>
+<td>ソットサス記事、オリベッティ記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>20</td>
+<td>東京1964のピクトグラムは勝見勝ら</td>
+<td>1964年東京五輪記事</td>
+<td>確認済み（亀倉はエンブレム）</td>
+</tr>
+<tr>
+<td>21</td>
+<td>東海道新幹線は1964年10月1日開業</td>
+<td>新幹線記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>22</td>
+<td>大阪万博は1970年、約6400万人</td>
+<td>万博記事、複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>23</td>
+<td>ソニーTR-55は1955年</td>
+<td>ソニー記事、複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>24</td>
+<td>ウォークマンTPS-L2は1979年7月1日</td>
+<td>ウォークマン記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>25</td>
+<td>無印良品は1980年12月、西友のPB、40品目</td>
+<td>無印記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>26</td>
+<td>無印のロンドン店は1991年</td>
+<td>無印記事</td>
+<td>確認済み（2001年は東証一部）</td>
+</tr>
+<tr>
+<td>27</td>
+<td>民藝は1925年に命名、日本民藝館は1936年</td>
+<td>民藝記事、柳宗悦記事、複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>28</td>
+<td>グッドデザイン賞は1957年開始</td>
+<td>グッドデザイン賞記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>29</td>
+<td>ディオール「ニュールック」は1947年2月12日</td>
+<td>ディオール記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>30</td>
+<td>インターナショナル・スタイル展は1932年MoMA</td>
+<td>インターナショナル・スタイル記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>31</td>
+<td>デコンストラクティビズム展は1988年MoMA</td>
+<td>デコンストラクティビズム記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>32</td>
+<td>パラメトリシズムは2008年に提唱</td>
+<td>パラメトリック建築記事</td>
+<td>確認済み（詳細は諸説）</td>
+</tr>
+<tr>
+<td>33</td>
+<td>パパネック『リアル・ワールドのためのデザイン』は1971年</td>
+<td>パパネック記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>34</td>
+<td>クラドル・トゥ・クラドルは2002年</td>
+<td>書籍情報、複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>35</td>
+<td>『Speculative Everything』は2013年</td>
+<td>書籍情報、複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>36</td>
+<td>『デザイン・ジャスティス』は2020年</td>
+<td>書籍情報、複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>37</td>
+<td>Decolonising Designは2016年開始</td>
+<td>複数資料</td>
+<td>確認済み（公式サイトはSSL証明書の問題で取得できず）</td>
+</tr>
+<tr>
+<td>38</td>
+<td>IDEOは1991年設立</td>
+<td>IDEO記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>39</td>
+<td>サイモン『人工物の科学』は1969年</td>
+<td>サイモン記事、書籍情報</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>40</td>
+<td>リッテル＆ウェバー「厄介な問題」は1973年</td>
+<td>厄介な問題記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>41</td>
+<td>アレクサンダー『形の合成』1964年、『パタン・ランゲージ』1977年</td>
+<td>アレクサンダー記事</td>
+<td>確認済み（1977年は確認）</td>
+</tr>
+<tr>
+<td>42</td>
+<td>ノーマン『誰のためのデザイン？』は1988年</td>
+<td>ノーマン記事、書籍情報</td>
+<td>確認済み（原題は The Psychology of Everyday Things）</td>
+</tr>
+<tr>
+<td>43</td>
+<td>ゲシュタルト心理学は1923年の論文</td>
+<td>ゲシュタルト記事</td>
+<td>確認済み（ヴェルトハイマー）</td>
+</tr>
+<tr>
+<td>44</td>
+<td>ミュラー＝ブロックマン『グリッド・システム』は1981年</td>
+<td>書籍情報</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>45</td>
+<td>Pantoneのマッチング・システムは1963年</td>
+<td>Pantone記事、複数資料</td>
+<td>確認済み（1962年創業説も）</td>
+</tr>
+<tr>
+<td>46</td>
+<td>イッテン『色彩の芸術』は1961年</td>
+<td>書籍情報</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>47</td>
+<td>EU AI Actは2024/1689、2024年8月1日発効</td>
+<td>AI Act記事、EU公式</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>48</td>
+<td>EU ESPRは2024/1781、2024年7月18日発効</td>
+<td>EU公式、複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>49</td>
+<td>修理する権利指令は2024/1799、2026年7月31日までに国内法化</td>
+<td>EU公式、複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>50</td>
+<td>WCAG 2.2は2024年12月12日勧告</td>
+<td>W3C公式</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>51</td>
+<td>欧州アクセシビリティ法は2025年6月28日適用</td>
+<td>EU公式、WCAG記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>52</td>
+<td>フォード・モデルTは1908年8月12日生産開始</td>
+<td>モデルT記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>53</td>
+<td>テイラー『科学的管理法』は1911年</td>
+<td>科学的管理法記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>54</td>
+<td>ウェッジウッドは1759年5月1日創業</td>
+<td>ウェッジウッド記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>55</td>
+<td>ロウイのコールドスポットは1934年</td>
+<td>ロウイ記事、複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>56</td>
+<td>GKデザインは1952年設立</td>
+<td>GK公式、複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>57</td>
+<td>中銀カプセルタワーは1970〜72年、2022年解体</td>
+<td>黒川紀章記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>58</td>
+<td>イッセイミヤケの女性コレクションは1971年</td>
+<td>三宅一生記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>59</td>
+<td>山本耀司のパリ進出は1981年</td>
+<td>山本耀司記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>60</td>
+<td>深澤直人のMUJI壁掛けCDプレーヤーは1999年</td>
+<td>深澤記事、MoMA</td>
+<td>概ね確認済み（1999年とされる）</td>
+</tr>
+</tbody>
+</table></div><p class="table-hint">横にスクロールできます →</p>
+<h5 id="sub-154">追加検証（第7章の非西洋現代）</h5>
+<div class="table-wrap" role="region" aria-label="表" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">主張</th>
+<th scope="col">確認した資料</th>
+<th scope="col">判定・注記</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>61</td>
+<td>インド国立デザイン学院（NID）は1961年設立</td>
+<td>複数資料、NID公式</td>
+<td>確認済み（1958年のイームズ報告が提言）</td>
+</tr>
+<tr>
+<td>62</td>
+<td>ブラジリアは1956〜60年に建設</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>63</td>
+<td>メキシコ国立人類学博物館は1964年開館</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>64</td>
+<td>中国の深圳経済特区は1980年設置</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>65</td>
+<td>小米（シャオミ）は2010年設立</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>66</td>
+<td>ソウルオリンピックは1988年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>67</td>
+<td>ブルジュ・ハリファは2010年開業</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>68</td>
+<td>ルーヴル・アブダビは2017年開館</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>69</td>
+<td>M-Pesaは2007年にケニアで開始</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>70</td>
+<td>国立アフリカ系アメリカ人歴史文化博物館は2016年開館</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+</tbody>
+</table></div><p class="table-hint">横にスクロールできます →</p>
+<h5 id="sub-155">追加検証（第7〜8章のファッション・都市・ゲーム）</h5>
+<div class="table-wrap" role="region" aria-label="表" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">主張</th>
+<th scope="col">確認した資料</th>
+<th scope="col">判定・注記</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>71</td>
+<td>ワースがパリでオートクチュールを始めたのは1858年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>72</td>
+<td>シャネルNo.5は1921年発売</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>73</td>
+<td>ディオール「ニュールック」は1947年2月12日</td>
+<td>ディオール記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>74</td>
+<td>サンローランの「ル・スモーキング」は1966年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>75</td>
+<td>三宅一生の女性コレクションは1971年</td>
+<td>三宅記事</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>76</td>
+<td>山本耀司とコム・デ・ギャルソンのパリ進出は1981年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>77</td>
+<td>マルジェラのメゾン設立は1989年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>78</td>
+<td>リーバイス501の特許は1873年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>79</td>
+<td>ZARAの創業は1975年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>80</td>
+<td>ユニクロの創業は1984年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>81</td>
+<td>ジェイコブズ『アメリカ大都市の死と生』は1961年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>82</td>
+<td>リンチ『都市のイメージ』は1960年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>83</td>
+<td>ゲール『屋外空間の生活』は1971年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>84</td>
+<td>ニューアーバニズムの会議は1993年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>85</td>
+<td>15分都市は2016年に提唱</td>
+<td>複数資料</td>
+<td>確認済み（普及は2020年以降）</td>
+</tr>
+<tr>
+<td>86</td>
+<td>『Spacewar!』は1962年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>87</td>
+<td>『Pong』は1972年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>88</td>
+<td>『ドンキーコング』は1981年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>89</td>
+<td>『スーパーマリオブラザーズ』は1985年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>90</td>
+<td>プレイステーションは1994年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+</tbody>
+</table></div><p class="table-hint">横にスクロールできます →</p>
+<h5 id="sub-156">追加検証（第7章の冷戦）</h5>
+<div class="table-wrap" role="region" aria-label="表" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">主張</th>
+<th scope="col">確認した資料</th>
+<th scope="col">判定・注記</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>91</td>
+<td>ソ連のVNIITEは1962年設立</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>92</td>
+<td>スプートニク1号は1957年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>93</td>
+<td>ガガーリンの宇宙飛行は1961年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>94</td>
+<td>ブリュッセル万博は1958年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>95</td>
+<td>ポーランド・ポスター・スクールは1950〜60年代</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+</tbody>
+</table></div><p class="table-hint">横にスクロールできます →</p>
+<h5 id="sub-157">追加検証（第9章のジェンダー・人種）</h5>
+<div class="table-wrap" role="region" aria-label="表" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">主張</th>
+<th scope="col">確認した資料</th>
+<th scope="col">判定・注記</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>96</td>
+<td>コーワン『母により多くの仕事を』は1983年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>97</td>
+<td>1991年のプリツカー賞はヴェンチューリ単独</td>
+<td>複数資料</td>
+<td>確認済み（スコット・ブラウンは除外）</td>
+</tr>
+<tr>
+<td>98</td>
+<td>ベンジャミン『Race After Technology』は2019年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>99</td>
+<td>ノーブル『Algorithms of Oppression』は2018年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+<tr>
+<td>100</td>
+<td>「Gender Shades」は2018年</td>
+<td>複数資料</td>
+<td>確認済み</td>
+</tr>
+</tbody>
+</table></div><p class="table-hint">横にスクロールできます →</p>
+<h3 class="section-title-read" id="sec-132">修正した主な誤り</h3>
+<ol>
+<li>
+<p><strong>「メンフィスは1981年結成」</strong><br>
+   → 1980年に活動開始、1981年に最初の展覧会。 「結成」 と 「初展」 を分ける必要がありました。</p>
+</li>
+<li>
+<p><strong>「d.schoolは2003年設立」</strong><br>
+   → 2005年設立。2003年は前身の授業。 「授業の開始」 と 「学校の設立」 を混同していました。</p>
+</li>
+<li>
+<p><strong>「東京1964のピクトグラムは亀倉雄策」</strong><br>
+   → ピクトグラムは勝見勝らのチーム。亀倉はエンブレムとポスター。二人の役割を分けました。</p>
+</li>
+<li>
+<p><strong>「バウハウスはナチスが閉校した」</strong><br>
+   → ナチスの圧力とゲシュタポの介入のなかで、校側が解散を決定。 「一方的に閉鎖」 ではなく、 「圧力下の解散」 という複雑さがあります。</p>
+</li>
+<li>
+<p><strong>「無印良品のロンドン店は2001年」</strong><br>
+   → 1991年。2001年は東証一部上場。年号を取り違えていました。</p>
+</li>
+<li>
+<p><strong>「原研哉『デザインのデザイン』は2007年」</strong><br>
+   → 日本語版は2003年、英訳版が2007年。版の違いを区別しました。</p>
+</li>
+<li>
+<p><strong>「深澤直人の±0は2008年設立」</strong><br>
+   → 2003年ごろ。年号は資料によって幅があるため、 「2003年ごろ」 としました。</p>
+</li>
+<li>
+<p><strong>「バウハウス宣言の引用」</strong><br>
+   → 逐語訳ではなく要旨。引用符を外し、 「趣旨」 と明記しました。</p>
+</li>
+<li>
+<p><strong>「バウハウスは23年続いた」</strong><br>
+   → 1919〜1933年は14年。単純な計算違いを修正しました。</p>
+</li>
+<li>
+<p><strong>「モヘンジョ・ダロは約2600年前」</strong><br>
+    → 紀元前2500年ごろで、約4500年前。年表の「紀元前」と「年前」を混同していました。</p>
+</li>
+<li>
+<p><strong>「ノーマン『誰のためのデザイン？』は1993年」</strong><br>
+    → 原著は1988年。年表の年号を修正しました。</p>
+</li>
+<li>
+<p><strong>「東京高等工業学校は1881年」</strong><br>
+    → 1881年は東京職工学校。1901年に東京高等工業学校へ改称。名称と年号を分けました。</p>
+</li>
+<li>
+<p><strong>「ブルーノ・プロイヤー」</strong><br>
+    → マルセル・ブロイヤー。名前を修正しました。</p>
+</li>
+<li>
+<p><strong>「ルース・ベンヤミン」</strong><br>
+    → ヴァルター・ベンヤミン。人名を修正しました。</p>
+</li>
+</ol>
+<h3 class="section-title-read" id="sec-133">限界と未解決の論点</h3>
+<ul>
+<li><strong>百科事典への依存</strong>：本文の全体像は百科事典項目に依存しています。専門書ほどの深さはありません。</li>
+<li><strong>西洋中心の偏り</strong>：非西洋の章は、英語版Wikipediaと欧米の博物館資料に依存しており、現地語の一次資料を十分に読めていません。</li>
+<li><strong>年号の幅</strong>：古代・中世の年号は、考古学の進展で変わります。 「ごろ」 を多用しました。</li>
+<li><strong>引用の翻訳</strong>：英語・フランス語・ドイツ語の引用は、日本語訳・要約です。逐語訳が必要な場合は原典を参照してください。</li>
+<li><strong>日本デザインの神話</strong>：民藝、侘寂、禅については、歴史的な文脈と神話化を分けるように努めましたが、まだ議論の余地があります。</li>
+<li><strong>2026年の情報</strong>：2026年以降の製品・政策・統計は、執筆時点で確認できる範囲です。日付が入った情報は、必ず最新の公式発表を確認してください。</li>
+</ul>
+<blockquote class="callout">
+<p><strong>検証の原則</strong><br>
+「たぶんそうだ」は、 「確認済み」 ではない。<br>
+「有名な話」は、 「証拠」 ではない。<br>
+「専門家が言った」は、 「一次資料」 ではない。<br>
+この本は、その原則を守ろうとしたが、完全には守れていない。<br>
+読者は、本書を出発点に、自分で一次資料を確かめてほしい。</p>
+</blockquote>
+<hr>
+<h2 class="chapter-title" id="app-b" data-no="APPENDIX B">付録B 参考文献</h2>
+<h3 class="section-title-read" id="sec-134">一次資料・公的資料</h3>
+<ul>
+<li>Dieter Rams, "The power of good design," Vitsœ, https://www.vitsoe.com/us/about/good-design</li>
+<li>W3C, "Web Content Accessibility Guidelines (WCAG) 2.2," W3C Recommendation, 12 December 2024, https://www.w3.org/TR/WCAG22/</li>
+<li>Microsoft, "Microsoft Inclusive Design," https://inclusive.microsoft.design/</li>
+<li>Ellen MacArthur Foundation, "Circular economy introduction," https://www.ellenmacarthurfoundation.org/circular-economy/concept</li>
+<li>V&amp;A, "What is design?," https://www.vam.ac.uk/articles/what-is-design</li>
+<li>Bauhaus-Archiv / Museum für Gestaltung, https://www.bauhaus.de/en/</li>
+<li>Bauhaus Dessau Foundation, https://www.bauhaus-dessau.de/en/</li>
+<li>Cooper Hewitt, Smithsonian Design Museum, https://www.cooperhewitt.org/</li>
+<li>European Commission, "European Accessibility Act," https://commission.europa.eu/</li>
+<li>European Commission, "Ecodesign for Sustainable Products Regulation," https://commission.europa.eu/</li>
+<li>Regulation (EU) 2024/1689 (Artificial Intelligence Act).</li>
+<li>Regulation (EU) 2024/1781 (Ecodesign for Sustainable Products Regulation).</li>
+<li>Directive (EU) 2024/1799 (Right to Repair).</li>
+<li>W3C, "WCAG 2.2," 2024.</li>
+<li>ISO 9241-210:2019, "Ergonomics of human-system interaction — Human-centred design for interactive systems."</li>
+<li>United Nations, "Sustainable Development Goals," 2015.</li>
+</ul>
+<h3 class="section-title-read" id="sec-135">通史・概説</h3>
+<ul>
+<li>Heskett, John. <em>Design: A Very Short Introduction</em>. Oxford University Press, 2002.</li>
+<li>Heskett, John. <em>Toothpicks and Logos: Design in Everyday Life</em>. Oxford University Press, 2002.</li>
+<li>Raizman, David. <em>History of Modern Design</em>. Laurence King, 2003/2010.</li>
+<li>Woodham, Jonathan M. <em>Twentieth-Century Design</em>. Oxford University Press, 1997.</li>
+<li>Woodham, Jonathan M. <em>A Dictionary of Modern Design</em>. Oxford University Press, 2004.</li>
+<li>Margolin, Victor. <em>World History of Design</em>. 2 vols. Bloomsbury, 2015/2017.</li>
+<li>Conway, Hazel, ed. <em>Design History: A Students' Handbook</em>. Routledge, 1987.</li>
+<li>Forty, Adrian. <em>Objects of Desire: Design and Society since 1750</em>. Thames &amp; Hudson, 1986.</li>
+<li>Meikle, Jeffrey. <em>Twentieth Century Limited: Industrial Design in America, 1925–1939</em>. Temple University Press, 1979.</li>
+<li>Gorman, Carma, ed. <em>The Industrial Design Reader</em>. Allworth, 2003.</li>
+<li>Julier, Guy. <em>The Culture of Design</em>. Sage, 2000.</li>
+<li>Bürdek, Bernhard E. <em>Design: History, Theory and Practice of Product Design</em>. Birkhäuser, 2005.</li>
+<li>Sparke, Penny. <em>An Introduction to Design and Culture</em>. Routledge, 2004.</li>
+<li>Sparke, Penny. <em>The Genius of Design</em>. Quadrille, 2009.</li>
+<li>Fiell, Charlotte &amp; Peter. <em>Design of the 20th Century</em>. Taschen, 1999.</li>
+<li><em>Phaidon Design Classics</em>. Phaidon, 2006.</li>
+</ul>
+<h3 class="section-title-read" id="sec-136">理論・方法</h3>
+<ul>
+<li>Norman, Donald A. <em>The Design of Everyday Things</em>. Basic Books, 1988/2013.</li>
+<li>Norman, Donald A. <em>Emotional Design</em>. Basic Books, 2004.</li>
+<li>Simon, Herbert A. <em>The Sciences of the Artificial</em>. MIT Press, 1969.</li>
+<li>Alexander, Christopher. <em>Notes on the Synthesis of Form</em>. Harvard University Press, 1964.</li>
+<li>Alexander, Christopher, et al. <em>A Pattern Language</em>. Oxford University Press, 1977.</li>
+<li>Schön, Donald A. <em>The Reflective Practitioner</em>. Basic Books, 1983.</li>
+<li>Rittel, Horst, and Melvin Webber. "Dilemmas in a General Theory of Planning." <em>Policy Sciences</em> 4 (1973): 155–169.</li>
+<li>Buchanan, Richard. "Wicked Problems in Design Thinking." <em>Design Issues</em> 8, no. 2 (1992): 5–21.</li>
+<li>Cross, Nigel. <em>Design Thinking</em>. Berg, 2011.</li>
+<li>Kimbell, Lucy. "Rethinking Design Thinking: Part I." <em>Design and Culture</em> 3, no. 3 (2011): 285–306.</li>
+<li>Brown, Tim. "Design Thinking." <em>Harvard Business Review</em>, June 2008.</li>
+<li>Kelley, Tom, and Jonathan Littman. <em>The Art of Innovation</em>. Currency, 2001.</li>
+<li>Martin, Roger. <em>The Design of Business</em>. Harvard Business Press, 2009.</li>
+<li>Manzini, Ezio. <em>Design, When Everybody Designs</em>. MIT Press, 2015.</li>
+<li>Cross, Nigel. <em>Designerly Ways of Knowing</em>. Birkhäuser, 2006.</li>
+</ul>
+<h3 class="section-title-read" id="sec-137">非西洋・グローバル</h3>
+<ul>
+<li>Escobar, Arturo. <em>Designs for the Pluriverse</em>. Duke University Press, 2018.</li>
+<li>Costanza-Chock, Sasha. <em>Design Justice</em>. MIT Press, 2020.</li>
+<li>Holmes, Kat. <em>Mismatch: How Inclusion Shapes Design</em>. MIT Press, 2018.</li>
+<li>Dunne, Anthony, and Fiona Raby. <em>Speculative Everything</em>. MIT Press, 2013.</li>
+<li>Papanek, Victor. <em>Design for the Real World</em>. Pantheon, 1971.</li>
+<li>Schumacher, E. F. <em>Small Is Beautiful</em>. Blond &amp; Briggs, 1973.</li>
+<li>McDonough, William, and Michael Braungart. <em>Cradle to Cradle</em>. North Point Press, 2002.</li>
+<li>Raworth, Kate. <em>Doughnut Economics</em>. Random House, 2017.</li>
+<li>Meadows, Donella H. <em>Thinking in Systems</em>. Chelsea Green, 2008.</li>
+<li>Margolin, Victor, ed. <em>Design Discourse: History, Theory, Criticism</em>. University of Chicago Press, 1989.</li>
+<li>Margolin, Victor. <em>The Politics of the Artificial</em>. University of Chicago Press, 2002.</li>
+<li>Appadurai, Arjun, ed. <em>The Social Life of Things</em>. Cambridge University Press, 1986.</li>
+<li>Miller, Daniel. <em>Stuff</em>. Polity, 2010.</li>
+<li>Miller, Daniel. <em>The Comfort of Things</em>. Polity, 2008.</li>
+</ul>
+<h3 class="section-title-read" id="sec-138">日本</h3>
+<ul>
+<li>柳宗悦『民藝四十年』岩波文庫.</li>
+<li>柳宗悦『無名の職人』（The Unknown Craftsman, Kodansha, 1972）.</li>
+<li>谷崎潤一郎『陰翳礼讃』（1933）.</li>
+<li>原研哉『デザインのデザイン』岩波書店、2003（英訳 <em>Designing Design</em>, Lars Müller, 2007）.</li>
+<li>原研哉『白』Lars Müller, 2010.</li>
+<li>コレン, レナード『Wabi-Sabi』Imperfect, 1994.</li>
+<li>Kurokawa, Kisho. <em>Metabolism in Architecture</em>. Studio Vista, 1977.</li>
+<li>磯崎新他 <em>Japan-ness in Architecture</em>. MIT Press, 2006.</li>
+<li>川添登『民芸とは何か』.</li>
+<li>日本デザイン学会編『デザイン学とは何か』.</li>
+<li>柏木博『デザインの20世紀』.</li>
+<li>暮沢剛巳『デザイン史』.</li>
+</ul>
+<h3 class="section-title-read" id="sec-139">デジタル・インタラクション</h3>
+<ul>
+<li>Garrett, Jesse James. <em>The Elements of User Experience</em>. New Riders, 2002.</li>
+<li>Krug, Steve. <em>Don't Make Me Think</em>. New Riders, 2000.</li>
+<li>Cooper, Alan. <em>About Face</em>. Wiley, 1995.</li>
+<li>Stickdorn, Marc, and Jakob Schneider. <em>This Is Service Design Thinking</em>. BIS, 2010.</li>
+<li>Shostack, G. Lynn. "How to Design a Service." <em>European Journal of Marketing</em> 16, no. 1 (1982): 49–63.</li>
+<li>Tufte, Edward R. <em>The Visual Display of Quantitative Information</em>. Graphics Press, 1983.</li>
+<li>Tufte, Edward R. <em>Envisioning Information</em>. Graphics Press, 1990.</li>
+<li>Bringhurst, Robert. <em>The Elements of Typographic Style</em>. Hartley &amp; Marks, 1992.</li>
+<li>Lupton, Ellen. <em>Thinking with Type</em>. Princeton Architectural Press, 2004.</li>
+<li>Müller-Brockmann, Josef. <em>Grid Systems in Graphic Design</em>. Niggli, 1981.</li>
+<li>Tschichold, Jan. <em>The New Typography</em>. 1928.</li>
+<li>Ruder, Emil. <em>Typographie</em>. Niggli, 1967.</li>
+<li>Neurath, Otto. <em>International Picture Language</em>. 1936.</li>
+</ul>
+<h3 class="section-title-read" id="sec-140">批評・倫理・AI</h3>
+<ul>
+<li>Barthes, Roland. <em>Mythologies</em>. Seuil, 1957.</li>
+<li>Berger, John. <em>Ways of Seeing</em>. BBC/Penguin, 1972.</li>
+<li>McLuhan, Marshall. <em>Understanding Media</em>. McGraw-Hill, 1964.</li>
+<li>Pye, David. <em>The Nature and Art of Workmanship</em>. Cambridge University Press, 1968.</li>
+<li>Sennett, Richard. <em>The Craftsman</em>. Yale University Press, 2008.</li>
+<li>Veblen, Thorstein. <em>The Theory of the Leisure Class</em>. 1899.</li>
+<li>Bourdieu, Pierre. <em>Distinction</em>. 1979.</li>
+<li>Baudrillard, Jean. <em>The System of Objects</em>. 1968.</li>
+<li>Zuboff, Shoshana. <em>The Age of Surveillance Capitalism</em>. PublicAffairs, 2019.</li>
+<li>O'Neil, Cathy. <em>Weapons of Math Destruction</em>. Crown, 2016.</li>
+<li>Benjamin, Ruha. <em>Race After Technology</em>. Polity, 2019.</li>
+<li>Noble, Safiya Umoja. <em>Algorithms of Oppression</em>. NYU Press, 2018.</li>
+<li>Eubanks, Virginia. <em>Automating Inequality</em>. St. Martin's, 2018.</li>
+<li>Crawford, Kate. <em>Atlas of AI</em>. Yale University Press, 2021.</li>
+<li>Buolamwini, Joy, and Timnit Gebru. "Gender Shades." <em>Proceedings of Machine Learning Research</em> 81 (2018): 1–15.</li>
+<li>Benjamin, Ruha, ed. <em>Captivating Technology</em>. Duke University Press, 2019.</li>
+</ul>
+<h3 class="section-title-read" id="sec-141">建築・都市</h3>
+<ul>
+<li>Jacobs, Jane. <em>The Death and Life of Great American Cities</em>. Random House, 1961.</li>
+<li>Lynch, Kevin. <em>The Image of the City</em>. MIT Press, 1960.</li>
+<li>Gehl, Jan. <em>Life Between Buildings</em>. 1971.</li>
+<li>Frampton, Kenneth. "Towards a Critical Regionalism." 1983.</li>
+<li>Curtis, William J. R. <em>Modern Architecture Since 1900</em>. Phaidon, 1982.</li>
+<li>Pevsner, Nikolaus. <em>Pioneers of Modern Design</em>. 1936.</li>
+<li>Giedion, Sigfried. <em>Space, Time and Architecture</em>. Harvard University Press, 1941.</li>
+<li>Banham, Reyner. <em>Theory and Design in the First Machine Age</em>. 1960.</li>
+<li>Banham, Reyner. <em>The Architecture of the Well-Tempered Environment</em>. 1969.</li>
+<li>Venturi, Robert. <em>Complexity and Contradiction in Architecture</em>. MoMA, 1966.</li>
+<li>Venturi, Robert, Denise Scott Brown, and Steven Izenour. <em>Learning from Las Vegas</em>. MIT Press, 1972.</li>
+<li>Jencks, Charles. <em>The Language of Post-Modern Architecture</em>. Rizzoli, 1977.</li>
+</ul>
+<h3 class="section-title-read" id="sec-142">バウハウス・モダニズム</h3>
+<ul>
+<li>Whitford, Frank. <em>Bauhaus</em>. Thames &amp; Hudson, 1984.</li>
+<li>Wingler, Hans Maria. <em>The Bauhaus</em>. MIT Press, 1969.</li>
+<li>Droste, Magdalena. <em>Bauhaus</em>. Taschen, 1990.</li>
+<li>Albers, Anni. <em>On Weaving</em>. Wesleyan University Press, 1965.</li>
+<li>Moholy-Nagy, László. <em>The New Vision</em>. 1928.</li>
+<li>Kandinsky, Wassily. <em>Concerning the Spiritual in Art</em>. 1911.</li>
+<li>Itten, Johannes. <em>The Art of Color</em>. 1961.</li>
+<li>Klee, Paul. <em>Pedagogical Sketchbook</em>. 1925.</li>
+<li>Read, Herbert. <em>Art and Industry</em>. 1934.</li>
+<li>Loos, Adolf. <em>Ornament and Crime</em>. 1913.</li>
+<li>Morris, William. "The Beauty of Life." 1880.</li>
+<li>Ruskin, John. <em>The Stones of Venice</em>. 1851–53.</li>
+<li>Jones, Owen. <em>The Grammar of Ornament</em>. 1856.</li>
+<li>Dresser, Christopher. <em>The Art of Decorative Design</em>. 1862.</li>
+<li>Muthesius, Hermann. <em>The English House</em>. 1904.</li>
+<li>Taylor, Frederick Winslow. <em>The Principles of Scientific Management</em>. 1911.</li>
+<li>Ford, Henry. <em>My Life and Work</em>. 1922.</li>
+<li>Loewy, Raymond. <em>Never Leave Well Enough Alone</em>. 1951.</li>
+<li>Dreyfuss, Henry. <em>Designing for People</em>. 1955.</li>
+</ul>
+<h3 class="section-title-read" id="sec-143">雑誌・オンライン</h3>
+<ul>
+<li><em>Journal of Design History</em> (Oxford University Press).</li>
+<li><em>Design Issues</em> (MIT Press).</li>
+<li><em>Design and Culture</em> (Bloomsbury).</li>
+<li><em>Design Studies</em> (Elsevier).</li>
+<li><em>The Design Journal</em> (Routledge).</li>
+<li>Cooper Hewitt, "Design History" resources.</li>
+<li>V&amp;A, "Design" collection.</li>
+<li>MoMA, "Architecture and Design" collection.</li>
+<li>Bauhaus-Archiv, "Bauhaus" collection.</li>
+<li>Design Museum, "What is Design?".</li>
+</ul>
+<hr>
+<h2 class="chapter-title" id="app-c" data-no="APPENDIX C">付録C 謝辞</h2>
+<p>本書は、一人で書いたように見えて、一人では書けませんでした。約200の百科事典項目、博物館のデータベース、企業の年表、規格文書、一次文献。それらを公開してくれた人々に、感謝します。</p>
+<p>特に、次の資料に助けられました。</p>
+<ul>
+<li>VitsoeのDieter Rams公式ページ（10原則の正確な文言）。</li>
+<li>W3CのWCAG 2.2（アクセシビリティの基準）。</li>
+<li>Microsoft Inclusive Design（包摂の3原則）。</li>
+<li>Ellen MacArthur Foundation（サーキュラー・エコノミーの3原則）。</li>
+<li>V&amp;A、MoMA、Cooper Hewitt、Bauhaus-Archiv、Bauhaus Dessauのコレクション情報。</li>
+<li>欧州委員会のEAA、ESPR、AI Act、修理する権利の公式情報。</li>
+<li>日本民藝館、東京国立近代美術館、各社の公式年表。</li>
+</ul>
+<p>そして、本書を読んでくれたあなたに。デザインの歴史は、読者によって更新されます。誤りを見つけたら、どうか教えてください。次の版で直します。</p>
+<hr>
+<p><strong>デザイン全史 ― 人類が「かたち」にこめた知恵の５万年</strong></p>
+<p><strong>2026年10月25日 第1版</strong></p>
+<p><strong>著者：OpenCode Research</strong></p>
+        <section class="read-end">
+          <p class="eyebrow"><span class="eyebrow__no">END</span> THE TEXT</p>
+          <h2>本文は、ここまで。</h2>
+          <p>次は、図版で考え、検証で疑い、年表でつなぐ。読んだあとに開くと、違うものが見えます。</p>
+          <div class="read-end__links">
+            <a class="btn btn--solid" href="atlas.html">図版室へ <span class="btn__arrow" aria-hidden="true">↗</span></a>
+            <a class="btn" href="method.html">検証室へ <span class="btn__arrow" aria-hidden="true">↗</span></a>
+            <a class="btn" href="timeline.html">年表へ <span class="btn__arrow" aria-hidden="true">↗</span></a>
+          </div>
+        </section>
+      </article>
+      <div aria-hidden="true"></div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="shell">
+    <div class="footer__cta">
+      <div>
+        <p class="eyebrow"><span class="eyebrow__no">NEXT</span> THE EVIDENCE</p>
+        <h2>検証で、疑う。</h2>
+      </div>
+      <a class="btn btn--solid" href="method.html">開く <span class="btn__arrow" aria-hidden="true">↗</span></a>
+    </div>
+    <div class="colophon mono">
+      <span>デザイン全史 / WEB EDITION · 2026.10.25</span>
+      <span>OPENCODE RESEARCH · BUILT WITHOUT FRAMEWORKS</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/app.js" defer></script>
+</body>
+</html>
