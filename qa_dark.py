@@ -6,7 +6,7 @@ AXE = "https://cdnjs.cloudflare.com/ajax/libs/axe-core/4.10.2/axe.min.js"
 async def main():
     async with async_playwright() as p:
         b = await p.chromium.launch(channel="chrome", headless=True)
-        for name in ["index.html","read.html","timeline.html","atlas.html","method.html","design-notes.html"]:
+        for name in ["index.html","read.html","timeline.html","atlas.html","method.html","design-notes.html","textbooks.html"]:
             page = await b.new_page(viewport={"width":1440,"height":900})
             await page.add_init_script("localStorage.setItem('dh-theme','dark')")
             await page.goto((BASE/name).as_uri(), wait_until="networkidle")

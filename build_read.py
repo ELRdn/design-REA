@@ -87,7 +87,8 @@ def rail(active: str = "") -> str:
         ("04", "年表", "timeline.html", "timeline"),
         ("05", "図版", "atlas.html", "atlas"),
         ("06", "検証", "method.html", "method"),
-        ("07", "設計", "design-notes.html", "design"),
+        ("07", "教本", "textbooks.html", "manuals"),
+        ("08", "設計", "design-notes.html", "design"),
     ]
     links = []
     for num, label, href, key in items:
@@ -105,7 +106,7 @@ def rail(active: str = "") -> str:
   <nav class="rail__nav" id="site-nav" aria-label="主要">
     {''.join(links)}
     <a class="rail__link rail__link--read" href="read.html"{read_cur}>
-      <span class="rail__num">08</span><span class="rail__label">本文</span>
+      <span class="rail__num">09</span><span class="rail__label">本文</span>
     </a>
   </nav>
   <div class="rail__bottom">
@@ -135,6 +136,7 @@ def rail(active: str = "") -> str:
     <a href="timeline.html">年表</a>
     <a href="atlas.html">図版</a>
     <a href="method.html">検証</a>
+    <a href="textbooks.html">教本</a>
     <a href="design-notes.html">設計</a>
     <a href="read.html">本文</a>
   </nav>

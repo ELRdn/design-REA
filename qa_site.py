@@ -3,7 +3,7 @@ from pathlib import Path
 from playwright.async_api import async_playwright
 
 BASE = Path(__file__).resolve().parent
-PAGES = ["index.html","read.html","timeline.html","atlas.html","method.html","design-notes.html"]
+PAGES = ["index.html","read.html","timeline.html","atlas.html","method.html","design-notes.html","textbooks.html"]
 WIDTHS = [320, 390, 768, 1024, 1440]
 AXE = "https://cdnjs.cloudflare.com/ajax/libs/axe-core/4.10.2/axe.min.js"
 

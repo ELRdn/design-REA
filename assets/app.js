@@ -113,9 +113,21 @@
   toTop.textContent = "↑";
   document.body.appendChild(toTop);
 
+  let footerVisible = false;
   const toggleToTop = () => {
-    toTop.classList.toggle("is-visible", window.scrollY > 900);
+    toTop.classList.toggle("is-visible", window.scrollY > 900 && !footerVisible);
   };
+  const footerEl = document.querySelector(".footer");
+  if (footerEl && "IntersectionObserver" in window) {
+    const footerObserver = new IntersectionObserver(
+      (entries) => {
+        footerVisible = entries[0].isIntersecting;
+        toggleToTop();
+      },
+      { rootMargin: "0px 0px 0px 0px" }
+    );
+    footerObserver.observe(footerEl);
+  }
   window.addEventListener("scroll", toggleToTop, { passive: true });
   toggleToTop();
   toTop.addEventListener("click", () => {

@@ -16,6 +16,7 @@
 | `timeline.html` | 年表。128件を、等幅（時代の厚み）と対数（実際の時間感覚）で切り替え |
 | `atlas.html` | 図版室。13枚の注釈つきSVG図版。フィルタと拡大ダイアログ |
 | `method.html` | 検証室。20の神話、14の修正、100件のファクトチェック検索 |
+| `textbooks.html` | 教本室。デザインの教科書・参考書7冊＋実践ブログを、書誌・役割・注意点で整理 |
 | `design-notes.html` | 設計ノート。第一原理、色・書体・版面、自己批判、アクセシビリティ |
 
 データ: `factcheck.csv` / `factcheck.json` / `デザイン全史.pdf` / `DESIGN_HISTORY_BOOK.md`
@@ -60,13 +61,14 @@ python design-history-research/site/build_notes.py
 
 ```
 site/
-├─ index.html / read.html / timeline.html / atlas.html / method.html / design-notes.html
+├─ index.html / read.html / timeline.html / atlas.html / method.html / design-notes.html / textbooks.html
 ├─ assets/
 │  ├─ style.css      # デザイントークン、全ページのスタイル、印刷用CSS
 │  └─ app.js         # テーマ、メニュー、数式、年表、図版、読書ツール
 ├─ favicon.svg
-├─ build_read.py / build_timeline.py / build_atlas.py / build_method.py / build_notes.py
+├─ build_read.py / build_timeline.py / build_atlas.py / build_method.py / build_notes.py / build_textbooks.py
 ├─ qa_site.py / qa_dark.py / linkcheck.py
 ├─ factcheck.csv / factcheck.json / デザイン全史.pdf / DESIGN_HISTORY_BOOK.md
+├─ textbooks-research.md   # 教本調査ノート（書誌・版・出典）
 └─ README.md
 ```

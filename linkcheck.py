@@ -3,7 +3,7 @@ from html.parser import HTMLParser
 import re, urllib.parse
 
 BASE = Path(__file__).resolve().parent
-pages = ["index.html","read.html","timeline.html","atlas.html","method.html","design-notes.html"]
+pages = ["index.html","read.html","timeline.html","atlas.html","method.html","design-notes.html","textbooks.html"]
 
 class P(HTMLParser):
     def __init__(self):
